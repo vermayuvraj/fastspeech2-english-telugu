@@ -1,0 +1,234 @@
+{
+  "language": "Telugu",
+  "baseline_selection": "first 10 held-out utterances ordered by ID; not used for training or checkpoint selection",
+  "interpretation": "CTC confidence is an uncalibrated transcript-compatibility diagnostic, not human pronunciation accuracy, MOS, WER or CER",
+  "baseline": [
+    {
+      "id": "te_000064",
+      "sha256": "71bf5fe0e76180d7aed17d48e4556fbebe37e0b5056a578ab532d6329e552485",
+      "duration_seconds": 2.1388208616780044,
+      "peak": 0.6513671875,
+      "rms": 0.09744542837142944,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.41304347826086957,
+      "measured_voiced_f0_median_hz": 216.8814239501953,
+      "measured_voiced_f0_10_90_hz": [
+        167.17701721191406,
+        323.7842559814453
+      ],
+      "transcript_ctc_alignment_confidence": 0.8481013008526394
+    },
+    {
+      "id": "te_000081",
+      "sha256": "fe8739763b50509a0d9ab5feffe86336fcbdc6ad38fc26844c41901865eb9033",
+      "duration_seconds": 8.268888888888888,
+      "peak": 0.652313232421875,
+      "rms": 0.08205943554639816,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.4901685393258427,
+      "measured_voiced_f0_median_hz": 205.7674102783203,
+      "measured_voiced_f0_10_90_hz": [
+        170.04183654785157,
+        276.4495849609375
+      ],
+      "transcript_ctc_alignment_confidence": 0.9529692662530579
+    },
+    {
+      "id": "te_000095",
+      "sha256": "ab69292045c9ee84f18b49d9cadd20e4c3663f8ffdd09fd4a962d16695789727",
+      "duration_seconds": 10.962403628117913,
+      "peak": 0.6407470703125,
+      "rms": 0.08787141740322113,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.4565677966101695,
+      "measured_voiced_f0_median_hz": 192.77462768554688,
+      "measured_voiced_f0_10_90_hz": [
+        164.15936279296875,
+        278.2149963378906
+      ],
+      "transcript_ctc_alignment_confidence": 0.9849290931010032
+    },
+    {
+      "id": "te_000100",
+      "sha256": "16dce12714439663d080547e8e6e6a08b1a653cf3cbb87de51a3e6899e7d13f2",
+      "duration_seconds": 13.00575963718821,
+      "peak": 0.64715576171875,
+      "rms": 0.07210063934326172,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.4446428571428571,
+      "measured_voiced_f0_median_hz": 208.63778686523438,
+      "measured_voiced_f0_10_90_hz": [
+        172.3636947631836,
+        290.04992675781256
+      ],
+      "transcript_ctc_alignment_confidence": 0.9710637480020523
+    },
+    {
+      "id": "te_000159",
+      "sha256": "76971f4a100ccfddf209c849d919e654efef17d999f5d5e44ef7a98dae869493",
+      "duration_seconds": 11.032063492063491,
+      "peak": 0.647369384765625,
+      "rms": 0.07796472311019897,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.5168421052631579,
+      "measured_voiced_f0_median_hz": 207.92616271972656,
+      "measured_voiced_f0_10_90_hz": [
+        177.29710388183594,
+        296.6746520996094
+      ],
+      "transcript_ctc_alignment_confidence": 0.9675261954584256
+    },
+    {
+      "id": "te_000160",
+      "sha256": "fc2d597ac094d9c566222267ae173fb0937a3c280785340a8892abbab725b44b",
+      "duration_seconds": 1.227437641723356,
+      "peak": 0.65924072265625,
+      "rms": 0.13365508615970612,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.6952380952380952,
+      "measured_voiced_f0_median_hz": 229.66368103027344,
+      "measured_voiced_f0_10_90_hz": [
+        187.9190216064453,
+        352.3644775390625
+      ],
+      "transcript_ctc_alignment_confidence": 0.9619126200675965
+    },
+    {
+      "id": "te_000164",
+      "sha256": "b3e865092c569d46ea9ebb64d409c7e8ece628b13523c0ec364271a27b3541f4",
+      "duration_seconds": 12.123401360544218,
+      "peak": 0.65020751953125,
+      "rms": 0.09010767191648483,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.6101532567049809,
+      "measured_voiced_f0_median_hz": 211.82815551757812,
+      "measured_voiced_f0_10_90_hz": [
+        177.18878479003905,
+        293.93623046875
+      ],
+      "transcript_ctc_alignment_confidence": 0.9369045860343473
+    },
+    {
+      "id": "te_000172",
+      "sha256": "69cef4807fa30877f32ab2a60aa5c9da934d1b615a1f3cd0bde9c6aafad7f678",
+      "duration_seconds": 9.818820861678004,
+      "peak": 0.649444580078125,
+      "rms": 0.10017339885234833,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.5313609467455621,
+      "measured_voiced_f0_median_hz": 203.29644775390625,
+      "measured_voiced_f0_10_90_hz": [
+        176.56661987304688,
+        289.90980834960936
+      ],
+      "transcript_ctc_alignment_confidence": 0.9497323923903268
+    },
+    {
+      "id": "te_000208",
+      "sha256": "1abd5d5780ecdc9817fbffb3994500854d7c573f38fa37e76ab3d2f3f9b9b1ba",
+      "duration_seconds": 3.3810884353741497,
+      "peak": 0.649749755859375,
+      "rms": 0.10430821031332016,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.47079037800687284,
+      "measured_voiced_f0_median_hz": 209.2632598876953,
+      "measured_voiced_f0_10_90_hz": [
+        175.42617492675782,
+        297.1383056640625
+      ],
+      "transcript_ctc_alignment_confidence": 0.9967228318705703
+    },
+    {
+      "id": "te_000308",
+      "sha256": "a3da39b1ed6efaeaf74c462dedaf3827f98a3dff32c30627fd6155a5d6880655",
+      "duration_seconds": 2.3187755102040817,
+      "peak": 0.640045166015625,
+      "rms": 0.09316191077232361,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.32663316582914576,
+      "measured_voiced_f0_median_hz": 200.2169952392578,
+      "measured_voiced_f0_10_90_hz": [
+        182.37112121582032,
+        373.58081665039066
+      ],
+      "transcript_ctc_alignment_confidence": 0.8910060822963715
+    }
+  ],
+  "generated": [
+    {
+      "id": "T1",
+      "sha256": "7948dec76687507aa38462980cdc2db7256eceadd0395eb4d69d703b2a7dae31",
+      "duration_seconds": 6.048798185941043,
+      "peak": 0.479156494140625,
+      "rms": 0.08872279524803162,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.72552783109405,
+      "measured_voiced_f0_median_hz": 199.7498779296875,
+      "measured_voiced_f0_10_90_hz": [
+        85.97288360595704,
+        270.86875915527344
+      ],
+      "transcript_ctc_alignment_confidence": 0.8757111246420565
+    },
+    {
+      "id": "T2a",
+      "sha256": "2d8e39fb89400303eb94af8155607b154c114d785ff22d17f6406fbb99da0355",
+      "duration_seconds": 3.332063492063492,
+      "peak": 0.517242431640625,
+      "rms": 0.07859920710325241,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.6062717770034843,
+      "measured_voiced_f0_median_hz": 185.0606689453125,
+      "measured_voiced_f0_10_90_hz": [
+        84.23140258789063,
+        229.3220199584961
+      ],
+      "transcript_ctc_alignment_confidence": 0.9801682248348143
+    },
+    {
+      "id": "T2b",
+      "sha256": "b7a7ed0bfc951668405ca122ebfabe6028db2fc6225254aa651614a707a4ddff",
+      "duration_seconds": 3.541043083900227,
+      "peak": 0.393707275390625,
+      "rms": 0.05481313169002533,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.5639344262295082,
+      "measured_voiced_f0_median_hz": 178.7738037109375,
+      "measured_voiced_f0_10_90_hz": [
+        85.66276779174805,
+        226.6932113647461
+      ],
+      "transcript_ctc_alignment_confidence": 0.9178447494512916
+    },
+    {
+      "id": "T3",
+      "sha256": "5474bac1ac23a126ff6ae95fb15cc10154881f472201f8b3e3137663e04cb27b",
+      "duration_seconds": 3.2275736961451247,
+      "peak": 0.468597412109375,
+      "rms": 0.06166141480207443,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.6330935251798561,
+      "measured_voiced_f0_median_hz": 173.17091369628906,
+      "measured_voiced_f0_10_90_hz": [
+        86.21470642089844,
+        236.10330963134766
+      ],
+      "transcript_ctc_alignment_confidence": 0.8633336246773404
+    },
+    {
+      "id": "T4",
+      "sha256": "38563b3246fc06bd4fabffdb5d6ca06bfa24d1ff44fb032d6410b8f5501da7c5",
+      "duration_seconds": 9.833650793650794,
+      "peak": 0.618194580078125,
+      "rms": 0.07461236417293549,
+      "clipped_fraction": 0.0,
+      "measured_voiced_fraction": 0.7107438016528925,
+      "measured_voiced_f0_median_hz": 185.228515625,
+      "measured_voiced_f0_10_90_hz": [
+        92.65215454101563,
+        220.9872619628906
+      ],
+      "transcript_ctc_alignment_confidence": 0.812275038450025
+    }
+  ]
+}

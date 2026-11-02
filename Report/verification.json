@@ -1,0 +1,43 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0,
+      "seconds": 25.09299999999348,
+      "stdout": "............                                                             [100%]\n12 passed in 22.51s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "returncode": 0,
+      "seconds": 1.6570000000065193,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "compileall",
+        "-q",
+        "fs2",
+        "English",
+        "Telugu",
+        "scripts"
+      ],
+      "returncode": 0,
+      "seconds": 0.14000000001396984,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

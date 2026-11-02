@@ -1,0 +1,9 @@
+{
+  "language": "English",
+  "completed_steps": 19000,
+  "best_validation_total": 2.7095724354449917,
+  "stopped_early": true,
+  "elapsed_seconds_this_session": 1322.547000000006,
+  "checkpoint_sha256": "c13e20f4bf590fe01eb235173984bb20feadc6ecf7d6c64711b2f2313cdaf828",
+  "smoke": false
+}

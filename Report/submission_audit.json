@@ -1,0 +1,539 @@
+{
+  "ready_for_submission": false,
+  "checks_passed": 94,
+  "checks_total": 106,
+  "checks": [
+    {
+      "check": "English: preprocess.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: train.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: inference.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: config.yaml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: trained checkpoint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: GitHub file size",
+      "passed": true,
+      "detail": "Use a public release asset or LFS if larger"
+    },
+    {
+      "check": "English: training_loss.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: validation_loss.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: losses.jsonl",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: training_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: inference_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: 5 h / 1 h data",
+      "passed": true,
+      "detail": "{'train': 18005.045487528347, 'validation': 3607.1409523809557}"
+    },
+    {
+      "check": "English: configuration provenance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: disjoint IDs/audio/prompts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English: full training run",
+      "passed": true,
+      "detail": "19000"
+    },
+    {
+      "check": "English: checkpoint hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/test_generated_audios/E1.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/prediction_traces/E1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/duration/E1.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/pitch/E1.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/energy/E1.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "E1: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/test_generated_audios/E2a.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/prediction_traces/E2a.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/duration/E2a.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/pitch/E2a.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/energy/E2a.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "E2a: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/test_generated_audios/E2b.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/prediction_traces/E2b.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/duration/E2b.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/pitch/E2b.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/energy/E2b.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "E2b: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/test_generated_audios/E3.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/prediction_traces/E3.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/duration/E3.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/pitch/E3.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/energy/E3.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "E3: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/test_generated_audios/E4.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/prediction_traces/E4.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/duration/E4.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/pitch/E4.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English/variance_adaptor_plots/energy/E4.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "E4: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "E1: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "E2a: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "E2b: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "E3: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "E4: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: preprocess.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: train.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: inference.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: config.yaml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: trained checkpoint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: GitHub file size",
+      "passed": true,
+      "detail": "Use a public release asset or LFS if larger"
+    },
+    {
+      "check": "Telugu: training_loss.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: validation_loss.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: losses.jsonl",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: training_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: inference_summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: 5 h / 1 h data",
+      "passed": true,
+      "detail": "{'train': 18000.52757369616, 'validation': 3603.2677551020392}"
+    },
+    {
+      "check": "Telugu: configuration provenance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: disjoint IDs/audio/prompts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu: full training run",
+      "passed": true,
+      "detail": "26000"
+    },
+    {
+      "check": "Telugu: checkpoint hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/test_generated_audios/T1.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/prediction_traces/T1.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/duration/T1.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/pitch/T1.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/energy/T1.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T1: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/test_generated_audios/T2a.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/prediction_traces/T2a.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/duration/T2a.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/pitch/T2a.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/energy/T2a.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T2a: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/test_generated_audios/T2b.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/prediction_traces/T2b.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/duration/T2b.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/pitch/T2b.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/energy/T2b.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T2b: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/test_generated_audios/T3.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/prediction_traces/T3.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/duration/T3.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/pitch/T3.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/energy/T3.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T3: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/test_generated_audios/T4.wav",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/prediction_traces/T4.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/duration/T4.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/pitch/T4.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Telugu/variance_adaptor_plots/energy/T4.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T4: exact prompt and real run",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T1: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "T2a: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "T2b: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "T3: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "T4: listening observations",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "check": "Independent checkpoint files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Technical report PDF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Current report approved by user",
+      "passed": false,
+      "detail": "Await explicit user review of the current PDF"
+    },
+    {
+      "check": "Google Form submission authorized by user",
+      "passed": false,
+      "detail": ""
+    }
+  ],
+  "public_repository_verification": "pending",
+  "form_submission": "pending"
+}

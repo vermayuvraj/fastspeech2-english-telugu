@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "scope": "Real Telugu diagnostic only; not an assignment model",
+  "training_steps": 300,
+  "isolated_from_submission_results": true
+}

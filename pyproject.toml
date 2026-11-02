@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iiith-bilingual-fastspeech2"
+version = "0.1.0"
+description = "Independent English and Telugu FastSpeech 2 experiments"
+requires-python = ">=3.10,<3.13"
+
+[tool.setuptools.packages.find]
+include = ["fs2*", "vendor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+exclude = ["vendor"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

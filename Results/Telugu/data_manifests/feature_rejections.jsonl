@@ -1,0 +1,2 @@
+{"id": "te_000927", "split": "train", "reason": "targets length is too long for CTC. Found log_probs length: 400, targets length: 372, and number of repeats: 64"}
+{"id": "te_006432", "split": "train", "reason": "targets length is too long for CTC. Found log_probs length: 140, targets length: 263, and number of repeats: 51"}

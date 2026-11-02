@@ -1,0 +1,8 @@
+{
+  "report_review_required": true,
+  "report_review_status": "awaiting_user_review",
+  "approved_report_sha256": null,
+  "google_form_submission_authorized": false,
+  "google_form_submitted": false,
+  "instruction": "Do not submit the Google Form without the user's review, especially the report."
+}

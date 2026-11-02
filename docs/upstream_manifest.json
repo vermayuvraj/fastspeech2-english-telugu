@@ -1,0 +1,84 @@
+{
+  "repository": "https://github.com/ming024/FastSpeech2",
+  "commit": "d4e79eb52e8b01d24703b2dfc0385544092958f3",
+  "files": [
+    {
+      "path": "model/fastspeech2.py",
+      "upstream_sha256": "a30e1ecc9c904f40a8403761135ec67d20109d5b3beb1c6a354da5ba724892ca",
+      "adapted_sha256": "cf4248f5ff06a6b9ffc8f48853a18e7fbfb1fad99d08c3f0b3bb1f4b1794dfe0",
+      "modified": true
+    },
+    {
+      "path": "model/modules.py",
+      "upstream_sha256": "78dc8aab0cc5841aa00b62f74f56887d4d4305c56706dcf401bcc585615a3700",
+      "adapted_sha256": "a12a87f3c64b8f386b38c6796a8549d86b9b452f4daf237db47a5eb2c507df36",
+      "modified": true
+    },
+    {
+      "path": "model/loss.py",
+      "upstream_sha256": "9acf2e4ea656c79f13c1b35fb850db1d7e87a3724d22af511095f52153fc277c",
+      "adapted_sha256": "9acf2e4ea656c79f13c1b35fb850db1d7e87a3724d22af511095f52153fc277c",
+      "modified": false
+    },
+    {
+      "path": "transformer/Models.py",
+      "upstream_sha256": "c0bbccd07bec29050bfdd930718a363f7cc0e851247e4c6232e19490d42073b0",
+      "adapted_sha256": "ac4f478fb5a74c10fb2e86b817289e06341ea3e2b195c57736ed354d57eae29c",
+      "modified": true
+    },
+    {
+      "path": "transformer/Layers.py",
+      "upstream_sha256": "6640e2f2c100d476bb5e19c0bbde6e86565c7361905117c0aeb3887e1f7689e5",
+      "adapted_sha256": "6640e2f2c100d476bb5e19c0bbde6e86565c7361905117c0aeb3887e1f7689e5",
+      "modified": false
+    },
+    {
+      "path": "transformer/SubLayers.py",
+      "upstream_sha256": "c31120e18f95e292dd144e945f5022b62252c577555d9d9dcf1673257003d5bb",
+      "adapted_sha256": "c31120e18f95e292dd144e945f5022b62252c577555d9d9dcf1673257003d5bb",
+      "modified": false
+    },
+    {
+      "path": "transformer/Modules.py",
+      "upstream_sha256": "f6b4d686d3e726fbc07f094fd95adc82d3f5251d3370aac148cb39311534aa50",
+      "adapted_sha256": "9f6547d1da7f56d784a85c761f497a013a4ec6a15ce13043833ffc18220b3f97",
+      "modified": true
+    },
+    {
+      "path": "transformer/Constants.py",
+      "upstream_sha256": "873d3731edfa37a25884a04178a0d5fd92ec7c185e12def33e4f2011969f00c3",
+      "adapted_sha256": "873d3731edfa37a25884a04178a0d5fd92ec7c185e12def33e4f2011969f00c3",
+      "modified": false
+    },
+    {
+      "path": "transformer/__init__.py",
+      "upstream_sha256": "0953287aac0a281bf3187af4bc05e7393917fbb2828872689ebce3c508d3e049",
+      "adapted_sha256": "0953287aac0a281bf3187af4bc05e7393917fbb2828872689ebce3c508d3e049",
+      "modified": false
+    },
+    {
+      "path": "hifigan/models.py",
+      "upstream_sha256": "a93fc3e80f5db5d928d94dbd7711d5185fd5d0ca6505b31232a2e442faa38f55",
+      "adapted_sha256": "a93fc3e80f5db5d928d94dbd7711d5185fd5d0ca6505b31232a2e442faa38f55",
+      "modified": false
+    },
+    {
+      "path": "hifigan/__init__.py",
+      "upstream_sha256": "acbdcb18c64a94abe9b7d3d14fb1c4f98f6e0f5ed85e822cb8a24c36f6da79d6",
+      "adapted_sha256": "acbdcb18c64a94abe9b7d3d14fb1c4f98f6e0f5ed85e822cb8a24c36f6da79d6",
+      "modified": false
+    },
+    {
+      "path": "hifigan/config.json",
+      "upstream_sha256": "719a04c531031802c3da7207e5093057d5f2d7c6b0a457c77041d01bb7d93c6e",
+      "adapted_sha256": "719a04c531031802c3da7207e5093057d5f2d7c6b0a457c77041d01bb7d93c6e",
+      "modified": false
+    },
+    {
+      "path": "LICENSE",
+      "upstream_sha256": "9102553bdab46360c8b4c488b765d9baeafa939cddc65546de2973be2dd6f909",
+      "adapted_sha256": "9102553bdab46360c8b4c488b765d9baeafa939cddc65546de2973be2dd6f909",
+      "modified": false
+    }
+  ]
+}

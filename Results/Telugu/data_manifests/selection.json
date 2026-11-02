@@ -1,0 +1,25 @@
+{
+  "seed": 20261102,
+  "strategy": "sha256(seed + normalized transcript), whole transcript groups, reserve training speaker coverage, then validation and training budgets",
+  "duration_seconds": {
+    "train": 20702.35741496604,
+    "validation": 4140.918820861675
+  },
+  "utterances": {
+    "train": 2208,
+    "validation": 440
+  },
+  "duplicate_audio_removed": 0,
+  "train_speakers": [
+    "0",
+    "1"
+  ],
+  "speaker_disjoint": false,
+  "text_disjoint": true,
+  "audio_disjoint": true,
+  "target_hours": {
+    "train": 5.0,
+    "validation": 1.0
+  },
+  "smoke": false
+}

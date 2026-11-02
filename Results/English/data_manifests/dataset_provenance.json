@@ -1,0 +1,25 @@
+{
+  "repository": "ai4bharat/Svarah",
+  "revision": "ebbf7777fe771490696a3f7b007097606fa8c924",
+  "files": [
+    {
+      "filename": "test-00000-of-00003.parquet",
+      "sha256": "ac8fc08edabe47dd0ef915276bc0fab51ec1037c65794c7be8f98c5bc746d1db",
+      "bytes": 365063447
+    },
+    {
+      "filename": "test-00001-of-00003.parquet",
+      "sha256": "2adf4c4ce1e69e457f44d3af0756b3965bd05fca409b4cd27528ef5804502fba",
+      "bytes": 360392442
+    },
+    {
+      "filename": "test-00002-of-00003.parquet",
+      "sha256": "1cb3f5c6aa0c18e8c6d106f0be6129a35ddaeeb9fc6977ecb059b8f36033fd23",
+      "bytes": 369542701
+    }
+  ],
+  "read_rows": 6656,
+  "accepted_rows": 5664,
+  "smoke_limit": null,
+  "config_sha256": "05d1c95e16b362346c62bed536ec1c7b0eabbe70fc3bbf90920a9ddaf4a59135"
+}

@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+work/
+data/
+.cache/
+*.incomplete
+*.tmp
+*_training_state.pt
+*.token
+.env
+.env.*
+# Raw recordings and prepared features remain in the explicit external work dir.
+*.parquet
+
+# Machine-local process status
+STATUS.json
+
+Live_Progress.log

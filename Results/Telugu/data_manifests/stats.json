@@ -1,0 +1,17 @@
+{
+  "pitch": [
+    -5.268907333599304,
+    4.089792691998374,
+    5.236806316060594,
+    0.23936866579754928
+  ],
+  "energy": [
+    -7.069103263529417,
+    1.8701543028451604,
+    2.8505125705253134,
+    1.4276221189008473
+  ],
+  "fit_split": "train",
+  "pitch_representation": "token mean of interpolated log F0 (natural log Hz)",
+  "energy_representation": "token mean of log STFT L2 magnitude"
+}

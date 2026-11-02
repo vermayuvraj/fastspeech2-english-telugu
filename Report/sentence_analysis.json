@@ -1,0 +1,42 @@
+{
+  "E1": {
+    "focus": "rare long word",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "E2a": {
+    "focus": "conduct as a noun",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "E2b": {
+    "focus": "conduct as a verb",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "E3": {
+    "focus": "intentional internal spacing retained",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "E4": {
+    "focus": "time, date, and romanized Telugu in English",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "T1": {
+    "focus": "technical loanword",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "T2a": {
+    "focus": "పట్టు meaning grip",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "T2b": {
+    "focus": "పట్టు meaning silk",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "T3": {
+    "focus": "intentional internal spacing retained",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  },
+  "T4": {
+    "focus": "Telugu date and time normalization",
+    "observations": "Synthesis pending. Duration, F0, energy and pronunciation have not been observed."
+  }
+}

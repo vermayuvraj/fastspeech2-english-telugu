@@ -1,0 +1,9 @@
+{
+  "language": "Telugu",
+  "completed_steps": 26000,
+  "best_validation_total": 2.0241471003546367,
+  "stopped_early": true,
+  "elapsed_seconds_this_session": 4671.891,
+  "checkpoint_sha256": "4c50a9bdb2326ad6461c1b842ff2f25af34e4ba00ae016f324519ccd6e2a222e",
+  "smoke": false
+}

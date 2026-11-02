@@ -1,0 +1,194 @@
+{
+  "format_version": 1,
+  "language": "Telugu",
+  "step": 14000,
+  "config": {
+    "language": "Telugu",
+    "seed": 20261102,
+    "dataset": {
+      "repository": "SPRINGLab/IndicTTS_Telugu",
+      "revision": "7ab3c18491bef3f5d4e820c2701b5f78f54031d6",
+      "source_split": "train",
+      "files": [
+        "data/train-00000-of-00004.parquet",
+        "data/train-00001-of-00004.parquet",
+        "data/train-00002-of-00004.parquet",
+        "data/train-00003-of-00004.parquet"
+      ],
+      "text_field": "text",
+      "speaker_field": "gender",
+      "audio_field": "audio"
+    },
+    "selection": {
+      "train_hours": 5.0,
+      "validation_hours": 1.0,
+      "min_seconds": 0.7,
+      "max_seconds": 20.0,
+      "max_tokens": 450
+    },
+    "alignment": {
+      "backend": "torchaudio.pipelines.MMS_FA",
+      "min_score": 0.05
+    },
+    "audio": {
+      "sample_rate": 22050,
+      "n_fft": 1024,
+      "win_length": 1024,
+      "hop_length": 256,
+      "n_mels": 80,
+      "fmin": 0,
+      "fmax": 8000,
+      "f0_min": 60,
+      "f0_max": 600
+    },
+    "model": {
+      "transformer": {
+        "encoder_layer": 4,
+        "encoder_head": 2,
+        "encoder_hidden": 192,
+        "decoder_layer": 4,
+        "decoder_head": 2,
+        "decoder_hidden": 192,
+        "conv_filter_size": 768,
+        "conv_kernel_size": [
+          9,
+          1
+        ],
+        "encoder_dropout": 0.2,
+        "decoder_dropout": 0.2
+      },
+      "variance_predictor": {
+        "filter_size": 192,
+        "kernel_size": 3,
+        "dropout": 0.3
+      },
+      "variance_embedding": {
+        "pitch_quantization": "linear",
+        "energy_quantization": "linear",
+        "n_bins": 256
+      },
+      "postnet_hidden": 256,
+      "max_seq_len": 2048,
+      "max_inference_frames": 4000
+    },
+    "training": {
+      "batch_size": 6,
+      "validation_batch_size": 4,
+      "learning_rate": 0.0005,
+      "warmup_steps": 1000,
+      "max_steps": 40000,
+      "min_steps": 15000,
+      "early_stop_patience": 12,
+      "minimum_improvement": 0.002,
+      "weight_decay": 1e-06,
+      "gradient_clip": 1.0,
+      "mixed_precision": true,
+      "log_interval": 50,
+      "validation_interval": 1000,
+      "cpu_threads": 4
+    },
+    "vocoder": {
+      "repository": "speechbrain/tts-hifigan-libritts-22050Hz",
+      "revision": "4188503131602dc234f48d7f22eebea93d788736",
+      "filename": "generator.ckpt",
+      "inference_padding": 5
+    },
+    "_config_path": "C:\\Users\\Yuvraj Verma\\Documents\\Codex\\2026-11-01\\dear-applicant-we-have-received-your\\outputs\\project\\Telugu\\config.yaml",
+    "_config_sha256": "89539499fbee53a3345d6f80f015f5d55b660b3819beffd0bcf20c49fad5a972"
+  },
+  "stats": {
+    "pitch": [
+      -5.268907333599304,
+      4.089792691998374,
+      5.236806316060594,
+      0.23936866579754928
+    ],
+    "energy": [
+      -7.069103263529417,
+      1.8701543028451604,
+      2.8505125705253134,
+      1.4276221189008473
+    ],
+    "fit_split": "train",
+    "pitch_representation": "token mean of interpolated log F0 (natural log Hz)",
+    "energy_representation": "token mean of log STFT L2 magnitude"
+  },
+  "speakers": {
+    "0": 0,
+    "1": 1
+  },
+  "symbols": [
+    "<pad>",
+    "<sil>",
+    "|",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "'"
+  ],
+  "validation_loss": {
+    "mel": 0.6214253512227894,
+    "postnet": 0.6210250234832615,
+    "duration": 0.08004811043834631,
+    "pitch": 0.4990398864113281,
+    "energy": 0.20260872879891118,
+    "total": 2.0241471003546367
+  },
+  "data_summary": {
+    "seed": 20261102,
+    "strategy": "sha256(seed + normalized transcript), whole transcript groups, reserve training speaker coverage, then validation and training budgets",
+    "duration_seconds": {
+      "train": 18000.52757369616,
+      "validation": 3603.2677551020392
+    },
+    "utterances": {
+      "train": 1922,
+      "validation": 382
+    },
+    "duplicate_audio_removed": 0,
+    "train_speakers": [
+      "0",
+      "1"
+    ],
+    "speaker_disjoint": false,
+    "text_disjoint": true,
+    "audio_disjoint": true,
+    "target_hours": {
+      "train": 5.0,
+      "validation": 1.0
+    },
+    "smoke": false,
+    "speakers": 2,
+    "training_seconds_by_speaker": {
+      "0": 7643.659909297045,
+      "1": 10356.86766439911
+    },
+    "rejected_alignments": 2,
+    "config_sha256": "89539499fbee53a3345d6f80f015f5d55b660b3819beffd0bcf20c49fad5a972",
+    "hours_requirement_met": true
+  },
+  "smoke": false
+}

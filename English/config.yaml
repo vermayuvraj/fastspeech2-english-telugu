@@ -1,0 +1,86 @@
+language: English
+seed: 20261101
+dataset:
+  repository: ai4bharat/Svarah
+  revision: ebbf7777fe771490696a3f7b007097606fa8c924
+  source_split: test
+  files:
+    - data/test-00000-of-00003.parquet
+    - data/test-00001-of-00003.parquet
+    - data/test-00002-of-00003.parquet
+  text_field: null
+  speaker_field: null
+  audio_field: audio_filepath
+  # The HF release omits speaker IDs. These groups are demographic-profile
+  # proxies; two people with identical profiles cannot be distinguished.
+  speaker_profile_fields:
+    - gender
+    - age-group
+    - primary_language
+    - native_place_state
+    - native_place_district
+    - highest_qualification
+    - job_category
+    - occupation_domain
+selection:
+  train_hours: 5.0
+  validation_hours: 1.0
+  min_seconds: 0.7
+  max_seconds: 20.0
+  max_tokens: 450
+alignment:
+  backend: torchaudio.pipelines.MMS_FA
+  min_score: 0.05
+audio:
+  sample_rate: 22050
+  n_fft: 1024
+  win_length: 1024
+  hop_length: 256
+  n_mels: 80
+  fmin: 0
+  fmax: 8000
+  f0_min: 60
+  f0_max: 600
+model:
+  transformer:
+    encoder_layer: 4
+    encoder_head: 2
+    encoder_hidden: 192
+    decoder_layer: 4
+    decoder_head: 2
+    decoder_hidden: 192
+    conv_filter_size: 768
+    conv_kernel_size: [9, 1]
+    encoder_dropout: 0.2
+    decoder_dropout: 0.2
+  variance_predictor:
+    filter_size: 192
+    kernel_size: 3
+    dropout: 0.3
+  variance_embedding:
+    pitch_quantization: linear
+    energy_quantization: linear
+    n_bins: 256
+  postnet_hidden: 256
+  max_seq_len: 2048
+  max_inference_frames: 4000
+training:
+  batch_size: 6
+  validation_batch_size: 4
+  learning_rate: 0.0005
+  warmup_steps: 1000
+  max_steps: 40000
+  min_steps: 15000
+  early_stop_patience: 12
+  minimum_improvement: 0.002
+  weight_decay: 0.000001
+  gradient_clip: 1.0
+  mixed_precision: true
+  log_interval: 50
+  validation_interval: 1000
+  cpu_threads: 4
+vocoder:
+  repository: speechbrain/tts-hifigan-libritts-22050Hz
+  revision: 4188503131602dc234f48d7f22eebea93d788736
+  filename: generator.ckpt
+  inference_padding: 5

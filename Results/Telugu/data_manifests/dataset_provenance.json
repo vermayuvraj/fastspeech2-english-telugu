@@ -1,0 +1,30 @@
+{
+  "repository": "SPRINGLab/IndicTTS_Telugu",
+  "revision": "7ab3c18491bef3f5d4e820c2701b5f78f54031d6",
+  "files": [
+    {
+      "filename": "train-00000-of-00004.parquet",
+      "sha256": "eaebe44956d2a70e1e5d533227bdb3c85b1a228775f16055ec0e37aba66590a6",
+      "bytes": 1200192373
+    },
+    {
+      "filename": "train-00001-of-00004.parquet",
+      "sha256": "36941881bfb45e0e91c7aa3cdeb16b95d2e2431b870ae7decf59572a4e5c5c1f",
+      "bytes": 1363647665
+    },
+    {
+      "filename": "train-00002-of-00004.parquet",
+      "sha256": "f42d61adf1efed810f9c318a6bbbf13b97f2024755671b1f2219e6c155d154b8",
+      "bytes": 2149814979
+    },
+    {
+      "filename": "train-00003-of-00004.parquet",
+      "sha256": "a6e5ab6cdd539f0f570beca9126bd4b1e8fb7794b7fef10309da2afe54afb17d",
+      "bytes": 1727697226
+    }
+  ],
+  "read_rows": 8576,
+  "accepted_rows": 6336,
+  "smoke_limit": null,
+  "config_sha256": "89539499fbee53a3345d6f80f015f5d55b660b3819beffd0bcf20c49fad5a972"
+}

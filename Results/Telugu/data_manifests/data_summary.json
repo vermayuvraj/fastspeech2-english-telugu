@@ -1,0 +1,33 @@
+{
+  "seed": 20261102,
+  "strategy": "sha256(seed + normalized transcript), whole transcript groups, reserve training speaker coverage, then validation and training budgets",
+  "duration_seconds": {
+    "train": 18000.52757369616,
+    "validation": 3603.2677551020392
+  },
+  "utterances": {
+    "train": 1922,
+    "validation": 382
+  },
+  "duplicate_audio_removed": 0,
+  "train_speakers": [
+    "0",
+    "1"
+  ],
+  "speaker_disjoint": false,
+  "text_disjoint": true,
+  "audio_disjoint": true,
+  "target_hours": {
+    "train": 5.0,
+    "validation": 1.0
+  },
+  "smoke": false,
+  "speakers": 2,
+  "training_seconds_by_speaker": {
+    "0": 7643.659909297045,
+    "1": 10356.86766439911
+  },
+  "rejected_alignments": 2,
+  "config_sha256": "89539499fbee53a3345d6f80f015f5d55b660b3819beffd0bcf20c49fad5a972",
+  "hours_requirement_met": true
+}
