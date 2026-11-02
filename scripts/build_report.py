@@ -124,6 +124,10 @@ def footer(canvas, doc):
 
 
 def main():
+    from report_selection import preserve_selected_report
+
+    if preserve_selected_report():
+        return
     complete = all(
         (ROOT / "Results" / lang / "training_summary.json").is_file()
         and (ROOT / "Results" / lang / "inference_summary.json").is_file()

@@ -1,6 +1,6 @@
 {
   "ready_for_submission": false,
-  "checks_passed": 94,
+  "checks_passed": 95,
   "checks_total": 106,
   "checks": [
     {
@@ -525,7 +525,7 @@
     },
     {
       "check": "Current report approved by user",
-      "passed": false,
+      "passed": true,
       "detail": "Await explicit user review of the current PDF"
     },
     {

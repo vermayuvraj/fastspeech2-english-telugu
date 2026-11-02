@@ -2,10 +2,9 @@
 
 Independent FastSpeech 2 acoustic models for the IIIT Hyderabad Voice AI assignment. This repository adapts [ming024/FastSpeech2](https://github.com/ming024/FastSpeech2) at commit `d4e79eb52e8b01d24703b2dfc0385544092958f3`.
 
-**Both training runs and all ten test syntheses are complete. Listening review and final report approval are pending. The Google Form has not been submitted.** The [submission audit](Report/submission_audit.json) records outstanding checks.
+**Both training runs and all ten test syntheses are complete. The user-selected report is included below. Listening review and Google Form submission approval are pending. The Google Form has not been submitted.** The [submission audit](Report/submission_audit.json) records outstanding checks.
 
-- [Concise report in Word](Report/Technical_Report_Concise.docx)
-- [Full technical report in PDF](Report/Technical_Report.pdf)
+- [Technical report in PDF](Report/Technical_Report.pdf)
 - [English audio and plots](Results/English/README.md)
 - [Telugu audio and plots](Results/Telugu/README.md)
 - Trained checkpoints: [English](English/checkpoints/best.pt) and [Telugu](Telugu/checkpoints/best.pt)
@@ -89,8 +88,10 @@ python scripts/audit_submission.py --strict
 
 The audit fails on missing real checkpoints, insufficient hours, absent plots/audio, changed prompts, mismatched hashes, diagnostic results or missing listening observations. Review the rendered PDF after rebuilding it.
 
+The current PDF was supplied by the author. Report-generation commands preserve this selected file and verify its SHA256 instead of replacing it with an earlier generated report.
+
 ## Publication
 
-This repository contains the experiment files for review. Complete the listening notes and obtain approval of the final report before submitting the Google Form. The strict audit remains incomplete while those checks are pending. Both compact inference checkpoints fit GitHub's per-file limit. Raw recordings, caches, tokens and optimizer states remain outside Git.
+This repository contains the experiment files for review. Complete the listening notes and obtain explicit Google Form submission approval before submitting. The strict audit remains incomplete while those checks are pending. Both compact inference checkpoints fit GitHub's per-file limit. Raw recordings, caches, tokens and optimizer states remain outside Git.
 
 See `docs/THIRD_PARTY.md` for sources and licensing, and `docs/EXPLAIN_THE_PROJECT.md` for an architecture walkthrough.

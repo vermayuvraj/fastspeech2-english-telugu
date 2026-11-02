@@ -1,5 +1,7 @@
 {
   "experiments_available": true,
-  "style": "clean academic layout",
-  "updated_at": "2026-11-03T00:28:49.588567"
+  "source": "user_supplied_pdf",
+  "source_filename": "JRA Assignment Report IITH.pdf",
+  "sha256": "cec579d85129a8008655a40671e6709f7c02dc58e345d44e86d9d5feb581ba86",
+  "updated_at": "2026-11-02T20:14:46.160649+00:00"
 }

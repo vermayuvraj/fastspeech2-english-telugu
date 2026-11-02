@@ -327,6 +327,10 @@ def language_page(story, language, number):
 
 
 def build_report():
+    from report_selection import preserve_selected_report
+
+    if preserve_selected_report():
+        return
     SCRATCH.mkdir(parents=True, exist_ok=True)
     content = sections()
     story = []

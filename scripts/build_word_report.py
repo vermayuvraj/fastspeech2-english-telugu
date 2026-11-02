@@ -3,6 +3,11 @@
 from pathlib import Path
 import json
 
+from report_selection import preserve_selected_report
+
+if preserve_selected_report():
+    raise SystemExit(0)
+
 from docx import Document
 from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
