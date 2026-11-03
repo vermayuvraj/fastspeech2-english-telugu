@@ -71,7 +71,7 @@ def audit():
         revisions = json.loads((ROOT / "docs/automatic_evaluation_models.json").read_text(encoding="utf-8"))
         check("Automatic assessment disclosure and model provenance", protocol.get("author_does_not_know_telugu") and protocol.get("human_listening_performed") is False and protocol.get("model_revisions") == revisions)
         report_status = json.loads((ROOT / "Report/report_status.json").read_text(encoding="utf-8"))
-        check("Report matches automatic assessment evidence", report.is_file() and report_status.get("source") == "automatic_evaluation_revision_of_user_report" and report_status.get("sha256") == sha256(report) and report_status.get("assessment_protocol_sha256") == sha256(protocol_path))
+        check("Report matches automatic assessment evidence", report.is_file() and report_status.get("source") in {"user_supplied_pdf", "automatic_evaluation_revision_of_user_report"} and report_status.get("sha256") == sha256(report) and report_status.get("assessment_protocol_sha256") == sha256(protocol_path))
     review_path = ROOT / "Report/review_status.json"
     if review_path.is_file():
         review = json.loads(review_path.read_text(encoding="utf-8"))

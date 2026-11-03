@@ -2,12 +2,11 @@
 
 Independent FastSpeech 2 acoustic models for the IIIT Hyderabad Voice AI assignment. This repository adapts [ming024/FastSpeech2](https://github.com/ming024/FastSpeech2) at commit `d4e79eb52e8b01d24703b2dfc0385544092958f3`.
 
-**Both training runs, all ten test syntheses and the automatic assessment are complete. The revised report awaits final review; the Google Form has not been submitted.** The [submission audit](Report/submission_audit.json) separates technical checks from report approval and submission authorization.
+**Both training runs, all ten test syntheses and the automatic assessment are complete. The author-supplied report is published; the Google Form has not been submitted.** The [submission audit](Report/submission_audit.json) separates technical checks from report approval and submission authorization.
 
 I do not know Telugu, so I used automatic transcription, predicted quality and acoustic measurements for the Telugu assessment. Both languages are assessed automatically. No native-speaker listening or human MOS study is claimed.
 
 - [Technical report in PDF](Report/Technical_Report.pdf)
-- [Editable report in Word](Report/Technical_Report.docx)
 - [English audio and plots](Results/English/README.md)
 - [Telugu audio and plots](Results/Telugu/README.md)
 - Trained checkpoints: [English](English/checkpoints/best.pt) and [Telugu](Telugu/checkpoints/best.pt)
@@ -112,7 +111,7 @@ python scripts/audit_submission.py --strict
 
 The audit fails on missing real checkpoints, insufficient hours, absent plots/audio, changed prompts, mismatched evidence hashes, diagnostic runs or missing sentence-level assessment. Automatic assessment passes only when its method is disclosed and its evidence matches the submitted audio. Report approval and Google Form authorization are separate checks.
 
-The current report revises the author-supplied PDF with the recorded automatic findings. Older report-generation commands preserve the selected PDF's SHA256. The assessed-report builder stages an editable document for visual review instead of silently replacing the selected report.
+The current report is the author-supplied `JRA Assignment Report_IITH.pdf`, published unchanged as `Report/Technical_Report.pdf`. The previous Word draft has been removed to avoid conflicting versions. Older report-generation commands preserve the selected PDF's SHA256. The assessed-report builder stages an editable document for visual review instead of silently replacing the selected report.
 
 ## Publication
 

@@ -1,10 +1,8 @@
 {
   "experiments_available": true,
-  "source": "automatic_evaluation_revision_of_user_report",
-  "source_filename": "JRA Assignment Report IITH.pdf",
-  "original_source_sha256": "cec579d85129a8008655a40671e6709f7c02dc58e345d44e86d9d5feb581ba86",
-  "sha256": "544d948dd0475dd274278fdf455fd6df5789567ac36f1102aac63391a6f26d0d",
-  "word_sha256": "28096cfcdb49376817af64d9ff9100a6ad252eba624802a100ffeaddb48e6c1d",
+  "source": "user_supplied_pdf",
+  "source_filename": "JRA Assignment Report_IITH.pdf",
+  "sha256": "352b67c0c074893704059c7a179e548f0d28df4a26fd4f99a2036eb0db4f4d1d",
   "assessment_protocol_sha256": "b29504ca2b6a3cdbefbaf7abc721e792dad6f99cb15ff9fae68f4de5342f8fb9",
-  "updated_at": "2026-11-03T09:18:44.244102+00:00"
+  "updated_at": "2026-11-03T16:19:07.537618+00:00"
 }
