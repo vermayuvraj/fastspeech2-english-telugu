@@ -1,0 +1,1572 @@
+{
+  "samples": [
+    {
+      "id": "T1",
+      "split": "generated",
+      "wav_sha256": "7948dec76687507aa38462980cdc2db7256eceadd0395eb4d69d703b2a7dae31",
+      "reference_expanded": "న్యూరోఫార్మకోలాజికల్ పరిశోధనలో నూతన ఔషధాల ప్రభావాన్ని విశ్లేషించారు.",
+      "transcript": "నూరో పార్మకోలాజికల్ పరిసోధనలో నూతన అవస్తదాల ప్రభావాని విషేషించారు",
+      "transcript_expanded": "నూరో పార్మకోలాజికల్ పరిసోధనలో నూతన అవస్తదాల ప్రభావాని విషేషించారు",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "న్యూరోఫార్మకోలాజికల్ పరిశోధనలో నూతన ఔషధాల ప్రభావాన్ని విశ్లేషించారు",
+        "hypothesis_normalized": "నూరో పార్మకోలాజికల్ పరిసోధనలో నూతన అవస్తదాల ప్రభావాని విషేషించారు",
+        "wer": 1.0,
+        "cer_without_spaces": 0.24193548387096775,
+        "reference_words": 6,
+        "reference_characters_without_spaces": 62,
+        "word_substitutions": 5,
+        "word_deletions": 0,
+        "word_insertions": 1,
+        "character_substitutions": 6,
+        "character_deletions": 6,
+        "character_insertions": 3
+      },
+      "reference_normalized": "న్యూరోఫార్మకోలాజికల్ పరిశోధనలో నూతన ఔషధాల ప్రభావాన్ని విశ్లేషించారు",
+      "hypothesis_normalized": "నూరో పార్మకోలాజికల్ పరిసోధనలో నూతన అవస్తదాల ప్రభావాని విషేషించారు",
+      "wer": 1.0,
+      "cer_without_spaces": 0.24193548387096775,
+      "reference_words": 6,
+      "reference_characters_without_spaces": 62,
+      "word_substitutions": 5,
+      "word_deletions": 0,
+      "word_insertions": 1,
+      "character_substitutions": 6,
+      "character_deletions": 6,
+      "character_insertions": 3,
+      "language": "te",
+      "seconds": 7.452999999979511,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.34,
+          "text": " నూరో పార్మకోలాజికల్ పరిసోధనలో నూతన అవస్తదాల ప్రభావాని విషేషించారు",
+          "avg_logprob": -0.0802612328552641,
+          "no_speech_prob": 0.0850830078125,
+          "words": [
+            {
+              "word": " నూరో",
+              "start": 0.0,
+              "end": 0.98,
+              "probability": 0.8804796006944444
+            },
+            {
+              "word": " పార్మకోలాజికల్",
+              "start": 0.98,
+              "end": 1.98,
+              "probability": 0.9536637931034483
+            },
+            {
+              "word": " పరిసోధనలో",
+              "start": 1.98,
+              "end": 2.68,
+              "probability": 0.958264802631579
+            },
+            {
+              "word": " నూతన",
+              "start": 2.68,
+              "end": 3.16,
+              "probability": 0.9452582465277778
+            },
+            {
+              "word": " అవస్తదాల",
+              "start": 3.16,
+              "end": 3.84,
+              "probability": 0.9047564338235294
+            },
+            {
+              "word": " ప్రభావాని",
+              "start": 3.84,
+              "end": 4.4,
+              "probability": 0.9654862253289473
+            },
+            {
+              "word": " విషేషించారు",
+              "start": 4.4,
+              "end": 5.34,
+              "probability": 0.9317680027173914
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T2a",
+      "split": "generated",
+      "wav_sha256": "2d8e39fb89400303eb94af8155607b154c114d785ff22d17f6406fbb99da0355",
+      "reference_expanded": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది.",
+      "transcript": "టాడు పై అతని పట్టు చాలా బలంగా ఉంది",
+      "transcript_expanded": "టాడు పై అతని పట్టు చాలా బలంగా ఉంది",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది",
+        "hypothesis_normalized": "టాడు పై అతని పట్టు చాలా బలంగా ఉంది",
+        "wer": 0.3333333333333333,
+        "cer_without_spaces": 0.03571428571428571,
+        "reference_words": 6,
+        "reference_characters_without_spaces": 28,
+        "word_substitutions": 1,
+        "word_deletions": 0,
+        "word_insertions": 1,
+        "character_substitutions": 1,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది",
+      "hypothesis_normalized": "టాడు పై అతని పట్టు చాలా బలంగా ఉంది",
+      "wer": 0.3333333333333333,
+      "cer_without_spaces": 0.03571428571428571,
+      "reference_words": 6,
+      "reference_characters_without_spaces": 28,
+      "word_substitutions": 1,
+      "word_deletions": 0,
+      "word_insertions": 1,
+      "character_substitutions": 1,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "te",
+      "seconds": 3.672000000020489,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.68,
+          "text": " టాడు పై అతని పట్టు చాలా బలంగా ఉంది",
+          "avg_logprob": -0.05368134401964419,
+          "no_speech_prob": 0.11871337890625,
+          "words": [
+            {
+              "word": " టాడు",
+              "start": 0.0,
+              "end": 0.6,
+              "probability": 0.9495442708333334
+            },
+            {
+              "word": " పై",
+              "start": 0.6,
+              "end": 0.8,
+              "probability": 0.860205078125
+            },
+            {
+              "word": " అతని",
+              "start": 0.8,
+              "end": 1.38,
+              "probability": 0.9762912326388888
+            },
+            {
+              "word": " పట్టు",
+              "start": 1.38,
+              "end": 1.62,
+              "probability": 0.9823330965909091
+            },
+            {
+              "word": " చాలా",
+              "start": 1.62,
+              "end": 2.04,
+              "probability": 0.9894205729166666
+            },
+            {
+              "word": " బలంగా",
+              "start": 2.04,
+              "end": 2.44,
+              "probability": 0.9829545454545454
+            },
+            {
+              "word": " ఉంది",
+              "start": 2.44,
+              "end": 2.68,
+              "probability": 0.990234375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T2b",
+      "split": "generated",
+      "wav_sha256": "b7a7ed0bfc951668405ca122ebfabe6028db2fc6225254aa651614a707a4ddff",
+      "reference_expanded": "ఆమె పట్టు చీరను ధరించి వేడుకకు వచ్చింది.",
+      "transcript": "ఆను పట్టు చిరనోక్ దరించి వేడుకకు వచ్చింది",
+      "transcript_expanded": "ఆను పట్టు చిరనోక్ దరించి వేడుకకు వచ్చింది",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "ఆమె పట్టు చీరను ధరించి వేడుకకు వచ్చింది",
+        "hypothesis_normalized": "ఆను పట్టు చిరనోక్ దరించి వేడుకకు వచ్చింది",
+        "wer": 0.5,
+        "cer_without_spaces": 0.20588235294117646,
+        "reference_words": 6,
+        "reference_characters_without_spaces": 34,
+        "word_substitutions": 3,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 5,
+        "character_deletions": 0,
+        "character_insertions": 2
+      },
+      "reference_normalized": "ఆమె పట్టు చీరను ధరించి వేడుకకు వచ్చింది",
+      "hypothesis_normalized": "ఆను పట్టు చిరనోక్ దరించి వేడుకకు వచ్చింది",
+      "wer": 0.5,
+      "cer_without_spaces": 0.20588235294117646,
+      "reference_words": 6,
+      "reference_characters_without_spaces": 34,
+      "word_substitutions": 3,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 5,
+      "character_deletions": 0,
+      "character_insertions": 2,
+      "language": "te",
+      "seconds": 5.094000000011874,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.08,
+          "text": " ఆను పట్టు చిరనోక్ దరించి వేడుకకు వచ్చింది",
+          "avg_logprob": -0.078125,
+          "no_speech_prob": 0.143798828125,
+          "words": [
+            {
+              "word": " ఆను",
+              "start": 0.0,
+              "end": 0.72,
+              "probability": 0.8907645089285714
+            },
+            {
+              "word": " పట్టు",
+              "start": 0.72,
+              "end": 1.04,
+              "probability": 0.9516157670454546
+            },
+            {
+              "word": " చిరనోక్",
+              "start": 1.04,
+              "end": 1.54,
+              "probability": 0.8958984375
+            },
+            {
+              "word": " దరించి",
+              "start": 1.54,
+              "end": 1.98,
+              "probability": 0.9715670072115384
+            },
+            {
+              "word": " వేడుకకు",
+              "start": 1.98,
+              "end": 2.66,
+              "probability": 0.98583984375
+            },
+            {
+              "word": " వచ్చింది",
+              "start": 2.66,
+              "end": 3.08,
+              "probability": 0.9682042738970589
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "split": "generated",
+      "wav_sha256": "5474bac1ac23a126ff6ae95fb15cc10154881f472201f8b3e3137663e04cb27b",
+      "reference_expanded": "పులి అడ విలో నిశ్శబ్దంగా నడిచింది.",
+      "transcript": "పులి అడవిలో నిస్యబ్దంగా నడిచింది",
+      "transcript_expanded": "పులి అడవిలో నిస్యబ్దంగా నడిచింది",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "పులి అడ విలో నిశ్శబ్దంగా నడిచింది",
+        "hypothesis_normalized": "పులి అడవిలో నిస్యబ్దంగా నడిచింది",
+        "wer": 0.6,
+        "cer_without_spaces": 0.06896551724137931,
+        "reference_words": 5,
+        "reference_characters_without_spaces": 29,
+        "word_substitutions": 2,
+        "word_deletions": 1,
+        "word_insertions": 0,
+        "character_substitutions": 2,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "పులి అడ విలో నిశ్శబ్దంగా నడిచింది",
+      "hypothesis_normalized": "పులి అడవిలో నిస్యబ్దంగా నడిచింది",
+      "wer": 0.6,
+      "cer_without_spaces": 0.06896551724137931,
+      "reference_words": 5,
+      "reference_characters_without_spaces": 29,
+      "word_substitutions": 2,
+      "word_deletions": 1,
+      "word_insertions": 0,
+      "character_substitutions": 2,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "te",
+      "seconds": 3.937999999994645,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.6,
+          "text": " పులి అడవిలో నిస్యబ్దంగా నడిచింది",
+          "avg_logprob": -0.07229567307692308,
+          "no_speech_prob": 0.211181640625,
+          "words": [
+            {
+              "word": " పులి",
+              "start": 0.0,
+              "end": 0.76,
+              "probability": 0.97021484375
+            },
+            {
+              "word": " అడవిలో",
+              "start": 0.76,
+              "end": 1.36,
+              "probability": 0.9661207932692307
+            },
+            {
+              "word": " నిస్యబ్దంగా",
+              "start": 1.36,
+              "end": 2.12,
+              "probability": 0.9213336447010869
+            },
+            {
+              "word": " నడిచింది",
+              "start": 2.12,
+              "end": 2.6,
+              "probability": 0.9688936121323529
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "split": "generated",
+      "wav_sha256": "38563b3246fc06bd4fabffdb5d6ca06bfa24d1ff44fb032d6410b8f5501da7c5",
+      "reference_expanded": "ఈ సమావేశం రెండు వేల ఇరవై ఆరు నవంబర్ పన్నెండవ తేదీ ఉదయం పది గంటల నలభై ఐదు నిమిషాలకు ప్రారంభమవుతుంది, సమయానికి సిద్ధంగా ఉంచండి.",
+      "transcript": "ఈ సమావేసం వెండు వేలా ఇరవై ఆరు నవంబర్ పంన్నండవతేది ఉదేయం పది గంటల నలబై ఐదు నిమిషాలకు ప్రారంభం హోతుంది సమయానికి సిద్ధంగా ఉ",
+      "transcript_expanded": "ఈ సమావేసం వెండు వేలా ఇరవై ఆరు నవంబర్ పంన్నండవతేది ఉదేయం పది గంటల నలబై ఐదు నిమిషాలకు ప్రారంభం హోతుంది సమయానికి సిద్ధంగా ఉ",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "ఈ సమావేశం రెండు వేల ఇరవై ఆరు నవంబర్ పన్నెండవ తేదీ ఉదయం పది గంటల నలభై ఐదు నిమిషాలకు ప్రారంభమవుతుంది సమయానికి సిద్ధంగా ఉంచండి",
+        "hypothesis_normalized": "ఈ సమావేసం వెండు వేలా ఇరవై ఆరు నవంబర్ పంన్నండవతేది ఉదేయం పది గంటల నలబై ఐదు నిమిషాలకు ప్రారంభం హోతుంది సమయానికి సిద్ధంగా ఉ",
+        "wer": 0.5263157894736842,
+        "cer_without_spaces": 0.1523809523809524,
+        "reference_words": 19,
+        "reference_characters_without_spaces": 105,
+        "word_substitutions": 8,
+        "word_deletions": 1,
+        "word_insertions": 1,
+        "character_substitutions": 7,
+        "character_deletions": 6,
+        "character_insertions": 3
+      },
+      "reference_normalized": "ఈ సమావేశం రెండు వేల ఇరవై ఆరు నవంబర్ పన్నెండవ తేదీ ఉదయం పది గంటల నలభై ఐదు నిమిషాలకు ప్రారంభమవుతుంది సమయానికి సిద్ధంగా ఉంచండి",
+      "hypothesis_normalized": "ఈ సమావేసం వెండు వేలా ఇరవై ఆరు నవంబర్ పంన్నండవతేది ఉదేయం పది గంటల నలబై ఐదు నిమిషాలకు ప్రారంభం హోతుంది సమయానికి సిద్ధంగా ఉ",
+      "wer": 0.5263157894736842,
+      "cer_without_spaces": 0.1523809523809524,
+      "reference_words": 19,
+      "reference_characters_without_spaces": 105,
+      "word_substitutions": 8,
+      "word_deletions": 1,
+      "word_insertions": 1,
+      "character_substitutions": 7,
+      "character_deletions": 6,
+      "character_insertions": 3,
+      "language": "te",
+      "seconds": 15.89100000000326,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 9.8,
+          "text": " ఈ సమావేసం వెండు వేలా ఇరవై ఆరు నవంబర్ పంన్నండవతేది ఉదేయం పది గంటల నలబై ఐదు నిమిషాలకు ప్రారంభం హోతుంది సమయానికి సిద్ధంగా ఉ",
+          "avg_logprob": -0.10034722328186035,
+          "no_speech_prob": 0.0278167724609375,
+          "words": [
+            {
+              "word": " ఈ",
+              "start": 0.0,
+              "end": 0.48,
+              "probability": 0.6911214192708334
+            },
+            {
+              "word": " సమావేసం",
+              "start": 0.48,
+              "end": 1.12,
+              "probability": 0.9400065104166667
+            },
+            {
+              "word": " వెండు",
+              "start": 1.12,
+              "end": 1.52,
+              "probability": 0.8234197443181818
+            },
+            {
+              "word": " వేలా",
+              "start": 1.52,
+              "end": 1.74,
+              "probability": 0.8377278645833334
+            },
+            {
+              "word": " ఇరవై",
+              "start": 1.74,
+              "end": 2.1,
+              "probability": 0.8910590277777778
+            },
+            {
+              "word": " ఆరు",
+              "start": 2.1,
+              "end": 2.5,
+              "probability": 0.94921875
+            },
+            {
+              "word": " నవంబర్",
+              "start": 2.5,
+              "end": 3.0,
+              "probability": 0.9326547475961539
+            },
+            {
+              "word": " పంన్నండవతేది",
+              "start": 3.0,
+              "end": 3.74,
+              "probability": 0.902080078125
+            },
+            {
+              "word": " ఉదేయం",
+              "start": 3.74,
+              "end": 4.12,
+              "probability": 0.9341708096590909
+            },
+            {
+              "word": " పది",
+              "start": 4.12,
+              "end": 4.44,
+              "probability": 0.9547293526785714
+            },
+            {
+              "word": " గంటల",
+              "start": 4.44,
+              "end": 4.66,
+              "probability": 0.9258355034722222
+            },
+            {
+              "word": " నలబై",
+              "start": 4.66,
+              "end": 5.08,
+              "probability": 0.8407118055555556
+            },
+            {
+              "word": " ఐదు",
+              "start": 5.08,
+              "end": 5.68,
+              "probability": 0.8811383928571429
+            },
+            {
+              "word": " నిమిషాలకు",
+              "start": 5.68,
+              "end": 6.24,
+              "probability": 0.9466745476973685
+            },
+            {
+              "word": " ప్రారంభం",
+              "start": 6.24,
+              "end": 6.7,
+              "probability": 0.9527516084558824
+            },
+            {
+              "word": " హోతుంది",
+              "start": 6.7,
+              "end": 7.1,
+              "probability": 0.9392578125
+            },
+            {
+              "word": " సమయానికి",
+              "start": 7.1,
+              "end": 8.1,
+              "probability": 0.9599609375
+            },
+            {
+              "word": " సిద్ధంగా",
+              "start": 8.1,
+              "end": 8.84,
+              "probability": 0.9642118566176471
+            },
+            {
+              "word": " ఉ",
+              "start": 8.84,
+              "end": 9.8,
+              "probability": 0.98876953125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000064",
+      "split": "held_out",
+      "wav_sha256": "71bf5fe0e76180d7aed17d48e4556fbebe37e0b5056a578ab532d6329e552485",
+      "reference_expanded": "వంశ గౌరవం.",
+      "transcript": "వంస గోరవం",
+      "transcript_expanded": "వంస గోరవం",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "వంశ గౌరవం",
+        "hypothesis_normalized": "వంస గోరవం",
+        "wer": 1.0,
+        "cer_without_spaces": 0.25,
+        "reference_words": 2,
+        "reference_characters_without_spaces": 8,
+        "word_substitutions": 2,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 2,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "వంశ గౌరవం",
+      "hypothesis_normalized": "వంస గోరవం",
+      "wer": 1.0,
+      "cer_without_spaces": 0.25,
+      "reference_words": 2,
+      "reference_characters_without_spaces": 8,
+      "word_substitutions": 2,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 2,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "te",
+      "seconds": 0.6410000000032596,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.54,
+          "text": " వంస గోరవం",
+          "avg_logprob": -0.16787574404761904,
+          "no_speech_prob": 0.5927734375,
+          "words": [
+            {
+              "word": " వంస",
+              "start": 0.0,
+              "end": 0.92,
+              "probability": 0.9694475446428571
+            },
+            {
+              "word": " గోరవం",
+              "start": 0.92,
+              "end": 1.54,
+              "probability": 0.86328125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000081",
+      "split": "held_out",
+      "wav_sha256": "fe8739763b50509a0d9ab5feffe86336fcbdc6ad38fc26844c41901865eb9033",
+      "reference_expanded": "వంశగౌరవానికి కావాల్సింది నరబలేగదా అటువంటప్పుడు ఎవరు బలి అయితే నేం.",
+      "transcript": "వంసగవ్రవానికి కావల్సింది నరబలే గదా అటువంటప్పుడు ఎవరు బలి ఐతేనేమ్",
+      "transcript_expanded": "వంసగవ్రవానికి కావల్సింది నరబలే గదా అటువంటప్పుడు ఎవరు బలి ఐతేనేమ్",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "వంశగౌరవానికి కావాల్సింది నరబలేగదా అటువంటప్పుడు ఎవరు బలి అయితే నేం",
+        "hypothesis_normalized": "వంసగవ్రవానికి కావల్సింది నరబలే గదా అటువంటప్పుడు ఎవరు బలి ఐతేనేమ్",
+        "wer": 0.75,
+        "cer_without_spaces": 0.15517241379310345,
+        "reference_words": 8,
+        "reference_characters_without_spaces": 58,
+        "word_substitutions": 4,
+        "word_deletions": 1,
+        "word_insertions": 1,
+        "character_substitutions": 4,
+        "character_deletions": 3,
+        "character_insertions": 2
+      },
+      "reference_normalized": "వంశగౌరవానికి కావాల్సింది నరబలేగదా అటువంటప్పుడు ఎవరు బలి అయితే నేం",
+      "hypothesis_normalized": "వంసగవ్రవానికి కావల్సింది నరబలే గదా అటువంటప్పుడు ఎవరు బలి ఐతేనేమ్",
+      "wer": 0.75,
+      "cer_without_spaces": 0.15517241379310345,
+      "reference_words": 8,
+      "reference_characters_without_spaces": 58,
+      "word_substitutions": 4,
+      "word_deletions": 1,
+      "word_insertions": 1,
+      "character_substitutions": 4,
+      "character_deletions": 3,
+      "character_insertions": 2,
+      "language": "te",
+      "seconds": 2.3589999999967404,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.12,
+          "text": " వంసగవ్రవానికి కావల్సింది నరబలే గదా అటువంటప్పుడు ఎవరు బలి ఐతేనేమ్",
+          "avg_logprob": -0.09181249928474426,
+          "no_speech_prob": 0.219482421875,
+          "words": [
+            {
+              "word": " వంసగవ్రవానికి",
+              "start": 0.0,
+              "end": 1.88,
+              "probability": 0.9252206307870371
+            },
+            {
+              "word": " కావల్సింది",
+              "start": 1.88,
+              "end": 2.66,
+              "probability": 0.9841889880952381
+            },
+            {
+              "word": " నరబలే",
+              "start": 2.66,
+              "end": 3.5,
+              "probability": 0.9869939630681818
+            },
+            {
+              "word": " గదా",
+              "start": 3.5,
+              "end": 3.86,
+              "probability": 0.9621930803571429
+            },
+            {
+              "word": " అటువంటప్పుడు",
+              "start": 3.86,
+              "end": 5.22,
+              "probability": 0.93263671875
+            },
+            {
+              "word": " ఎవరు",
+              "start": 5.22,
+              "end": 6.18,
+              "probability": 0.9202202690972222
+            },
+            {
+              "word": " బలి",
+              "start": 6.18,
+              "end": 6.42,
+              "probability": 0.97265625
+            },
+            {
+              "word": " ఐతేనేమ్",
+              "start": 6.42,
+              "end": 7.12,
+              "probability": 0.8575846354166666
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000095",
+      "split": "held_out",
+      "wav_sha256": "ab69292045c9ee84f18b49d9cadd20e4c3663f8ffdd09fd4a962d16695789727",
+      "reference_expanded": "తండ్రి పోయే సమయానికి దూరదేశంలో ఉన్న, ముకుందుడు వార్త తెలిసి ఆస్తి స్వాధీన పరుచుకునేటందుకు వచ్చాడు.",
+      "transcript": "తండ్రి పోయే సమయానికి దూరదేశన్ లో ఉన్న ముకుందుడు వార్త తిలిసి ఆస్తి స్వాధిన పరుచుకునే టందుకు వచ్చాడు",
+      "transcript_expanded": "తండ్రి పోయే సమయానికి దూరదేశన్ లో ఉన్న ముకుందుడు వార్త తిలిసి ఆస్తి స్వాధిన పరుచుకునే టందుకు వచ్చాడు",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "తండ్రి పోయే సమయానికి దూరదేశంలో ఉన్న ముకుందుడు వార్త తెలిసి ఆస్తి స్వాధీన పరుచుకునేటందుకు వచ్చాడు",
+        "hypothesis_normalized": "తండ్రి పోయే సమయానికి దూరదేశన్ లో ఉన్న ముకుందుడు వార్త తిలిసి ఆస్తి స్వాధిన పరుచుకునే టందుకు వచ్చాడు",
+        "wer": 0.5,
+        "cer_without_spaces": 0.047058823529411764,
+        "reference_words": 12,
+        "reference_characters_without_spaces": 85,
+        "word_substitutions": 4,
+        "word_deletions": 0,
+        "word_insertions": 2,
+        "character_substitutions": 3,
+        "character_deletions": 0,
+        "character_insertions": 1
+      },
+      "reference_normalized": "తండ్రి పోయే సమయానికి దూరదేశంలో ఉన్న ముకుందుడు వార్త తెలిసి ఆస్తి స్వాధీన పరుచుకునేటందుకు వచ్చాడు",
+      "hypothesis_normalized": "తండ్రి పోయే సమయానికి దూరదేశన్ లో ఉన్న ముకుందుడు వార్త తిలిసి ఆస్తి స్వాధిన పరుచుకునే టందుకు వచ్చాడు",
+      "wer": 0.5,
+      "cer_without_spaces": 0.047058823529411764,
+      "reference_words": 12,
+      "reference_characters_without_spaces": 85,
+      "word_substitutions": 4,
+      "word_deletions": 0,
+      "word_insertions": 2,
+      "character_substitutions": 3,
+      "character_deletions": 0,
+      "character_insertions": 1,
+      "language": "te",
+      "seconds": 3.327999999979511,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 9.58,
+          "text": " తండ్రి పోయే సమయానికి దూరదేశన్ లో ఉన్న ముకుందుడు వార్త తిలిసి ఆస్తి స్వాధిన పరుచుకునే టందుకు వచ్చాడు",
+          "avg_logprob": -0.05911044871050214,
+          "no_speech_prob": 0.132568359375,
+          "words": [
+            {
+              "word": " తండ్రి",
+              "start": 0.0,
+              "end": 0.9,
+              "probability": 0.9375375600961539
+            },
+            {
+              "word": " పోయే",
+              "start": 0.9,
+              "end": 1.26,
+              "probability": 0.9787326388888888
+            },
+            {
+              "word": " సమయానికి",
+              "start": 1.26,
+              "end": 2.1,
+              "probability": 0.9679170496323529
+            },
+            {
+              "word": " దూరదేశన్",
+              "start": 2.1,
+              "end": 3.3,
+              "probability": 0.9097397748161765
+            },
+            {
+              "word": " లో",
+              "start": 3.3,
+              "end": 3.4,
+              "probability": 0.94033203125
+            },
+            {
+              "word": " ఉన్న",
+              "start": 3.4,
+              "end": 3.62,
+              "probability": 0.9441731770833334
+            },
+            {
+              "word": " ముకుందుడు",
+              "start": 3.62,
+              "end": 4.66,
+              "probability": 0.9597553453947368
+            },
+            {
+              "word": " వార్త",
+              "start": 4.66,
+              "end": 5.56,
+              "probability": 0.9913884943181818
+            },
+            {
+              "word": " తిలిసి",
+              "start": 5.56,
+              "end": 6.16,
+              "probability": 0.9307016225961539
+            },
+            {
+              "word": " ఆస్తి",
+              "start": 6.16,
+              "end": 7.12,
+              "probability": 0.9853515625
+            },
+            {
+              "word": " స్వాధిన",
+              "start": 7.12,
+              "end": 7.62,
+              "probability": 0.9778971354166667
+            },
+            {
+              "word": " పరుచుకునే",
+              "start": 7.62,
+              "end": 8.24,
+              "probability": 0.9679533305921053
+            },
+            {
+              "word": " టందుకు",
+              "start": 8.24,
+              "end": 8.76,
+              "probability": 0.9032076322115384
+            },
+            {
+              "word": " వచ్చాడు",
+              "start": 8.76,
+              "end": 9.58,
+              "probability": 0.98876953125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000100",
+      "split": "held_out",
+      "wav_sha256": "16dce12714439663d080547e8e6e6a08b1a653cf3cbb87de51a3e6899e7d13f2",
+      "reference_expanded": "వాళ్ళు నన్ను తమ పడవకు చేర్చారు సరంగు నాకు కట్టుకోను బట్టలిచ్చాడు ఆయనకూడా నా కధ విన్న తరువాత పడవ కదిలింది.",
+      "transcript": "వాల్లు నన్ను తమ పడవకు చేర్చారు. సరంగు నాకు కట్టుకోను బట్టల్ ఇచ్చాడు. ఆయనకోడా నా కదా విన్న తరువాతా పడవకు అదిలింది.",
+      "transcript_expanded": "వాల్లు నన్ను తమ పడవకు చేర్చారు. సరంగు నాకు కట్టుకోను బట్టల్ ఇచ్చాడు. ఆయనకోడా నా కదా విన్న తరువాతా పడవకు అదిలింది.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "వాళ్ళు నన్ను తమ పడవకు చేర్చారు సరంగు నాకు కట్టుకోను బట్టలిచ్చాడు ఆయనకూడా నా కధ విన్న తరువాత పడవ కదిలింది",
+        "hypothesis_normalized": "వాల్లు నన్ను తమ పడవకు చేర్చారు సరంగు నాకు కట్టుకోను బట్టల్ ఇచ్చాడు ఆయనకోడా నా కదా విన్న తరువాతా పడవకు అదిలింది",
+        "wer": 0.5,
+        "cer_without_spaces": 0.11235955056179775,
+        "reference_words": 16,
+        "reference_characters_without_spaces": 89,
+        "word_substitutions": 7,
+        "word_deletions": 0,
+        "word_insertions": 1,
+        "character_substitutions": 5,
+        "character_deletions": 0,
+        "character_insertions": 5
+      },
+      "reference_normalized": "వాళ్ళు నన్ను తమ పడవకు చేర్చారు సరంగు నాకు కట్టుకోను బట్టలిచ్చాడు ఆయనకూడా నా కధ విన్న తరువాత పడవ కదిలింది",
+      "hypothesis_normalized": "వాల్లు నన్ను తమ పడవకు చేర్చారు సరంగు నాకు కట్టుకోను బట్టల్ ఇచ్చాడు ఆయనకోడా నా కదా విన్న తరువాతా పడవకు అదిలింది",
+      "wer": 0.5,
+      "cer_without_spaces": 0.11235955056179775,
+      "reference_words": 16,
+      "reference_characters_without_spaces": 89,
+      "word_substitutions": 7,
+      "word_deletions": 0,
+      "word_insertions": 1,
+      "character_substitutions": 5,
+      "character_deletions": 0,
+      "character_insertions": 5,
+      "language": "te",
+      "seconds": 3.6559999999881256,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 11.94,
+          "text": " వాల్లు నన్ను తమ పడవకు చేర్చారు. సరంగు నాకు కట్టుకోను బట్టల్ ఇచ్చాడు. ఆయనకోడా నా కదా విన్న తరువాతా పడవకు అదిలింది.",
+          "avg_logprob": -0.05050355612666686,
+          "no_speech_prob": 0.0291900634765625,
+          "words": [
+            {
+              "word": " వాల్లు",
+              "start": 0.0,
+              "end": 1.16,
+              "probability": 0.9417067307692307
+            },
+            {
+              "word": " నన్ను",
+              "start": 1.16,
+              "end": 1.44,
+              "probability": 0.9415616122159091
+            },
+            {
+              "word": " తమ",
+              "start": 1.44,
+              "end": 2.04,
+              "probability": 0.99599609375
+            },
+            {
+              "word": " పడవకు",
+              "start": 2.04,
+              "end": 2.64,
+              "probability": 0.94775390625
+            },
+            {
+              "word": " చేర్చారు.",
+              "start": 2.64,
+              "end": 3.26,
+              "probability": 0.9927045036764706
+            },
+            {
+              "word": " సరంగు",
+              "start": 3.62,
+              "end": 4.72,
+              "probability": 0.9966264204545454
+            },
+            {
+              "word": " నాకు",
+              "start": 4.72,
+              "end": 4.96,
+              "probability": 0.9964735243055556
+            },
+            {
+              "word": " కట్టుకోను",
+              "start": 4.96,
+              "end": 6.08,
+              "probability": 0.9912366365131579
+            },
+            {
+              "word": " బట్టల్",
+              "start": 6.08,
+              "end": 6.5,
+              "probability": 0.9062124399038461
+            },
+            {
+              "word": " ఇచ్చాడు.",
+              "start": 6.5,
+              "end": 6.9,
+              "probability": 0.96591796875
+            },
+            {
+              "word": " ఆయనకోడా",
+              "start": 7.48,
+              "end": 8.58,
+              "probability": 0.9373372395833334
+            },
+            {
+              "word": " నా",
+              "start": 8.58,
+              "end": 9.3,
+              "probability": 0.9955078125
+            },
+            {
+              "word": " కదా",
+              "start": 9.3,
+              "end": 9.58,
+              "probability": 0.8976702008928571
+            },
+            {
+              "word": " విన్న",
+              "start": 9.58,
+              "end": 9.86,
+              "probability": 0.9699485085227273
+            },
+            {
+              "word": " తరువాతా",
+              "start": 9.86,
+              "end": 10.56,
+              "probability": 0.9760416666666667
+            },
+            {
+              "word": " పడవకు",
+              "start": 10.56,
+              "end": 11.44,
+              "probability": 0.9278231534090909
+            },
+            {
+              "word": " అదిలింది.",
+              "start": 11.44,
+              "end": 11.94,
+              "probability": 0.97802734375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000159",
+      "split": "held_out",
+      "wav_sha256": "76971f4a100ccfddf209c849d919e654efef17d999f5d5e44ef7a98dae869493",
+      "reference_expanded": "చేసేదిలేక మండోదరి భర్త చెప్పిన దానికి అంగీకరించి ప్రతీరోజూ బలభద్రుడి ఇంటికి సేరు నెయ్యిపంపుతూండేది.",
+      "transcript": "చేసేది లేకా మండోదరి భర్తా చెప్పిన దానికి అంగికరించి ప్రతీ రోజు బలభద్రుడి ఇంటికి సేరు నేయి పంపుతు ఉండేది",
+      "transcript_expanded": "చేసేది లేకా మండోదరి భర్తా చెప్పిన దానికి అంగికరించి ప్రతీ రోజు బలభద్రుడి ఇంటికి సేరు నేయి పంపుతు ఉండేది",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "చేసేదిలేక మండోదరి భర్త చెప్పిన దానికి అంగీకరించి ప్రతీరోజూ బలభద్రుడి ఇంటికి సేరు నెయ్యిపంపుతూండేది",
+        "hypothesis_normalized": "చేసేది లేకా మండోదరి భర్తా చెప్పిన దానికి అంగికరించి ప్రతీ రోజు బలభద్రుడి ఇంటికి సేరు నేయి పంపుతు ఉండేది",
+        "wer": 0.8181818181818182,
+        "cer_without_spaces": 0.10227272727272728,
+        "reference_words": 11,
+        "reference_characters_without_spaces": 88,
+        "word_substitutions": 5,
+        "word_deletions": 0,
+        "word_insertions": 4,
+        "character_substitutions": 4,
+        "character_deletions": 2,
+        "character_insertions": 3
+      },
+      "reference_normalized": "చేసేదిలేక మండోదరి భర్త చెప్పిన దానికి అంగీకరించి ప్రతీరోజూ బలభద్రుడి ఇంటికి సేరు నెయ్యిపంపుతూండేది",
+      "hypothesis_normalized": "చేసేది లేకా మండోదరి భర్తా చెప్పిన దానికి అంగికరించి ప్రతీ రోజు బలభద్రుడి ఇంటికి సేరు నేయి పంపుతు ఉండేది",
+      "wer": 0.8181818181818182,
+      "cer_without_spaces": 0.10227272727272728,
+      "reference_words": 11,
+      "reference_characters_without_spaces": 88,
+      "word_substitutions": 5,
+      "word_deletions": 0,
+      "word_insertions": 4,
+      "character_substitutions": 4,
+      "character_deletions": 2,
+      "character_insertions": 3,
+      "language": "te",
+      "seconds": 3.360000000015134,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 9.82,
+          "text": " చేసేది లేకా మండోదరి భర్తా చెప్పిన దానికి అంగికరించి ప్రతీ రోజు బలభద్రుడి ఇంటికి సేరు నేయి పంపుతు ఉండేది",
+          "avg_logprob": -0.04217155638854114,
+          "no_speech_prob": 0.09637451171875,
+          "words": [
+            {
+              "word": " చేసేది",
+              "start": 0.0,
+              "end": 0.82,
+              "probability": 0.9820462740384616
+            },
+            {
+              "word": " లేకా",
+              "start": 0.82,
+              "end": 1.14,
+              "probability": 0.9612630208333334
+            },
+            {
+              "word": " మండోదరి",
+              "start": 1.14,
+              "end": 2.3,
+              "probability": 0.9782877604166667
+            },
+            {
+              "word": " భర్తా",
+              "start": 2.3,
+              "end": 3.16,
+              "probability": 0.9319957386363636
+            },
+            {
+              "word": " చెప్పిన",
+              "start": 3.16,
+              "end": 3.46,
+              "probability": 0.9573893229166667
+            },
+            {
+              "word": " దానికి",
+              "start": 3.46,
+              "end": 3.96,
+              "probability": 0.9801307091346154
+            },
+            {
+              "word": " అంగికరించి",
+              "start": 3.96,
+              "end": 4.86,
+              "probability": 0.9801897321428571
+            },
+            {
+              "word": " ప్రతీ",
+              "start": 4.86,
+              "end": 5.6,
+              "probability": 0.9245383522727273
+            },
+            {
+              "word": " రోజు",
+              "start": 5.6,
+              "end": 5.98,
+              "probability": 0.9824761284722222
+            },
+            {
+              "word": " బలభద్రుడి",
+              "start": 5.98,
+              "end": 7.22,
+              "probability": 0.9676963404605263
+            },
+            {
+              "word": " ఇంటికి",
+              "start": 7.22,
+              "end": 7.78,
+              "probability": 0.9822716346153846
+            },
+            {
+              "word": " సేరు",
+              "start": 7.78,
+              "end": 8.64,
+              "probability": 0.9670138888888888
+            },
+            {
+              "word": " నేయి",
+              "start": 8.64,
+              "end": 8.9,
+              "probability": 0.9077690972222222
+            },
+            {
+              "word": " పంపుతు",
+              "start": 8.9,
+              "end": 9.36,
+              "probability": 0.9883939302884616
+            },
+            {
+              "word": " ఉండేది",
+              "start": 9.36,
+              "end": 9.82,
+              "probability": 0.9609750600961539
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000160",
+      "split": "held_out",
+      "wav_sha256": "fc2d597ac094d9c566222267ae173fb0937a3c280785340a8892abbab725b44b",
+      "reference_expanded": "భువన సుందరి.",
+      "transcript": "భూవన సుందరి",
+      "transcript_expanded": "భూవన సుందరి",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "భువన సుందరి",
+        "hypothesis_normalized": "భూవన సుందరి",
+        "wer": 0.5,
+        "cer_without_spaces": 0.1,
+        "reference_words": 2,
+        "reference_characters_without_spaces": 10,
+        "word_substitutions": 1,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 1,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "భువన సుందరి",
+      "hypothesis_normalized": "భూవన సుందరి",
+      "wer": 0.5,
+      "cer_without_spaces": 0.1,
+      "reference_words": 2,
+      "reference_characters_without_spaces": 10,
+      "word_substitutions": 1,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 1,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "te",
+      "seconds": 0.7030000000086147,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.1,
+          "text": " భూవన సుందరి",
+          "avg_logprob": -0.09335937738418579,
+          "no_speech_prob": 0.1943359375,
+          "words": [
+            {
+              "word": " భూవన",
+              "start": 0.0,
+              "end": 0.48,
+              "probability": 0.8869900173611112
+            },
+            {
+              "word": " సుందరి",
+              "start": 0.48,
+              "end": 1.1,
+              "probability": 0.9765249399038461
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000164",
+      "split": "held_out",
+      "wav_sha256": "b3e865092c569d46ea9ebb64d409c7e8ece628b13523c0ec364271a27b3541f4",
+      "reference_expanded": "వారిద్దరిలో ఎవరు ఉత్తమయోధుడో రారాజు తేల్చలేక వయోవృద్ధుడు జ్ఞాన వృద్ధుడూ అయిన నవద్యోతుణ్ణి యీ విశయమై సలహా అడిగాడు.",
+      "transcript": "వార్ ఇద్దరిలో ఎవరు ఉత్తమ యోధుడో రారాజు తేల్సలేక వయో వృధుడు గ్నాన వృధుడు ఐన నవద్యోతున్ని ఈ విషేమై సలహా అడిగ్యాడు",
+      "transcript_expanded": "వార్ ఇద్దరిలో ఎవరు ఉత్తమ యోధుడో రారాజు తేల్సలేక వయో వృధుడు గ్నాన వృధుడు ఐన నవద్యోతున్ని ఈ విషేమై సలహా అడిగ్యాడు",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "వారిద్దరిలో ఎవరు ఉత్తమయోధుడో రారాజు తేల్చలేక వయోవృద్ధుడు జ్ఞాన వృద్ధుడూ అయిన నవద్యోతుణ్ణి యీ విశయమై సలహా అడిగాడు",
+        "hypothesis_normalized": "వార్ ఇద్దరిలో ఎవరు ఉత్తమ యోధుడో రారాజు తేల్సలేక వయో వృధుడు గ్నాన వృధుడు ఐన నవద్యోతున్ని ఈ విషేమై సలహా అడిగ్యాడు",
+        "wer": 1.0,
+        "cer_without_spaces": 0.21212121212121213,
+        "reference_words": 14,
+        "reference_characters_without_spaces": 99,
+        "word_substitutions": 11,
+        "word_deletions": 0,
+        "word_insertions": 3,
+        "character_substitutions": 11,
+        "character_deletions": 7,
+        "character_insertions": 3
+      },
+      "reference_normalized": "వారిద్దరిలో ఎవరు ఉత్తమయోధుడో రారాజు తేల్చలేక వయోవృద్ధుడు జ్ఞాన వృద్ధుడూ అయిన నవద్యోతుణ్ణి యీ విశయమై సలహా అడిగాడు",
+      "hypothesis_normalized": "వార్ ఇద్దరిలో ఎవరు ఉత్తమ యోధుడో రారాజు తేల్సలేక వయో వృధుడు గ్నాన వృధుడు ఐన నవద్యోతున్ని ఈ విషేమై సలహా అడిగ్యాడు",
+      "wer": 1.0,
+      "cer_without_spaces": 0.21212121212121213,
+      "reference_words": 14,
+      "reference_characters_without_spaces": 99,
+      "word_substitutions": 11,
+      "word_deletions": 0,
+      "word_insertions": 3,
+      "character_substitutions": 11,
+      "character_deletions": 7,
+      "character_insertions": 3,
+      "language": "te",
+      "seconds": 3.7660000000032596,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 11.38,
+          "text": " వార్ ఇద్దరిలో ఎవరు ఉత్తమ యోధుడో రారాజు తేల్సలేక వయో వృధుడు గ్నాన వృధుడు ఐన నవద్యోతున్ని ఈ విషేమై సలహా అడిగ్యాడు",
+          "avg_logprob": -0.08162202050998098,
+          "no_speech_prob": 0.041015625,
+          "words": [
+            {
+              "word": " వార్",
+              "start": 0.0,
+              "end": 0.58,
+              "probability": 0.9338107638888888
+            },
+            {
+              "word": " ఇద్దరిలో",
+              "start": 0.58,
+              "end": 1.14,
+              "probability": 0.9560259650735294
+            },
+            {
+              "word": " ఎవరు",
+              "start": 1.14,
+              "end": 1.86,
+              "probability": 0.9427625868055556
+            },
+            {
+              "word": " ఉత్తమ",
+              "start": 1.86,
+              "end": 2.18,
+              "probability": 0.9962269176136364
+            },
+            {
+              "word": " యోధుడో",
+              "start": 2.18,
+              "end": 2.72,
+              "probability": 0.9375375600961539
+            },
+            {
+              "word": " రారాజు",
+              "start": 2.72,
+              "end": 3.8,
+              "probability": 0.98046875
+            },
+            {
+              "word": " తేల్సలేక",
+              "start": 3.8,
+              "end": 4.46,
+              "probability": 0.9520335477941176
+            },
+            {
+              "word": " వయో",
+              "start": 4.46,
+              "end": 5.46,
+              "probability": 0.830078125
+            },
+            {
+              "word": " వృధుడు",
+              "start": 5.46,
+              "end": 6.0,
+              "probability": 0.8683894230769231
+            },
+            {
+              "word": " గ్నాన",
+              "start": 6.0,
+              "end": 6.84,
+              "probability": 0.9068714488636364
+            },
+            {
+              "word": " వృధుడు",
+              "start": 6.84,
+              "end": 7.36,
+              "probability": 0.9873422475961539
+            },
+            {
+              "word": " ఐన",
+              "start": 7.36,
+              "end": 7.62,
+              "probability": 0.8564453125
+            },
+            {
+              "word": " నవద్యోతున్ని",
+              "start": 7.62,
+              "end": 9.16,
+              "probability": 0.94208984375
+            },
+            {
+              "word": " ఈ",
+              "start": 9.16,
+              "end": 9.72,
+              "probability": 0.7840983072916666
+            },
+            {
+              "word": " విషేమై",
+              "start": 9.72,
+              "end": 10.36,
+              "probability": 0.9059119591346154
+            },
+            {
+              "word": " సలహా",
+              "start": 10.36,
+              "end": 10.88,
+              "probability": 0.9582248263888888
+            },
+            {
+              "word": " అడిగ్యాడు",
+              "start": 10.88,
+              "end": 11.38,
+              "probability": 0.9485248766447368
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000172",
+      "split": "held_out",
+      "wav_sha256": "69cef4807fa30877f32ab2a60aa5c9da934d1b615a1f3cd0bde9c6aafad7f678",
+      "reference_expanded": "చంద్రుడు సూర్యాలయంలో హేమ తండ్రికి అతిథిగా ఉంటూవున్న సమయంలో రూపధరుడు అతన్ని వెతుక్కుంటూ అక్కడికి వచ్చాడు.",
+      "transcript": "చంద్రుడు సూర్యాలయం లో హేమ తంట్రికి అతిదిగా ఉంటు ఉన్న సమైయం లో రూపధరుడు అతన్ని వితుకుంటు అక్కడికి వచ్చాడు",
+      "transcript_expanded": "చంద్రుడు సూర్యాలయం లో హేమ తంట్రికి అతిదిగా ఉంటు ఉన్న సమైయం లో రూపధరుడు అతన్ని వితుకుంటు అక్కడికి వచ్చాడు",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "చంద్రుడు సూర్యాలయంలో హేమ తండ్రికి అతిథిగా ఉంటూవున్న సమయంలో రూపధరుడు అతన్ని వెతుక్కుంటూ అక్కడికి వచ్చాడు",
+        "hypothesis_normalized": "చంద్రుడు సూర్యాలయం లో హేమ తంట్రికి అతిదిగా ఉంటు ఉన్న సమైయం లో రూపధరుడు అతన్ని వితుకుంటు అక్కడికి వచ్చాడు",
+        "wer": 0.75,
+        "cer_without_spaces": 0.10869565217391304,
+        "reference_words": 12,
+        "reference_characters_without_spaces": 92,
+        "word_substitutions": 6,
+        "word_deletions": 0,
+        "word_insertions": 3,
+        "character_substitutions": 6,
+        "character_deletions": 3,
+        "character_insertions": 1
+      },
+      "reference_normalized": "చంద్రుడు సూర్యాలయంలో హేమ తండ్రికి అతిథిగా ఉంటూవున్న సమయంలో రూపధరుడు అతన్ని వెతుక్కుంటూ అక్కడికి వచ్చాడు",
+      "hypothesis_normalized": "చంద్రుడు సూర్యాలయం లో హేమ తంట్రికి అతిదిగా ఉంటు ఉన్న సమైయం లో రూపధరుడు అతన్ని వితుకుంటు అక్కడికి వచ్చాడు",
+      "wer": 0.75,
+      "cer_without_spaces": 0.10869565217391304,
+      "reference_words": 12,
+      "reference_characters_without_spaces": 92,
+      "word_substitutions": 6,
+      "word_deletions": 0,
+      "word_insertions": 3,
+      "character_substitutions": 6,
+      "character_deletions": 3,
+      "character_insertions": 1,
+      "language": "te",
+      "seconds": 3.687000000005355,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 9.56,
+          "text": " చంద్రుడు సూర్యాలయం లో హేమ తంట్రికి అతిదిగా ఉంటు ఉన్న సమైయం లో రూపధరుడు అతన్ని వితుకుంటు అక్కడికి వచ్చాడు",
+          "avg_logprob": -0.056699812035970014,
+          "no_speech_prob": 0.0257720947265625,
+          "words": [
+            {
+              "word": " చంద్రుడు",
+              "start": 0.0,
+              "end": 1.08,
+              "probability": 0.9213292738970589
+            },
+            {
+              "word": " సూర్యాలయం",
+              "start": 1.08,
+              "end": 1.76,
+              "probability": 0.9178145559210527
+            },
+            {
+              "word": " లో",
+              "start": 1.76,
+              "end": 2.0,
+              "probability": 0.94345703125
+            },
+            {
+              "word": " హేమ",
+              "start": 2.0,
+              "end": 2.64,
+              "probability": 0.9884207589285714
+            },
+            {
+              "word": " తంట్రికి",
+              "start": 2.64,
+              "end": 3.34,
+              "probability": 0.9252642463235294
+            },
+            {
+              "word": " అతిదిగా",
+              "start": 3.34,
+              "end": 4.28,
+              "probability": 0.9494791666666667
+            },
+            {
+              "word": " ఉంటు",
+              "start": 4.28,
+              "end": 4.58,
+              "probability": 0.9752061631944444
+            },
+            {
+              "word": " ఉన్న",
+              "start": 4.58,
+              "end": 4.88,
+              "probability": 0.9547526041666666
+            },
+            {
+              "word": " సమైయం",
+              "start": 4.88,
+              "end": 5.32,
+              "probability": 0.9363014914772727
+            },
+            {
+              "word": " లో",
+              "start": 5.32,
+              "end": 5.56,
+              "probability": 0.961328125
+            },
+            {
+              "word": " రూపధరుడు",
+              "start": 5.56,
+              "end": 6.8,
+              "probability": 0.9510282628676471
+            },
+            {
+              "word": " అతన్ని",
+              "start": 6.8,
+              "end": 7.54,
+              "probability": 0.9758488581730769
+            },
+            {
+              "word": " వితుకుంటు",
+              "start": 7.54,
+              "end": 8.32,
+              "probability": 0.9629420230263158
+            },
+            {
+              "word": " అక్కడికి",
+              "start": 8.32,
+              "end": 9.12,
+              "probability": 0.9796357996323529
+            },
+            {
+              "word": " వచ్చాడు",
+              "start": 9.12,
+              "end": 9.56,
+              "probability": 0.9902669270833333
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000208",
+      "split": "held_out",
+      "wav_sha256": "1abd5d5780ecdc9817fbffb3994500854d7c573f38fa37e76ab3d2f3f9b9b1ba",
+      "reference_expanded": "చిత్తం పదండి, అన్నాడు విజయదాసు.",
+      "transcript": "చిత్తం పదండి అన్నాడు విజేయ దాసు",
+      "transcript_expanded": "చిత్తం పదండి అన్నాడు విజేయ దాసు",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "చిత్తం పదండి అన్నాడు విజయదాసు",
+        "hypothesis_normalized": "చిత్తం పదండి అన్నాడు విజేయ దాసు",
+        "wer": 0.5,
+        "cer_without_spaces": 0.038461538461538464,
+        "reference_words": 4,
+        "reference_characters_without_spaces": 26,
+        "word_substitutions": 1,
+        "word_deletions": 0,
+        "word_insertions": 1,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 1
+      },
+      "reference_normalized": "చిత్తం పదండి అన్నాడు విజయదాసు",
+      "hypothesis_normalized": "చిత్తం పదండి అన్నాడు విజేయ దాసు",
+      "wer": 0.5,
+      "cer_without_spaces": 0.038461538461538464,
+      "reference_words": 4,
+      "reference_characters_without_spaces": 26,
+      "word_substitutions": 1,
+      "word_deletions": 0,
+      "word_insertions": 1,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 1,
+      "language": "te",
+      "seconds": 1.2189999999827705,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.14,
+          "text": " చిత్తం పదండి అన్నాడు విజేయ దాసు",
+          "avg_logprob": -0.0626890134186514,
+          "no_speech_prob": 0.27001953125,
+          "words": [
+            {
+              "word": " చిత్తం",
+              "start": 0.0,
+              "end": 0.58,
+              "probability": 0.9406174879807693
+            },
+            {
+              "word": " పదండి",
+              "start": 0.58,
+              "end": 1.48,
+              "probability": 0.9715465198863636
+            },
+            {
+              "word": " అన్నాడు",
+              "start": 1.48,
+              "end": 1.98,
+              "probability": 0.9879557291666666
+            },
+            {
+              "word": " విజేయ",
+              "start": 1.98,
+              "end": 2.76,
+              "probability": 0.9299538352272727
+            },
+            {
+              "word": " దాసు",
+              "start": 2.76,
+              "end": 3.14,
+              "probability": 0.9306911892361112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te_000308",
+      "split": "held_out",
+      "wav_sha256": "a3da39b1ed6efaeaf74c462dedaf3827f98a3dff32c30627fd6155a5d6880655",
+      "reference_expanded": "పుత్రవాత్సల్యం.",
+      "transcript": "పుత్రవాచల్యం",
+      "transcript_expanded": "పుత్రవాచల్యం",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "పుత్రవాత్సల్యం",
+        "hypothesis_normalized": "పుత్రవాచల్యం",
+        "wer": 1.0,
+        "cer_without_spaces": 0.21428571428571427,
+        "reference_words": 1,
+        "reference_characters_without_spaces": 14,
+        "word_substitutions": 1,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 1,
+        "character_deletions": 2,
+        "character_insertions": 0
+      },
+      "reference_normalized": "పుత్రవాత్సల్యం",
+      "hypothesis_normalized": "పుత్రవాచల్యం",
+      "wer": 1.0,
+      "cer_without_spaces": 0.21428571428571427,
+      "reference_words": 1,
+      "reference_characters_without_spaces": 14,
+      "word_substitutions": 1,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 1,
+      "character_deletions": 2,
+      "character_insertions": 0,
+      "language": "te",
+      "seconds": 0.7970000000204891,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 1.7,
+          "text": " పుత్రవాచల్యం",
+          "avg_logprob": -0.12569753932101385,
+          "no_speech_prob": 0.38330078125,
+          "words": [
+            {
+              "word": " పుత్రవాచల్యం",
+              "start": 0.0,
+              "end": 1.7,
+              "probability": 0.9309765625
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "model": "Systran/faster-whisper-large-v3",
+  "model_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "implementation": "faster-whisper",
+  "implementation_version": "1.2.1",
+  "decoding": {
+    "beam_size": 5,
+    "temperature": 0,
+    "language_forced": true,
+    "reference_prompt_supplied": false,
+    "vad_filter": false
+  },
+  "scoring_version": 3,
+  "scoring": "Same deterministic number/time expansion on reference and hypothesis; clock notation such as 10.45 a.m. is treated as 10:45 AM. NFC/case/punctuation normalized. CER counts Unicode codepoints and ignores spaces. Raw transcripts and unexpanded-hypothesis scores are retained.",
+  "interpretation": "ASR disagreement is an automatic intelligibility diagnostic, not a phoneme accuracy score or proof of a synthesis error."
+}

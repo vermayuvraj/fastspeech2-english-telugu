@@ -1,7 +1,10 @@
 {
   "experiments_available": true,
-  "source": "user_supplied_pdf",
+  "source": "automatic_evaluation_revision_of_user_report",
   "source_filename": "JRA Assignment Report IITH.pdf",
-  "sha256": "cec579d85129a8008655a40671e6709f7c02dc58e345d44e86d9d5feb581ba86",
-  "updated_at": "2026-11-02T20:14:46.160649+00:00"
+  "original_source_sha256": "cec579d85129a8008655a40671e6709f7c02dc58e345d44e86d9d5feb581ba86",
+  "sha256": "544d948dd0475dd274278fdf455fd6df5789567ac36f1102aac63391a6f26d0d",
+  "word_sha256": "28096cfcdb49376817af64d9ff9100a6ad252eba624802a100ffeaddb48e6c1d",
+  "assessment_protocol_sha256": "f130bba11e4341d7bace0d3218bff9b491980e6d1c2ce2d4920f88fa783ac07e",
+  "updated_at": "2026-11-03T09:18:44.244102+00:00"
 }

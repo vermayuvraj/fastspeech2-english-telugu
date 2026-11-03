@@ -11,10 +11,10 @@ def preserve_selected_report():
     if not status_path.is_file():
         return False
     status = json.loads(status_path.read_text(encoding="utf-8"))
-    if status.get("source") != "user_supplied_pdf":
+    if status.get("source") not in {"user_supplied_pdf", "automatic_evaluation_revision_of_user_report"}:
         return False
     report = root / "Report/Technical_Report.pdf"
     if not report.is_file() or hashlib.sha256(report.read_bytes()).hexdigest() != status["sha256"]:
-        raise ValueError("The selected report is missing or changed. Restore the user-supplied PDF.")
-    print("Preserving the user-supplied Report/Technical_Report.pdf.")
+        raise ValueError("The selected report is missing or changed. Restore the selected PDF or record an explicitly reviewed replacement.")
+    print("Preserving the selected Report/Technical_Report.pdf.")
     return True

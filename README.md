@@ -2,9 +2,12 @@
 
 Independent FastSpeech 2 acoustic models for the IIIT Hyderabad Voice AI assignment. This repository adapts [ming024/FastSpeech2](https://github.com/ming024/FastSpeech2) at commit `d4e79eb52e8b01d24703b2dfc0385544092958f3`.
 
-**Both training runs and all ten test syntheses are complete. The user-selected report is included below. Listening review and Google Form submission approval are pending. The Google Form has not been submitted.** The [submission audit](Report/submission_audit.json) records outstanding checks.
+**Both training runs, all ten test syntheses and the automatic assessment are complete. The revised report awaits final review; the Google Form has not been submitted.** The [submission audit](Report/submission_audit.json) separates technical checks from report approval and submission authorization.
+
+I do not know Telugu, so I used automatic transcription, predicted quality and acoustic measurements for the Telugu assessment. Both languages are assessed automatically. No native-speaker listening or human MOS study is claimed.
 
 - [Technical report in PDF](Report/Technical_Report.pdf)
+- [Editable report in Word](Report/Technical_Report.docx)
 - [English audio and plots](Results/English/README.md)
 - [Telugu audio and plots](Results/Telugu/README.md)
 - Trained checkpoints: [English](English/checkpoints/best.pt) and [Telugu](Telugu/checkpoints/best.pt)
@@ -13,6 +16,19 @@ Independent FastSpeech 2 acoustic models for the IIIT Hyderabad Voice AI assignm
 |---|---:|---:|---:|---:|
 | English | 5.0014 | 1.0020 | 19,000 | 7,000 |
 | Telugu | 5.0001 | 1.0009 | 26,000 | 14,000 |
+
+## Automatic assessment findings
+
+| Language | Whisper CER generated / control % | MMS CER generated / control % | Raw UTMOS generated / control mean |
+|---|---:|---:|---:|
+| English | 33.7 / 3.8 | 49.7 / 8.4 | 0.73 / 2.77 |
+| Telugu | 15.9 / 12.3 | 8.9 / 3.5 | 1.81 / 3.14 |
+
+Each language has five generated samples and ten held-out controls. Both recognizers show a larger generated-versus-control character-error gap for English. MMS recovered the normalized reference characters for T2a and T3; Whisper recovered E2a exactly, while MMS did not. Recognition is model-dependent and does not certify pronunciation or stress. The predicted energy patterns do not clearly demonstrate the requested noun/verb stress reversal in `conduct`.
+
+CER is transcript disagreement, not pronunciation accuracy. UTMOS values are raw, unbounded predictions, not human MOS: values below 1 are retained as extrapolations rather than interpreted as listener ratings. Telugu calibration is unverified. Compare with same-language controls cautiously; these are not cross-language human-quality rankings.
+
+The [protocol](docs/AUTOMATIC_ASSESSMENT.md), [control summaries](Report/automatic_assessment_protocol.json), [English findings](Results/English/AUTOMATIC_ASSESSMENT.md) and [Telugu findings](Results/Telugu/AUTOMATIC_ASSESSMENT.md) document all ten cases, raw hypotheses, measurements and limitations.
 
 ## Setup
 
@@ -78,7 +94,15 @@ Synthesis writes five WAV files per language (E2 and T2 have separate a/b output
 
 Training loss uses minibatch windows. Validation covers the entire held-out split, weights each loss by its valid element count and uses ground-truth variance inputs. Free-running test synthesis uses predictions. Neither lower reconstruction loss nor a regular-looking plot establishes intelligibility.
 
-Listen to each generated sample, then enter `pronunciation`, `overall_quality` and `specific_observations` in `Results/LANGUAGE/listening_review.json`. The report includes only recorded observations. Telugu T2 changes the meaning of “pattu”; this does not inherently require a different segmental pronunciation. English E2 requires a contextual stress check, which average pitch alone cannot establish.
+Automatic observations are stored in `automatic_review.json` and `AUTOMATIC_ASSESSMENT.md` for each language. Their audio and measurement hashes are checked by the audit. The original human `listening_review.json` fields remain unfilled; they are not represented as completed listening. Telugu T2 changes the meaning of “pattu”; this does not inherently require a different segmental pronunciation. English E2 requires a stress contrast that whole-word means and text recovery alone cannot establish.
+
+To reproduce the automatic assessment, install `requirements-evaluation.txt`, then run:
+
+```bash
+python scripts/run_assessment.py --work-dir /absolute/path/to/work
+```
+
+The runner prepares pinned public models and executes transcription, quality prediction, acoustic measurement, the independent MMS cross-check and per-sentence analysis. It does not publish files or submit the form. Evaluation model weights remain in the external cache; [model revisions](docs/automatic_evaluation_models.json), [weight checksums](Report/evaluation_weight_integrity.json) and [package versions](Report/evaluation_environment.json) are recorded separately.
 
 ```bash
 python scripts/run_checks.py
@@ -86,12 +110,12 @@ python scripts/build_report.py
 python scripts/audit_submission.py --strict
 ```
 
-The audit fails on missing real checkpoints, insufficient hours, absent plots/audio, changed prompts, mismatched hashes, diagnostic results or missing listening observations. Review the rendered PDF after rebuilding it.
+The audit fails on missing real checkpoints, insufficient hours, absent plots/audio, changed prompts, mismatched evidence hashes, diagnostic runs or missing sentence-level assessment. Automatic assessment passes only when its method is disclosed and its evidence matches the submitted audio. Report approval and Google Form authorization are separate checks.
 
-The current PDF was supplied by the author. Report-generation commands preserve this selected file and verify its SHA256 instead of replacing it with an earlier generated report.
+The current report revises the author-supplied PDF with the recorded automatic findings. Older report-generation commands preserve the selected PDF's SHA256. The assessed-report builder stages an editable document for visual review instead of silently replacing the selected report.
 
 ## Publication
 
-This repository contains the experiment files for review. Complete the listening notes and obtain explicit Google Form submission approval before submitting. The strict audit remains incomplete while those checks are pending. Both compact inference checkpoints fit GitHub's per-file limit. Raw recordings, caches, tokens and optimizer states remain outside Git.
+This repository contains the experiment files and disclosed automatic assessment for review. The updated report needs approval before Google Form submission; the form must also be explicitly authorized. The strict audit remains incomplete while those approval checks are pending. Both compact inference checkpoints fit GitHub's per-file limit. Raw recordings, caches, tokens and optimizer states remain outside Git.
 
 See `docs/THIRD_PARTY.md` for sources and licensing, and `docs/EXPLAIN_THE_PROJECT.md` for an architecture walkthrough.

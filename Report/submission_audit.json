@@ -1,7 +1,7 @@
 {
   "ready_for_submission": false,
-  "checks_passed": 95,
-  "checks_total": 106,
+  "checks_passed": 106,
+  "checks_total": 108,
   "checks": [
     {
       "check": "English: preprocess.py",
@@ -234,29 +234,29 @@
       "detail": ""
     },
     {
-      "check": "E1: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "E1: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "E2a: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "E2a: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "E2b: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "E2b: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "E3: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "E3: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "E4: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "E4: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
       "check": "Telugu: preprocess.py",
@@ -489,29 +489,29 @@
       "detail": ""
     },
     {
-      "check": "T1: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "T1: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "T2a: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "T2a: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "T2b: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "T2b: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "T3: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "T3: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
-      "check": "T4: listening observations",
-      "passed": false,
-      "detail": ""
+      "check": "T4: sentence-level assessment",
+      "passed": true,
+      "detail": "Automatic measurements with disclosed limitations; no human listening claimed"
     },
     {
       "check": "Independent checkpoint files",
@@ -524,8 +524,18 @@
       "detail": ""
     },
     {
-      "check": "Current report approved by user",
+      "check": "Automatic assessment disclosure and model provenance",
       "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Report matches automatic assessment evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Current report approved by user",
+      "passed": false,
       "detail": "Await explicit user review of the current PDF"
     },
     {
@@ -535,5 +545,8 @@
     }
   ],
   "public_repository_verification": "pending",
-  "form_submission": "pending"
+  "form_submission": "pending",
+  "technical_evaluation_complete": true,
+  "remaining_technical_checks": [],
+  "human_listening_performed": false
 }

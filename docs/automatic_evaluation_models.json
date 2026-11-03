@@ -1,0 +1,7 @@
+{
+  "Systran/faster-whisper-large-v3": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "sarulab-speech/UTMOSv2": "506474f2b33dc77c234d668cc419be1861899cad",
+  "facebook/wav2vec2-base": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+  "timm/tf_efficientnetv2_s.in21k_ft_in1k": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+  "facebook/mms-1b-all": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd"
+}

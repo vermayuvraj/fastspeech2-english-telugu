@@ -5,6 +5,7 @@ import hashlib
 import json
 import os
 import random
+import time
 from pathlib import Path
 
 import numpy as np
@@ -35,7 +36,16 @@ def write_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix(path.suffix + ".tmp")
     temp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    os.replace(temp, path)
+    # Windows readers (including the live monitor) can briefly hold a file
+    # without delete-sharing. Keep replacement atomic and retry that short lock.
+    for attempt in range(8):
+        try:
+            os.replace(temp, path)
+            break
+        except PermissionError:
+            if attempt == 7:
+                raise
+            time.sleep(min(0.05 * (attempt + 1), 0.2))
 
 
 def read_jsonl(path: Path) -> list[dict]:

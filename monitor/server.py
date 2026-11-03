@@ -98,15 +98,29 @@ def language_state(language, work):
 
 def snapshot(work):
     status = read_json(ROOT / "STATUS.json")
+    automatic = {"running": status.get("state") == "automatic_evaluation_running", "completed": 0, "total": 100}
+    for language in ["English", "Telugu"]:
+        result = ROOT / "Results" / language
+        for filename in ["automatic_asr.json", "automatic_asr_mms.json", "automatic_quality.json", "automatic_acoustic_analysis.json"]:
+            automatic["completed"] += len(read_json(result / filename).get("samples", []))
+    downloads = list((work / "cache/huggingface/models--facebook--mms-1b-all").rglob("*.incomplete"))
+    if downloads:
+        size = max(p.stat().st_size for p in downloads)
+        automatic["stage"] = f"Downloading independent speech-recognition cross-check: {size / 1e9:.2f} / 3.86 GB"
+    else:
+        automatic["stage"] = status.get("stage", "Automatic evaluation")
     fallback_stage = {
         "experiments_finished_review_required": "Experiments complete: final review remains",
         "failed": "The pipeline stopped: check its error log",
     }.get(status.get("state"), "Waiting for experiment status")
     logs = sorted(work.glob("english_run*.stdout.log"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if automatic["running"]:
+        logs = sorted([*work.glob("automatic_*full.log"), *work.glob("mms_crosscheck.stdout.log")], key=lambda p: p.stat().st_mtime, reverse=True)
     lines = logs[0].read_text(encoding="utf-8", errors="replace").splitlines()[-22:] if logs else []
     return {
         "now": time.time(),
         "state": status.get("state", "unknown"),
+        "automatic_assessment": automatic,
         "stage": status.get("stage", fallback_stage),
         "process_alive": alive(status.get("pid")),
         "english": language_state("English", work),

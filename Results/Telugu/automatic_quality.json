@@ -1,0 +1,212 @@
+{
+  "samples": [
+    {
+      "id": "T1",
+      "split": "generated",
+      "wav_sha256": "7948dec76687507aa38462980cdc2db7256eceadd0395eb4d69d703b2a7dae31",
+      "predicted_mos": 1.724609375,
+      "crop_predictions": [
+        1.9609375,
+        1.4931640625,
+        1.7197265625
+      ],
+      "crop_standard_deviation": 0.1909989155310822,
+      "seconds": 8.296999999991385
+    },
+    {
+      "id": "T2a",
+      "split": "generated",
+      "wav_sha256": "2d8e39fb89400303eb94af8155607b154c114d785ff22d17f6406fbb99da0355",
+      "predicted_mos": 1.9876302083333333,
+      "crop_predictions": [
+        1.9931640625,
+        2.048828125,
+        1.9208984375
+      ],
+      "crop_standard_deviation": 0.05237345951539046,
+      "seconds": 8.21899999998277
+    },
+    {
+      "id": "T2b",
+      "split": "generated",
+      "wav_sha256": "b7a7ed0bfc951668405ca122ebfabe6028db2fc6225254aa651614a707a4ddff",
+      "predicted_mos": 1.5670572916666667,
+      "crop_predictions": [
+        1.48046875,
+        1.6650390625,
+        1.5556640625
+      ],
+      "crop_standard_deviation": 0.07577996356654378,
+      "seconds": 7.921999999991385
+    },
+    {
+      "id": "T3",
+      "split": "generated",
+      "wav_sha256": "5474bac1ac23a126ff6ae95fb15cc10154881f472201f8b3e3137663e04cb27b",
+      "predicted_mos": 2.0491536458333335,
+      "crop_predictions": [
+        1.7861328125,
+        2.173828125,
+        2.1875
+      ],
+      "crop_standard_deviation": 0.18606754887589386,
+      "seconds": 7.9539999999979045
+    },
+    {
+      "id": "T4",
+      "split": "generated",
+      "wav_sha256": "38563b3246fc06bd4fabffdb5d6ca06bfa24d1ff44fb032d6410b8f5501da7c5",
+      "predicted_mos": 1.7428385416666667,
+      "crop_predictions": [
+        1.59375,
+        1.736328125,
+        1.8984375
+      ],
+      "crop_standard_deviation": 0.12447330987790839,
+      "seconds": 7.89100000000326
+    },
+    {
+      "id": "te_000064",
+      "split": "held_out",
+      "wav_sha256": "71bf5fe0e76180d7aed17d48e4556fbebe37e0b5056a578ab532d6329e552485",
+      "predicted_mos": 3.62890625,
+      "crop_predictions": [
+        3.599609375,
+        3.802734375,
+        3.484375
+      ],
+      "crop_standard_deviation": 0.1316102910772859,
+      "seconds": 7.73399999999674
+    },
+    {
+      "id": "te_000081",
+      "split": "held_out",
+      "wav_sha256": "fe8739763b50509a0d9ab5feffe86336fcbdc6ad38fc26844c41901865eb9033",
+      "predicted_mos": 3.359375,
+      "crop_predictions": [
+        3.099609375,
+        3.58203125,
+        3.396484375
+      ],
+      "crop_standard_deviation": 0.19868827453123125,
+      "seconds": 7.796999999991385
+    },
+    {
+      "id": "te_000095",
+      "split": "held_out",
+      "wav_sha256": "ab69292045c9ee84f18b49d9cadd20e4c3663f8ffdd09fd4a962d16695789727",
+      "predicted_mos": 3.3782552083333335,
+      "crop_predictions": [
+        3.0234375,
+        3.49609375,
+        3.615234375
+      ],
+      "crop_standard_deviation": 0.25556516030363824,
+      "seconds": 7.717999999993481
+    },
+    {
+      "id": "te_000100",
+      "split": "held_out",
+      "wav_sha256": "16dce12714439663d080547e8e6e6a08b1a653cf3cbb87de51a3e6899e7d13f2",
+      "predicted_mos": 3.0091145833333335,
+      "crop_predictions": [
+        3.0546875,
+        2.98828125,
+        2.984375
+      ],
+      "crop_standard_deviation": 0.032264353368135074,
+      "seconds": 8.687999999994645
+    },
+    {
+      "id": "te_000159",
+      "split": "held_out",
+      "wav_sha256": "76971f4a100ccfddf209c849d919e654efef17d999f5d5e44ef7a98dae869493",
+      "predicted_mos": 3.3515625,
+      "crop_predictions": [
+        3.0078125,
+        3.4296875,
+        3.6171875
+      ],
+      "crop_standard_deviation": 0.2548360379734389,
+      "seconds": 8.23499999998603
+    },
+    {
+      "id": "te_000160",
+      "split": "held_out",
+      "wav_sha256": "fc2d597ac094d9c566222267ae173fb0937a3c280785340a8892abbab725b44b",
+      "predicted_mos": 2.0934244791666665,
+      "crop_predictions": [
+        1.9931640625,
+        2.134765625,
+        2.15234375
+      ],
+      "crop_standard_deviation": 0.07125709780907964,
+      "seconds": 8.59299999999348
+    },
+    {
+      "id": "te_000164",
+      "split": "held_out",
+      "wav_sha256": "b3e865092c569d46ea9ebb64d409c7e8ece628b13523c0ec364271a27b3541f4",
+      "predicted_mos": 3.3671875,
+      "crop_predictions": [
+        3.75,
+        3.51171875,
+        2.83984375
+      ],
+      "crop_standard_deviation": 0.38536827539678414,
+      "seconds": 8.719000000011874
+    },
+    {
+      "id": "te_000172",
+      "split": "held_out",
+      "wav_sha256": "69cef4807fa30877f32ab2a60aa5c9da934d1b615a1f3cd0bde9c6aafad7f678",
+      "predicted_mos": 3.1419270833333335,
+      "crop_predictions": [
+        3.21875,
+        3.0703125,
+        3.13671875
+      ],
+      "crop_standard_deviation": 0.06071116263997274,
+      "seconds": 8.639999999984866
+    },
+    {
+      "id": "te_000208",
+      "split": "held_out",
+      "wav_sha256": "1abd5d5780ecdc9817fbffb3994500854d7c573f38fa37e76ab3d2f3f9b9b1ba",
+      "predicted_mos": 3.15234375,
+      "crop_predictions": [
+        3.20703125,
+        3.404296875,
+        2.845703125
+      ],
+      "crop_standard_deviation": 0.231300362266546,
+      "seconds": 8.76500000001397
+    },
+    {
+      "id": "te_000308",
+      "split": "held_out",
+      "wav_sha256": "a3da39b1ed6efaeaf74c462dedaf3827f98a3dff32c30627fd6155a5d6880655",
+      "predicted_mos": 2.9264322916666665,
+      "crop_predictions": [
+        3.0703125,
+        2.755859375,
+        2.953125
+      ],
+      "crop_standard_deviation": 0.12975507045761953,
+      "seconds": 8.219000000011874
+    }
+  ],
+  "model": "sarulab-speech/UTMOSv2",
+  "model_revision": "506474f2b33dc77c234d668cc419be1861899cad",
+  "checkpoint_sha256": "c8149d988e4bbf3f347e6966b5d769de347a5f8c59ffca1dc4bd4bf5b8585e57",
+  "code_revision": "cc2700db57bb83ee13dc31ebe1b868c254e15d09",
+  "configuration": "fusion_stage3 fold0 seed42",
+  "backbone_revisions": {
+    "facebook/wav2vec2-base": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+    "timm/tf_efficientnetv2_s.in21k_ft_in1k": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e"
+  },
+  "predict_dataset": "sarulab",
+  "repeats": 3,
+  "remove_silent_section": false,
+  "interpretation": "Raw predicted naturalness MOS, not human MOS. Predictions are unbounded and are not clipped to the nominal 1-5 listener scale. Crop variation is not listener uncertainty. Telugu calibration is unverified; compare only cautiously with same-language held-out controls."
+}

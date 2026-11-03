@@ -1,0 +1,203 @@
+{
+  "method": "automatic_assessment",
+  "human_listening_performed": false,
+  "author_does_not_know_telugu": true,
+  "author_statement": "I do not know Telugu, so I used automatic transcription, predicted-quality scores and acoustic measurements to assess the Telugu outputs. Assessment of both languages is automatic. No native-speaker listening or human MOS study was performed.",
+  "asr_reference_supplied_to_recognizer": false,
+  "recognizers": [
+    "Whisper large-v3",
+    "MMS-1b-all with eng/tel language adapters"
+  ],
+  "model_revisions": {
+    "Systran/faster-whisper-large-v3": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "sarulab-speech/UTMOSv2": "506474f2b33dc77c234d668cc419be1861899cad",
+    "facebook/wav2vec2-base": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+    "timm/tf_efficientnetv2_s.in21k_ft_in1k": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+    "facebook/mms-1b-all": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd"
+  },
+  "controls": {
+    "count": 10,
+    "corpus_wer": 0.7073170731707317,
+    "corpus_cer_without_spaces": 0.12302284710017575,
+    "predicted_mos_mean": 3.1408528645833336,
+    "predicted_mos_median": 3.251953125,
+    "predicted_mos_range": [
+      2.0934244791666665,
+      3.62890625
+    ]
+  },
+  "limitations": [
+    "ASR transcript disagreement can be caused by the recognizer, spelling, word spacing, accent or synthesis; it is not phoneme-level pronunciation accuracy.",
+    "UTMOSv2 predicts naturalness; its output is not human MOS. Telugu calibration is unverified. Cross-language quality ranking is not justified.",
+    "The quality regressor is unbounded: a prediction below 1 or above 5 is retained as a raw extrapolation, not a valid listener rating on the nominal 1-5 MOS scale.",
+    "Model grapheme durations define the analysed word and con/duct spans; these are not independently validated syllable or phoneme alignments.",
+    "Native-speaker correctness, conversational naturalness and the intended stress contrast are not certified by these automatic tests."
+  ],
+  "completed_at": "2026-11-03T08:18:02.549800+00:00",
+  "language": "Telugu",
+  "generated": {
+    "count": 5,
+    "corpus_wer": 0.5714285714285714,
+    "corpus_cer_without_spaces": 0.15891472868217055,
+    "predicted_mos_mean": 1.8142578125,
+    "predicted_mos_median": 1.7428385416666667,
+    "predicted_mos_range": [
+      1.5670572916666667,
+      2.0491536458333335
+    ]
+  },
+  "controls_mms": {
+    "count": 10,
+    "corpus_wer": 0.45121951219512196,
+    "corpus_cer_without_spaces": 0.0351493848857645,
+    "predicted_mos_mean": 3.1408528645833336,
+    "predicted_mos_median": 3.251953125,
+    "predicted_mos_range": [
+      2.0934244791666665,
+      3.62890625
+    ]
+  },
+  "generated_mms": {
+    "count": 5,
+    "corpus_wer": 0.3333333333333333,
+    "corpus_cer_without_spaces": 0.08914728682170543,
+    "predicted_mos_mean": 1.8142578125,
+    "predicted_mos_median": 1.7428385416666667,
+    "predicted_mos_range": [
+      1.5670572916666667,
+      2.0491536458333335
+    ]
+  },
+  "samples": [
+    {
+      "id": "T1",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "న్యూరోఫార్మకోలాజికల్ పరిశోధనలో నూతన ఔషధాల ప్రభావాన్ని విశ్లేషించారు.",
+      "wav_sha256": "7948dec76687507aa38462980cdc2db7256eceadd0395eb4d69d703b2a7dae31",
+      "pronunciation_observations": "Whisper WER is 100.0%; whitespace-free CER is 24.2%. Independent MMS gives WER 83.3%, CER 14.5%. Whisper has 5 word substitutions, 0 deletions and 1 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 1.72, compared with a mean of 3.14 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 6.05 s. The target word occupies 1289 ms (21% of the utterance).",
+      "pitch_observations": "Predicted continuous F0 spans 100-294 Hz. Its duration-weighted F0 is 249.1 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 0.1-108.9. Its duration-weighted mean is 53.8.",
+      "asr_transcript": "నూరో పార్మకోలాజికల్ పరిసోధనలో నూతన అవస్తదాల ప్రభావాని విషేషించారు",
+      "mms_transcript": "న్యూరోపారమకోలాజికల్ పరిశోదనలో మూతన అవశధాల ప్రభావాన్ని విశేషించారు",
+      "wer": 1.0,
+      "cer_without_spaces": 0.24193548387096775,
+      "mms_wer": 0.8333333333333334,
+      "mms_cer_without_spaces": 0.14516129032258066,
+      "predicted_mos": 1.724609375,
+      "duration_seconds": 6.048798185941043,
+      "evidence": {
+        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
+        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
+        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
+        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+      }
+    },
+    {
+      "id": "T2a",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది.",
+      "wav_sha256": "2d8e39fb89400303eb94af8155607b154c114d785ff22d17f6406fbb99da0355",
+      "pronunciation_observations": "Whisper WER is 33.3%; whitespace-free CER is 3.6%. Independent MMS gives WER 0.0%, CER 0.0%. Whisper has 1 word substitutions, 0 deletions and 1 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 1.99, compared with a mean of 3.14 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 3.33 s. Pattu takes 279 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 113-247 Hz. Pattu's mean is 201.9 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 0.3-78.2. Pattu's mean is 19.4. The meaning difference does not itself require a different segmental pronunciation.",
+      "asr_transcript": "టాడు పై అతని పట్టు చాలా బలంగా ఉంది",
+      "mms_transcript": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది",
+      "wer": 0.3333333333333333,
+      "cer_without_spaces": 0.03571428571428571,
+      "mms_wer": 0.0,
+      "mms_cer_without_spaces": 0.0,
+      "predicted_mos": 1.9876302083333333,
+      "duration_seconds": 3.332063492063492,
+      "evidence": {
+        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
+        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
+        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
+        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+      }
+    },
+    {
+      "id": "T2b",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "ఆమె పట్టు చీరను ధరించి వేడుకకు వచ్చింది.",
+      "wav_sha256": "b7a7ed0bfc951668405ca122ebfabe6028db2fc6225254aa651614a707a4ddff",
+      "pronunciation_observations": "Whisper WER is 50.0%; whitespace-free CER is 20.6%. Independent MMS gives WER 16.7%, CER 11.8%. Whisper has 3 word substitutions, 0 deletions and 0 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 1.57, compared with a mean of 3.14 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 3.54 s. Pattu takes 267 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 89-252 Hz. Pattu's mean is 200.2 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 0.3-78.0. Pattu's mean is 16.3. The meaning difference does not itself require a different segmental pronunciation.",
+      "asr_transcript": "ఆను పట్టు చిరనోక్ దరించి వేడుకకు వచ్చింది",
+      "mms_transcript": "ఆమె పట్టు చీరను ఉద్దరించి వేడుకకు వచ్చింది",
+      "wer": 0.5,
+      "cer_without_spaces": 0.20588235294117646,
+      "mms_wer": 0.16666666666666666,
+      "mms_cer_without_spaces": 0.11764705882352941,
+      "predicted_mos": 1.5670572916666667,
+      "duration_seconds": 3.541043083900227,
+      "evidence": {
+        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
+        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
+        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
+        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+      }
+    },
+    {
+      "id": "T3",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "పులి అడ విలో నిశ్శబ్దంగా నడిచింది.",
+      "wav_sha256": "5474bac1ac23a126ff6ae95fb15cc10154881f472201f8b3e3137663e04cb27b",
+      "pronunciation_observations": "Whisper WER is 60.0%; whitespace-free CER is 6.9%. Independent MMS gives WER 40.0%, CER 0.0%. Whisper has 2 word substitutions, 1 deletions and 0 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 2.05, compared with a mean of 3.14 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 3.23 s. The retained adda/viloo split receives a 81 ms boundary; the sentence's median interword boundary is 104 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 106-270 Hz. The two fragments' mean F0 values are 173.8/209.9 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 0.1-86.1. Their mean energy values are 38.8/53.8. Character-error scoring ignores whitespace, while word-error scoring retains this split.",
+      "asr_transcript": "పులి అడవిలో నిస్యబ్దంగా నడిచింది",
+      "mms_transcript": "పులి అడవిలో నిశ్శబ్దంగా నడిచింది",
+      "wer": 0.6,
+      "cer_without_spaces": 0.06896551724137931,
+      "mms_wer": 0.4,
+      "mms_cer_without_spaces": 0.0,
+      "predicted_mos": 2.0491536458333335,
+      "duration_seconds": 3.2275736961451247,
+      "evidence": {
+        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
+        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
+        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
+        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+      }
+    },
+    {
+      "id": "T4",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "ఈ సమావేశం 2026 నవంబర్ 12వ తేదీ ఉదయం 10:45 గంటలకు ప్రారంభమవుతుంది, సమయానికి సిద్ధంగా ఉంచండి.",
+      "wav_sha256": "38563b3246fc06bd4fabffdb5d6ca06bfa24d1ff44fb032d6410b8f5501da7c5",
+      "pronunciation_observations": "Whisper WER is 52.6%; whitespace-free CER is 15.2%. Independent MMS gives WER 31.6%, CER 9.5%. Whisper has 8 word substitutions, 1 deletions and 1 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 1.74, compared with a mean of 3.14 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 9.83 s. The boundary between nalabhai/aidu (forty/five) is 348 ms; the later clause boundary is 453 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 100-258 Hz. Mean word F0 falls from 200.3 Hz at the start to 121.1 Hz at the end.",
+      "energy_observations": "Predicted relative STFT energy spans 0.1-91.4. One zero-duration word-boundary token occurs in the year; no lexical token has zero duration. This is not evidence of an omitted spoken word.",
+      "asr_transcript": "ఈ సమావేసం వెండు వేలా ఇరవై ఆరు నవంబర్ పంన్నండవతేది ఉదేయం పది గంటల నలబై ఐదు నిమిషాలకు ప్రారంభం హోతుంది సమయానికి సిద్ధంగా ఉ",
+      "mms_transcript": "ఈ సమావేశం 2,0020 6 నవంబర్ 1ెండవ తేది ఉదయం పదగంటల నలభై ఐదు నిమిషాలకు ప్రారంభమౌుతుంది సమయానికి సిద్ధంగా ఉంచండి",
+      "wer": 0.5263157894736842,
+      "cer_without_spaces": 0.1523809523809524,
+      "mms_wer": 0.3157894736842105,
+      "mms_cer_without_spaces": 0.09523809523809523,
+      "predicted_mos": 1.7428385416666667,
+      "duration_seconds": 9.833650793650794,
+      "evidence": {
+        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
+        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
+        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
+        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+      }
+    }
+  ]
+}

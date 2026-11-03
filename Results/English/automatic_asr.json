@@ -1,0 +1,1871 @@
+{
+  "samples": [
+    {
+      "id": "E1",
+      "split": "generated",
+      "wav_sha256": "1e0efc6f234d9fc4c27ca4f5d0802ac852a37666d832fad487616579719f6b31",
+      "reference_expanded": "The antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings.",
+      "transcript": "then there is established materialism of the considerable momentum leading up to the notary proceedings.",
+      "transcript_expanded": "then there is established materialism of the considerable momentum leading up to the notary proceedings.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "the antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings",
+        "hypothesis_normalized": "then there is established materialism of the considerable momentum leading up to the notary proceedings",
+        "wer": 1.1,
+        "cer_without_spaces": 0.3673469387755102,
+        "reference_words": 10,
+        "reference_characters_without_spaces": 98,
+        "word_substitutions": 6,
+        "word_deletions": 0,
+        "word_insertions": 5,
+        "character_substitutions": 15,
+        "character_deletions": 15,
+        "character_insertions": 6
+      },
+      "reference_normalized": "the antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings",
+      "hypothesis_normalized": "then there is established materialism of the considerable momentum leading up to the notary proceedings",
+      "wer": 1.1,
+      "cer_without_spaces": 0.3673469387755102,
+      "reference_words": 10,
+      "reference_characters_without_spaces": 98,
+      "word_substitutions": 6,
+      "word_deletions": 0,
+      "word_insertions": 5,
+      "character_substitutions": 15,
+      "character_deletions": 15,
+      "character_insertions": 6,
+      "language": "en",
+      "seconds": 3.2030000000086147,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.06,
+          "text": " then there is established materialism of the considerable momentum",
+          "avg_logprob": -0.8288043270940366,
+          "no_speech_prob": 0.35693359375,
+          "words": [
+            {
+              "word": " then",
+              "start": 0.0,
+              "end": 0.38,
+              "probability": 0.13330078125
+            },
+            {
+              "word": " there",
+              "start": 0.38,
+              "end": 0.54,
+              "probability": 0.428955078125
+            },
+            {
+              "word": " is",
+              "start": 0.54,
+              "end": 0.74,
+              "probability": 0.92041015625
+            },
+            {
+              "word": " established",
+              "start": 0.74,
+              "end": 0.96,
+              "probability": 0.2398681640625
+            },
+            {
+              "word": " materialism",
+              "start": 0.96,
+              "end": 1.8,
+              "probability": 0.984130859375
+            },
+            {
+              "word": " of",
+              "start": 1.8,
+              "end": 1.92,
+              "probability": 0.262939453125
+            },
+            {
+              "word": " the",
+              "start": 1.92,
+              "end": 2.14,
+              "probability": 0.1085205078125
+            },
+            {
+              "word": " considerable",
+              "start": 2.14,
+              "end": 3.48,
+              "probability": 0.9033203125
+            },
+            {
+              "word": " momentum",
+              "start": 3.48,
+              "end": 4.06,
+              "probability": 0.9326171875
+            }
+          ]
+        },
+        {
+          "start": 4.06,
+          "end": 5.56,
+          "text": " leading up to the notary proceedings.",
+          "avg_logprob": -0.8288043270940366,
+          "no_speech_prob": 0.35693359375,
+          "words": [
+            {
+              "word": " leading",
+              "start": 4.06,
+              "end": 4.48,
+              "probability": 0.256103515625
+            },
+            {
+              "word": " up",
+              "start": 4.48,
+              "end": 4.74,
+              "probability": 0.71826171875
+            },
+            {
+              "word": " to",
+              "start": 4.74,
+              "end": 4.8,
+              "probability": 0.7177734375
+            },
+            {
+              "word": " the",
+              "start": 4.8,
+              "end": 4.92,
+              "probability": 0.490234375
+            },
+            {
+              "word": " notary",
+              "start": 4.92,
+              "end": 5.24,
+              "probability": 0.553314208984375
+            },
+            {
+              "word": " proceedings.",
+              "start": 5.24,
+              "end": 5.56,
+              "probability": 0.9921875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E2a",
+      "split": "generated",
+      "wav_sha256": "3200a7502d73633960cfd71da8d71a6139c6fce0119ab5bef2f54a4a599dd328",
+      "reference_expanded": "The orchestra's conduct during the ceremony was praised by the audience.",
+      "transcript": "The orchestra's conduct during the ceremony was praised by the audience.",
+      "transcript_expanded": "The orchestra's conduct during the ceremony was praised by the audience.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "the orchestras conduct during the ceremony was praised by the audience",
+        "hypothesis_normalized": "the orchestras conduct during the ceremony was praised by the audience",
+        "wer": 0.0,
+        "cer_without_spaces": 0.0,
+        "reference_words": 11,
+        "reference_characters_without_spaces": 60,
+        "word_substitutions": 0,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "the orchestras conduct during the ceremony was praised by the audience",
+      "hypothesis_normalized": "the orchestras conduct during the ceremony was praised by the audience",
+      "wer": 0.0,
+      "cer_without_spaces": 0.0,
+      "reference_words": 11,
+      "reference_characters_without_spaces": 60,
+      "word_substitutions": 0,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 1.4839999999967404,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.56,
+          "text": " The orchestra's conduct during the ceremony was praised by the audience.",
+          "avg_logprob": -0.3596191294491291,
+          "no_speech_prob": 0.17236328125,
+          "words": [
+            {
+              "word": " The",
+              "start": 0.0,
+              "end": 0.32,
+              "probability": 0.6484375
+            },
+            {
+              "word": " orchestra's",
+              "start": 0.32,
+              "end": 0.92,
+              "probability": 0.504638671875
+            },
+            {
+              "word": " conduct",
+              "start": 0.92,
+              "end": 1.16,
+              "probability": 0.387451171875
+            },
+            {
+              "word": " during",
+              "start": 1.16,
+              "end": 2.1,
+              "probability": 0.9814453125
+            },
+            {
+              "word": " the",
+              "start": 2.1,
+              "end": 2.28,
+              "probability": 0.96728515625
+            },
+            {
+              "word": " ceremony",
+              "start": 2.28,
+              "end": 2.68,
+              "probability": 0.98974609375
+            },
+            {
+              "word": " was",
+              "start": 2.68,
+              "end": 3.34,
+              "probability": 0.9775390625
+            },
+            {
+              "word": " praised",
+              "start": 3.34,
+              "end": 3.74,
+              "probability": 0.97412109375
+            },
+            {
+              "word": " by",
+              "start": 3.74,
+              "end": 4.0,
+              "probability": 0.9970703125
+            },
+            {
+              "word": " the",
+              "start": 4.0,
+              "end": 4.16,
+              "probability": 0.994140625
+            },
+            {
+              "word": " audience.",
+              "start": 4.16,
+              "end": 4.56,
+              "probability": 0.99609375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E2b",
+      "split": "generated",
+      "wav_sha256": "f8b810afa920207ba9fea86776817d4595dd7e98aac50bf50a735f38985c9d76",
+      "reference_expanded": "The researchers will conduct an experiment to evaluate the proposed method.",
+      "transcript": "researchers need to conduct an experiment to manipulate the progress report.",
+      "transcript_expanded": "researchers need to conduct an experiment to manipulate the progress report.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "the researchers will conduct an experiment to evaluate the proposed method",
+        "hypothesis_normalized": "researchers need to conduct an experiment to manipulate the progress report",
+        "wer": 0.5454545454545454,
+        "cer_without_spaces": 0.390625,
+        "reference_words": 11,
+        "reference_characters_without_spaces": 64,
+        "word_substitutions": 6,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 16,
+        "character_deletions": 4,
+        "character_insertions": 5
+      },
+      "reference_normalized": "the researchers will conduct an experiment to evaluate the proposed method",
+      "hypothesis_normalized": "researchers need to conduct an experiment to manipulate the progress report",
+      "wer": 0.5454545454545454,
+      "cer_without_spaces": 0.390625,
+      "reference_words": 11,
+      "reference_characters_without_spaces": 64,
+      "word_substitutions": 6,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 16,
+      "character_deletions": 4,
+      "character_insertions": 5,
+      "language": "en",
+      "seconds": 1.375,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.5,
+          "text": " researchers need to conduct an experiment to manipulate the progress report.",
+          "avg_logprob": -0.7572916428248088,
+          "no_speech_prob": 0.1907958984375,
+          "words": [
+            {
+              "word": " researchers",
+              "start": 0.0,
+              "end": 0.56,
+              "probability": 0.39599609375
+            },
+            {
+              "word": " need",
+              "start": 0.56,
+              "end": 0.9,
+              "probability": 0.343994140625
+            },
+            {
+              "word": " to",
+              "start": 0.9,
+              "end": 0.96,
+              "probability": 0.5048828125
+            },
+            {
+              "word": " conduct",
+              "start": 0.96,
+              "end": 1.24,
+              "probability": 0.243896484375
+            },
+            {
+              "word": " an",
+              "start": 1.24,
+              "end": 1.46,
+              "probability": 0.95751953125
+            },
+            {
+              "word": " experiment",
+              "start": 1.46,
+              "end": 1.9,
+              "probability": 0.9560546875
+            },
+            {
+              "word": " to",
+              "start": 1.9,
+              "end": 2.38,
+              "probability": 0.9501953125
+            },
+            {
+              "word": " manipulate",
+              "start": 2.38,
+              "end": 2.68,
+              "probability": 0.07763671875
+            },
+            {
+              "word": " the",
+              "start": 2.68,
+              "end": 2.98,
+              "probability": 0.7255859375
+            },
+            {
+              "word": " progress",
+              "start": 2.98,
+              "end": 3.2,
+              "probability": 0.283447265625
+            },
+            {
+              "word": " report.",
+              "start": 3.2,
+              "end": 3.5,
+              "probability": 0.89501953125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "split": "generated",
+      "wav_sha256": "0b58da03bd677de36c8c12bf5bc6183be790d2bf9eb392abd7c1a2774d3be777",
+      "reference_expanded": "The rhyth  m of the orchestra changed unexpectedly.",
+      "transcript": "then I do what the orchestra changed in respect to me.",
+      "transcript_expanded": "then I do what the orchestra changed in respect to me.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "the rhyth m of the orchestra changed unexpectedly",
+        "hypothesis_normalized": "then i do what the orchestra changed in respect to me",
+        "wer": 1.0,
+        "cer_without_spaces": 0.35714285714285715,
+        "reference_words": 8,
+        "reference_characters_without_spaces": 42,
+        "word_substitutions": 5,
+        "word_deletions": 0,
+        "word_insertions": 3,
+        "character_substitutions": 12,
+        "character_deletions": 1,
+        "character_insertions": 2
+      },
+      "reference_normalized": "the rhyth m of the orchestra changed unexpectedly",
+      "hypothesis_normalized": "then i do what the orchestra changed in respect to me",
+      "wer": 1.0,
+      "cer_without_spaces": 0.35714285714285715,
+      "reference_words": 8,
+      "reference_characters_without_spaces": 42,
+      "word_substitutions": 5,
+      "word_deletions": 0,
+      "word_insertions": 3,
+      "character_substitutions": 12,
+      "character_deletions": 1,
+      "character_insertions": 2,
+      "language": "en",
+      "seconds": 1.5940000000118744,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.36,
+          "text": " then I do what the orchestra changed in respect to me.",
+          "avg_logprob": -0.834375015894572,
+          "no_speech_prob": 0.2479248046875,
+          "words": [
+            {
+              "word": " then",
+              "start": 0.0,
+              "end": 0.2,
+              "probability": 0.08087158203125
+            },
+            {
+              "word": " I",
+              "start": 0.2,
+              "end": 0.3,
+              "probability": 0.77880859375
+            },
+            {
+              "word": " do",
+              "start": 0.3,
+              "end": 0.46,
+              "probability": 0.822265625
+            },
+            {
+              "word": " what",
+              "start": 0.46,
+              "end": 0.58,
+              "probability": 0.2802734375
+            },
+            {
+              "word": " the",
+              "start": 0.58,
+              "end": 0.74,
+              "probability": 0.92041015625
+            },
+            {
+              "word": " orchestra",
+              "start": 0.74,
+              "end": 1.12,
+              "probability": 0.324462890625
+            },
+            {
+              "word": " changed",
+              "start": 1.12,
+              "end": 1.6,
+              "probability": 0.53759765625
+            },
+            {
+              "word": " in",
+              "start": 1.6,
+              "end": 1.82,
+              "probability": 0.347412109375
+            },
+            {
+              "word": " respect",
+              "start": 1.82,
+              "end": 2.08,
+              "probability": 0.5615234375
+            },
+            {
+              "word": " to",
+              "start": 2.08,
+              "end": 2.26,
+              "probability": 0.84423828125
+            },
+            {
+              "word": " me.",
+              "start": 2.26,
+              "end": 2.36,
+              "probability": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "split": "generated",
+      "wav_sha256": "2b638b4e93fe355d0a7c1a2da5bccd892781fc25a03b77bca49b6eb66a1f7deb",
+      "reference_expanded": "The meeting will start at ten forty-five a m on twelfth of November two thousand and twenty-six, so andaroo should arrive on time.",
+      "transcript": "The meeting will start at 10.45 a.m. and will end around 11.06 a.m. So, there was a very good time.",
+      "transcript_expanded": "The meeting will start at ten forty-five a m and will end around eleven oh six a m So, there was a very good time.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "the meeting will start at ten forty five a m on twelfth of november two thousand and twenty six so andaroo should arrive on time",
+        "hypothesis_normalized": "the meeting will start at 10 45 a m and will end around 11 06 a m so there was a very good time",
+        "wer": 0.68,
+        "cer_without_spaces": 0.6057692307692307,
+        "reference_words": 25,
+        "reference_characters_without_spaces": 104,
+        "word_substitutions": 16,
+        "word_deletions": 1,
+        "word_insertions": 0,
+        "character_substitutions": 31,
+        "character_deletions": 32,
+        "character_insertions": 0
+      },
+      "reference_normalized": "the meeting will start at ten forty five a m on twelfth of november two thousand and twenty six so andaroo should arrive on time",
+      "hypothesis_normalized": "the meeting will start at ten forty five a m and will end around eleven oh six a m so there was a very good time",
+      "wer": 0.56,
+      "cer_without_spaces": 0.46153846153846156,
+      "reference_words": 25,
+      "reference_characters_without_spaces": 104,
+      "word_substitutions": 13,
+      "word_deletions": 0,
+      "word_insertions": 1,
+      "character_substitutions": 23,
+      "character_deletions": 21,
+      "character_insertions": 4,
+      "language": "en",
+      "seconds": 2.4689999999827705,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.9,
+          "text": " The meeting will start at 10.45 a.m. and will end around 11.06 a.m.",
+          "avg_logprob": -0.5532094659032049,
+          "no_speech_prob": 0.057464599609375,
+          "words": [
+            {
+              "word": " The",
+              "start": 0.0,
+              "end": 0.36,
+              "probability": 0.42431640625
+            },
+            {
+              "word": " meeting",
+              "start": 0.36,
+              "end": 0.58,
+              "probability": 0.9580078125
+            },
+            {
+              "word": " will",
+              "start": 0.58,
+              "end": 0.84,
+              "probability": 0.658203125
+            },
+            {
+              "word": " start",
+              "start": 0.84,
+              "end": 1.1,
+              "probability": 0.9833984375
+            },
+            {
+              "word": " at",
+              "start": 1.1,
+              "end": 1.88,
+              "probability": 0.96484375
+            },
+            {
+              "word": " 10",
+              "start": 1.88,
+              "end": 2.1,
+              "probability": 0.87744140625
+            },
+            {
+              "word": ".45",
+              "start": 2.1,
+              "end": 2.54,
+              "probability": 0.58013916015625
+            },
+            {
+              "word": " a",
+              "start": 2.54,
+              "end": 2.8,
+              "probability": 0.07513427734375
+            },
+            {
+              "word": ".m.",
+              "start": 2.8,
+              "end": 3.0,
+              "probability": 0.995361328125
+            },
+            {
+              "word": " and",
+              "start": 3.04,
+              "end": 3.04,
+              "probability": 0.140625
+            },
+            {
+              "word": " will",
+              "start": 3.04,
+              "end": 3.16,
+              "probability": 0.414306640625
+            },
+            {
+              "word": " end",
+              "start": 3.16,
+              "end": 3.4,
+              "probability": 0.474853515625
+            },
+            {
+              "word": " around",
+              "start": 3.4,
+              "end": 3.58,
+              "probability": 0.51953125
+            },
+            {
+              "word": " 11",
+              "start": 3.58,
+              "end": 3.78,
+              "probability": 0.212158203125
+            },
+            {
+              "word": ".06",
+              "start": 3.78,
+              "end": 4.36,
+              "probability": 0.61865234375
+            },
+            {
+              "word": " a",
+              "start": 4.36,
+              "end": 4.58,
+              "probability": 0.484375
+            },
+            {
+              "word": ".m.",
+              "start": 4.58,
+              "end": 4.9,
+              "probability": 0.999755859375
+            }
+          ]
+        },
+        {
+          "start": 4.9,
+          "end": 6.3,
+          "text": " So, there was a very good time.",
+          "avg_logprob": -0.5532094659032049,
+          "no_speech_prob": 0.057464599609375,
+          "words": [
+            {
+              "word": " So,",
+              "start": 4.9,
+              "end": 4.96,
+              "probability": 0.6455078125
+            },
+            {
+              "word": " there",
+              "start": 5.08,
+              "end": 5.36,
+              "probability": 0.55859375
+            },
+            {
+              "word": " was",
+              "start": 5.36,
+              "end": 5.58,
+              "probability": 0.353271484375
+            },
+            {
+              "word": " a",
+              "start": 5.58,
+              "end": 5.7,
+              "probability": 0.8564453125
+            },
+            {
+              "word": " very",
+              "start": 5.7,
+              "end": 5.88,
+              "probability": 0.966796875
+            },
+            {
+              "word": " good",
+              "start": 5.88,
+              "end": 6.06,
+              "probability": 0.81201171875
+            },
+            {
+              "word": " time.",
+              "start": 6.06,
+              "end": 6.3,
+              "probability": 0.99609375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000010",
+      "split": "held_out",
+      "wav_sha256": "ac993531ad36215817e13fef9dd161b8da9fd3d1f74c09cde28b9eb6a2b80ac2",
+      "reference_expanded": "Among the poets, I remember William Wordsworth, T.S.",
+      "transcript": "Among the poets, I remember William Wordsworth, T.S. Ely,",
+      "transcript_expanded": "Among the poets, I remember William Wordsworth, T.S. Ely,",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "among the poets i remember william wordsworth t s",
+        "hypothesis_normalized": "among the poets i remember william wordsworth t s ely",
+        "wer": 0.1111111111111111,
+        "cer_without_spaces": 0.07317073170731707,
+        "reference_words": 9,
+        "reference_characters_without_spaces": 41,
+        "word_substitutions": 0,
+        "word_deletions": 0,
+        "word_insertions": 1,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 3
+      },
+      "reference_normalized": "among the poets i remember william wordsworth t s",
+      "hypothesis_normalized": "among the poets i remember william wordsworth t s ely",
+      "wer": 0.1111111111111111,
+      "cer_without_spaces": 0.07317073170731707,
+      "reference_words": 9,
+      "reference_characters_without_spaces": 41,
+      "word_substitutions": 0,
+      "word_deletions": 0,
+      "word_insertions": 1,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 3,
+      "language": "en",
+      "seconds": 8.171999999991385,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.38,
+          "text": " Among the poets, I remember William Wordsworth, T.S. Ely,",
+          "avg_logprob": -0.27031248807907104,
+          "no_speech_prob": 0.015045166015625,
+          "words": [
+            {
+              "word": " Among",
+              "start": 0.0,
+              "end": 0.2,
+              "probability": 0.9013671875
+            },
+            {
+              "word": " the",
+              "start": 0.2,
+              "end": 0.4,
+              "probability": 0.90283203125
+            },
+            {
+              "word": " poets,",
+              "start": 0.4,
+              "end": 0.78,
+              "probability": 0.93212890625
+            },
+            {
+              "word": " I",
+              "start": 1.0,
+              "end": 1.54,
+              "probability": 0.9833984375
+            },
+            {
+              "word": " remember",
+              "start": 1.54,
+              "end": 1.96,
+              "probability": 0.9921875
+            },
+            {
+              "word": " William",
+              "start": 1.96,
+              "end": 3.46,
+              "probability": 0.93701171875
+            },
+            {
+              "word": " Wordsworth,",
+              "start": 3.46,
+              "end": 4.36,
+              "probability": 0.96484375
+            },
+            {
+              "word": " T",
+              "start": 4.52,
+              "end": 4.9,
+              "probability": 0.9521484375
+            },
+            {
+              "word": ".S.",
+              "start": 4.9,
+              "end": 5.18,
+              "probability": 0.845458984375
+            },
+            {
+              "word": " Ely,",
+              "start": 5.18,
+              "end": 5.38,
+              "probability": 0.6292724609375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000012",
+      "split": "held_out",
+      "wav_sha256": "9849d79274275ca13ba74754754c544e1139db8cdb4194f527750e7edae580ed",
+      "reference_expanded": "normal competitions what we have.",
+      "transcript": "the normal competitions what we have.",
+      "transcript_expanded": "the normal competitions what we have.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "normal competitions what we have",
+        "hypothesis_normalized": "the normal competitions what we have",
+        "wer": 0.2,
+        "cer_without_spaces": 0.10714285714285714,
+        "reference_words": 5,
+        "reference_characters_without_spaces": 28,
+        "word_substitutions": 0,
+        "word_deletions": 0,
+        "word_insertions": 1,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 3
+      },
+      "reference_normalized": "normal competitions what we have",
+      "hypothesis_normalized": "the normal competitions what we have",
+      "wer": 0.2,
+      "cer_without_spaces": 0.10714285714285714,
+      "reference_words": 5,
+      "reference_characters_without_spaces": 28,
+      "word_substitutions": 0,
+      "word_deletions": 0,
+      "word_insertions": 1,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 3,
+      "language": "en",
+      "seconds": 5.89100000000326,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.22,
+          "text": " the normal competitions what we have.",
+          "avg_logprob": -0.3392578125,
+          "no_speech_prob": 0.02789306640625,
+          "words": [
+            {
+              "word": " the",
+              "start": 0.0,
+              "end": 0.12,
+              "probability": 0.79833984375
+            },
+            {
+              "word": " normal",
+              "start": 0.12,
+              "end": 0.5,
+              "probability": 0.9853515625
+            },
+            {
+              "word": " competitions",
+              "start": 0.5,
+              "end": 1.2,
+              "probability": 0.720703125
+            },
+            {
+              "word": " what",
+              "start": 1.2,
+              "end": 1.84,
+              "probability": 0.69921875
+            },
+            {
+              "word": " we",
+              "start": 1.84,
+              "end": 2.04,
+              "probability": 0.99658203125
+            },
+            {
+              "word": " have.",
+              "start": 2.04,
+              "end": 2.22,
+              "probability": 0.98046875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000032",
+      "split": "held_out",
+      "wav_sha256": "6856197f496b2d79680df2d15eca8fc515fa9c3a827c333d3f081adc61e3e8ed",
+      "reference_expanded": "trains,",
+      "transcript": "",
+      "transcript_expanded": "",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "trains",
+        "hypothesis_normalized": "",
+        "wer": 1.0,
+        "cer_without_spaces": 1.0,
+        "reference_words": 1,
+        "reference_characters_without_spaces": 6,
+        "word_substitutions": 0,
+        "word_deletions": 1,
+        "word_insertions": 0,
+        "character_substitutions": 0,
+        "character_deletions": 6,
+        "character_insertions": 0
+      },
+      "reference_normalized": "trains",
+      "hypothesis_normalized": "",
+      "wer": 1.0,
+      "cer_without_spaces": 1.0,
+      "reference_words": 1,
+      "reference_characters_without_spaces": 6,
+      "word_substitutions": 0,
+      "word_deletions": 1,
+      "word_insertions": 0,
+      "character_substitutions": 0,
+      "character_deletions": 6,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 3.125,
+      "segments": []
+    },
+    {
+      "id": "en_000036",
+      "split": "held_out",
+      "wav_sha256": "a4e8c157185ab41099bd1a66716280349d592995aebcadd71daa83b386ce94a6",
+      "reference_expanded": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature",
+      "transcript": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature.",
+      "transcript_expanded": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature",
+        "hypothesis_normalized": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature",
+        "wer": 0.0,
+        "cer_without_spaces": 0.0,
+        "reference_words": 20,
+        "reference_characters_without_spaces": 97,
+        "word_substitutions": 0,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature",
+      "hypothesis_normalized": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature",
+      "wer": 0.0,
+      "cer_without_spaces": 0.0,
+      "reference_words": 20,
+      "reference_characters_without_spaces": 97,
+      "word_substitutions": 0,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 7.2960000000020955,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.46,
+          "text": " who is physically challenged or disordered in real life but with the guts and a great",
+          "avg_logprob": -0.25809151040656225,
+          "no_speech_prob": 0.001064300537109375,
+          "words": [
+            {
+              "word": " who",
+              "start": 0.0,
+              "end": 0.76,
+              "probability": 0.467041015625
+            },
+            {
+              "word": " is",
+              "start": 0.76,
+              "end": 0.82,
+              "probability": 0.97802734375
+            },
+            {
+              "word": " physically",
+              "start": 0.82,
+              "end": 1.2,
+              "probability": 0.9853515625
+            },
+            {
+              "word": " challenged",
+              "start": 1.2,
+              "end": 1.74,
+              "probability": 0.984375
+            },
+            {
+              "word": " or",
+              "start": 1.74,
+              "end": 2.28,
+              "probability": 0.96630859375
+            },
+            {
+              "word": " disordered",
+              "start": 2.28,
+              "end": 2.9,
+              "probability": 0.749755859375
+            },
+            {
+              "word": " in",
+              "start": 2.9,
+              "end": 3.04,
+              "probability": 0.994140625
+            },
+            {
+              "word": " real",
+              "start": 3.04,
+              "end": 3.16,
+              "probability": 0.97216796875
+            },
+            {
+              "word": " life",
+              "start": 3.16,
+              "end": 3.52,
+              "probability": 0.98828125
+            },
+            {
+              "word": " but",
+              "start": 3.52,
+              "end": 4.58,
+              "probability": 0.80078125
+            },
+            {
+              "word": " with",
+              "start": 4.58,
+              "end": 5.22,
+              "probability": 0.98974609375
+            },
+            {
+              "word": " the",
+              "start": 5.22,
+              "end": 5.38,
+              "probability": 0.88330078125
+            },
+            {
+              "word": " guts",
+              "start": 5.38,
+              "end": 5.74,
+              "probability": 0.9892578125
+            },
+            {
+              "word": " and",
+              "start": 5.74,
+              "end": 6.14,
+              "probability": 0.98583984375
+            },
+            {
+              "word": " a",
+              "start": 6.14,
+              "end": 6.22,
+              "probability": 0.8125
+            },
+            {
+              "word": " great",
+              "start": 6.22,
+              "end": 6.46,
+              "probability": 0.9951171875
+            }
+          ]
+        },
+        {
+          "start": 6.46,
+          "end": 9.42,
+          "text": " contribution in the literature.",
+          "avg_logprob": -0.25809151040656225,
+          "no_speech_prob": 0.001064300537109375,
+          "words": [
+            {
+              "word": " contribution",
+              "start": 6.46,
+              "end": 7.14,
+              "probability": 0.9951171875
+            },
+            {
+              "word": " in",
+              "start": 7.14,
+              "end": 8.72,
+              "probability": 0.95849609375
+            },
+            {
+              "word": " the",
+              "start": 8.72,
+              "end": 9.2,
+              "probability": 0.93603515625
+            },
+            {
+              "word": " literature.",
+              "start": 9.2,
+              "end": 9.42,
+              "probability": 0.994140625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000048",
+      "split": "held_out",
+      "wav_sha256": "cd0e906a5f6ae9e47212e9b270d3b85807d6e485b91b5b4981b68d4eb8f9ccd1",
+      "reference_expanded": "the colleges of art literature",
+      "transcript": "the Colleges of Art, Literature,",
+      "transcript_expanded": "the Colleges of Art, Literature,",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "the colleges of art literature",
+        "hypothesis_normalized": "the colleges of art literature",
+        "wer": 0.0,
+        "cer_without_spaces": 0.0,
+        "reference_words": 5,
+        "reference_characters_without_spaces": 26,
+        "word_substitutions": 0,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "the colleges of art literature",
+      "hypothesis_normalized": "the colleges of art literature",
+      "wer": 0.0,
+      "cer_without_spaces": 0.0,
+      "reference_words": 5,
+      "reference_characters_without_spaces": 26,
+      "word_substitutions": 0,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 1.2809999999881256,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.48,
+          "text": " the Colleges of Art, Literature,",
+          "avg_logprob": -0.42758414378532994,
+          "no_speech_prob": 0.089111328125,
+          "words": [
+            {
+              "word": " the",
+              "start": 0.0,
+              "end": 0.12,
+              "probability": 0.78857421875
+            },
+            {
+              "word": " Colleges",
+              "start": 0.12,
+              "end": 0.66,
+              "probability": 0.797607421875
+            },
+            {
+              "word": " of",
+              "start": 0.66,
+              "end": 0.76,
+              "probability": 0.9931640625
+            },
+            {
+              "word": " Art,",
+              "start": 0.76,
+              "end": 1.34,
+              "probability": 0.84423828125
+            },
+            {
+              "word": " Literature,",
+              "start": 1.5,
+              "end": 2.48,
+              "probability": 0.966796875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000060",
+      "split": "held_out",
+      "wav_sha256": "e7d2019d132f867e8168a5308602d523f1e32b11b14b67682782379546f07d81",
+      "reference_expanded": "whereby humans are entrusted with the safe keeping of earth and its variety of life.",
+      "transcript": "whereby humans are entrusted with the safe keeping of Earth and its variety of life.",
+      "transcript_expanded": "whereby humans are entrusted with the safe keeping of Earth and its variety of life.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "whereby humans are entrusted with the safe keeping of earth and its variety of life",
+        "hypothesis_normalized": "whereby humans are entrusted with the safe keeping of earth and its variety of life",
+        "wer": 0.0,
+        "cer_without_spaces": 0.0,
+        "reference_words": 15,
+        "reference_characters_without_spaces": 69,
+        "word_substitutions": 0,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "whereby humans are entrusted with the safe keeping of earth and its variety of life",
+      "hypothesis_normalized": "whereby humans are entrusted with the safe keeping of earth and its variety of life",
+      "wer": 0.0,
+      "cer_without_spaces": 0.0,
+      "reference_words": 15,
+      "reference_characters_without_spaces": 69,
+      "word_substitutions": 0,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 1.360000000015134,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.58,
+          "text": " whereby humans are entrusted with the safe keeping of Earth and its variety of life.",
+          "avg_logprob": -0.25527344048023226,
+          "no_speech_prob": 0.0228271484375,
+          "words": [
+            {
+              "word": " whereby",
+              "start": 0.0,
+              "end": 0.56,
+              "probability": 0.6591796875
+            },
+            {
+              "word": " humans",
+              "start": 0.56,
+              "end": 0.9,
+              "probability": 0.92529296875
+            },
+            {
+              "word": " are",
+              "start": 0.9,
+              "end": 1.26,
+              "probability": 0.99462890625
+            },
+            {
+              "word": " entrusted",
+              "start": 1.26,
+              "end": 1.96,
+              "probability": 0.943359375
+            },
+            {
+              "word": " with",
+              "start": 1.96,
+              "end": 2.22,
+              "probability": 0.9912109375
+            },
+            {
+              "word": " the",
+              "start": 2.22,
+              "end": 2.44,
+              "probability": 0.96484375
+            },
+            {
+              "word": " safe",
+              "start": 2.44,
+              "end": 2.84,
+              "probability": 0.98193359375
+            },
+            {
+              "word": " keeping",
+              "start": 2.84,
+              "end": 3.4,
+              "probability": 0.83935546875
+            },
+            {
+              "word": " of",
+              "start": 3.4,
+              "end": 3.76,
+              "probability": 0.99169921875
+            },
+            {
+              "word": " Earth",
+              "start": 3.76,
+              "end": 4.18,
+              "probability": 0.384521484375
+            },
+            {
+              "word": " and",
+              "start": 4.18,
+              "end": 4.44,
+              "probability": 0.96337890625
+            },
+            {
+              "word": " its",
+              "start": 4.44,
+              "end": 4.62,
+              "probability": 0.93212890625
+            },
+            {
+              "word": " variety",
+              "start": 4.62,
+              "end": 4.96,
+              "probability": 0.98291015625
+            },
+            {
+              "word": " of",
+              "start": 4.96,
+              "end": 5.26,
+              "probability": 0.998046875
+            },
+            {
+              "word": " life.",
+              "start": 5.26,
+              "end": 5.58,
+              "probability": 0.984375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000061",
+      "split": "held_out",
+      "wav_sha256": "616404125ff24d0b2aff5f6c0b04b939ddf2f45b948135e10ceec115606157c3",
+      "reference_expanded": "It's about an abused Malayali migrant worker employed in Saudi Arabia as a Goddard against his will.",
+      "transcript": "It's about an abused Malayali migrant worker employed in Saudi Arabia as a goatherd against his will.",
+      "transcript_expanded": "It's about an abused Malayali migrant worker employed in Saudi Arabia as a goatherd against his will.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "its about an abused malayali migrant worker employed in saudi arabia as a goddard against his will",
+        "hypothesis_normalized": "its about an abused malayali migrant worker employed in saudi arabia as a goatherd against his will",
+        "wer": 0.058823529411764705,
+        "cer_without_spaces": 0.04878048780487805,
+        "reference_words": 17,
+        "reference_characters_without_spaces": 82,
+        "word_substitutions": 1,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 3,
+        "character_deletions": 0,
+        "character_insertions": 1
+      },
+      "reference_normalized": "its about an abused malayali migrant worker employed in saudi arabia as a goddard against his will",
+      "hypothesis_normalized": "its about an abused malayali migrant worker employed in saudi arabia as a goatherd against his will",
+      "wer": 0.058823529411764705,
+      "cer_without_spaces": 0.04878048780487805,
+      "reference_words": 17,
+      "reference_characters_without_spaces": 82,
+      "word_substitutions": 1,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 3,
+      "character_deletions": 0,
+      "character_insertions": 1,
+      "language": "en",
+      "seconds": 0.9059999999881256,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 8.68,
+          "text": " It's about an abused Malayali migrant worker employed in Saudi Arabia as a goatherd against his will.",
+          "avg_logprob": -0.18780048076923078,
+          "no_speech_prob": 0.048583984375,
+          "words": [
+            {
+              "word": " It's",
+              "start": 0.0,
+              "end": 0.34,
+              "probability": 0.713134765625
+            },
+            {
+              "word": " about",
+              "start": 0.34,
+              "end": 0.56,
+              "probability": 0.79052734375
+            },
+            {
+              "word": " an",
+              "start": 0.56,
+              "end": 1.64,
+              "probability": 0.6640625
+            },
+            {
+              "word": " abused",
+              "start": 1.64,
+              "end": 2.62,
+              "probability": 0.962890625
+            },
+            {
+              "word": " Malayali",
+              "start": 2.62,
+              "end": 3.42,
+              "probability": 0.9586588541666666
+            },
+            {
+              "word": " migrant",
+              "start": 3.42,
+              "end": 4.14,
+              "probability": 0.97412109375
+            },
+            {
+              "word": " worker",
+              "start": 4.14,
+              "end": 4.58,
+              "probability": 0.99853515625
+            },
+            {
+              "word": " employed",
+              "start": 4.58,
+              "end": 5.12,
+              "probability": 0.953125
+            },
+            {
+              "word": " in",
+              "start": 5.12,
+              "end": 5.42,
+              "probability": 0.9990234375
+            },
+            {
+              "word": " Saudi",
+              "start": 5.42,
+              "end": 5.62,
+              "probability": 0.9951171875
+            },
+            {
+              "word": " Arabia",
+              "start": 5.62,
+              "end": 6.02,
+              "probability": 0.99951171875
+            },
+            {
+              "word": " as",
+              "start": 6.02,
+              "end": 6.92,
+              "probability": 0.97412109375
+            },
+            {
+              "word": " a",
+              "start": 6.92,
+              "end": 7.02,
+              "probability": 0.99267578125
+            },
+            {
+              "word": " goatherd",
+              "start": 7.02,
+              "end": 7.54,
+              "probability": 0.7509765625
+            },
+            {
+              "word": " against",
+              "start": 7.54,
+              "end": 8.04,
+              "probability": 0.97021484375
+            },
+            {
+              "word": " his",
+              "start": 8.04,
+              "end": 8.44,
+              "probability": 0.99609375
+            },
+            {
+              "word": " will.",
+              "start": 8.44,
+              "end": 8.68,
+              "probability": 0.99609375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000062",
+      "split": "held_out",
+      "wav_sha256": "5f1992d0b2f32b5cbdbcf1f7eb7d57ac02f69843fe227a61b846b7aa1c3c22fe",
+      "reference_expanded": "The intricate yet beautiful floral motifs on paper mashi products are in",
+      "transcript": "The intricate yet beautiful floral motifs on papamashi products are in",
+      "transcript_expanded": "The intricate yet beautiful floral motifs on papamashi products are in",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "the intricate yet beautiful floral motifs on paper mashi products are in",
+        "hypothesis_normalized": "the intricate yet beautiful floral motifs on papamashi products are in",
+        "wer": 0.16666666666666666,
+        "cer_without_spaces": 0.03278688524590164,
+        "reference_words": 12,
+        "reference_characters_without_spaces": 61,
+        "word_substitutions": 1,
+        "word_deletions": 1,
+        "word_insertions": 0,
+        "character_substitutions": 1,
+        "character_deletions": 1,
+        "character_insertions": 0
+      },
+      "reference_normalized": "the intricate yet beautiful floral motifs on paper mashi products are in",
+      "hypothesis_normalized": "the intricate yet beautiful floral motifs on papamashi products are in",
+      "wer": 0.16666666666666666,
+      "cer_without_spaces": 0.03278688524590164,
+      "reference_words": 12,
+      "reference_characters_without_spaces": 61,
+      "word_substitutions": 1,
+      "word_deletions": 1,
+      "word_insertions": 0,
+      "character_substitutions": 1,
+      "character_deletions": 1,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 0.6559999999881256,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.0,
+          "text": " The intricate yet beautiful floral motifs on papamashi products are in",
+          "avg_logprob": -0.2568933823529412,
+          "no_speech_prob": 0.04193115234375,
+          "words": [
+            {
+              "word": " The",
+              "start": 0.0,
+              "end": 0.54,
+              "probability": 0.66357421875
+            },
+            {
+              "word": " intricate",
+              "start": 0.54,
+              "end": 0.96,
+              "probability": 0.98583984375
+            },
+            {
+              "word": " yet",
+              "start": 0.96,
+              "end": 1.44,
+              "probability": 0.912109375
+            },
+            {
+              "word": " beautiful",
+              "start": 1.44,
+              "end": 2.68,
+              "probability": 0.97216796875
+            },
+            {
+              "word": " floral",
+              "start": 2.68,
+              "end": 3.26,
+              "probability": 0.99609375
+            },
+            {
+              "word": " motifs",
+              "start": 3.26,
+              "end": 4.1,
+              "probability": 0.998046875
+            },
+            {
+              "word": " on",
+              "start": 4.1,
+              "end": 4.28,
+              "probability": 0.9912109375
+            },
+            {
+              "word": " papamashi",
+              "start": 4.28,
+              "end": 4.96,
+              "probability": 0.5349934895833334
+            },
+            {
+              "word": " products",
+              "start": 4.96,
+              "end": 5.4,
+              "probability": 0.99462890625
+            },
+            {
+              "word": " are",
+              "start": 5.4,
+              "end": 5.88,
+              "probability": 0.98828125
+            },
+            {
+              "word": " in",
+              "start": 5.88,
+              "end": 6.0,
+              "probability": 0.884765625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000063",
+      "split": "held_out",
+      "wav_sha256": "977e55406d13e4c2accb84fc3c132b04468d4c19aebcd54fdb26987785b0b3ac",
+      "reference_expanded": "So there are a lot of beaches throughout the eastern coastline of Odisha.",
+      "transcript": "So there are a lot of beaches throughout the eastern coastline of Odessa.",
+      "transcript_expanded": "So there are a lot of beaches throughout the eastern coastline of Odessa.",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "so there are a lot of beaches throughout the eastern coastline of odisha",
+        "hypothesis_normalized": "so there are a lot of beaches throughout the eastern coastline of odessa",
+        "wer": 0.07692307692307693,
+        "cer_without_spaces": 0.03333333333333333,
+        "reference_words": 13,
+        "reference_characters_without_spaces": 60,
+        "word_substitutions": 1,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 2,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "so there are a lot of beaches throughout the eastern coastline of odisha",
+      "hypothesis_normalized": "so there are a lot of beaches throughout the eastern coastline of odessa",
+      "wer": 0.07692307692307693,
+      "cer_without_spaces": 0.03333333333333333,
+      "reference_words": 13,
+      "reference_characters_without_spaces": 60,
+      "word_substitutions": 1,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 2,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 0.8120000000053551,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.92,
+          "text": " So there are a lot of beaches throughout the eastern coastline of Odessa.",
+          "avg_logprob": -0.20960115288433276,
+          "no_speech_prob": 0.0294036865234375,
+          "words": [
+            {
+              "word": " So",
+              "start": 0.0,
+              "end": 0.16,
+              "probability": 0.6201171875
+            },
+            {
+              "word": " there",
+              "start": 0.16,
+              "end": 0.48,
+              "probability": 0.84619140625
+            },
+            {
+              "word": " are",
+              "start": 0.48,
+              "end": 0.62,
+              "probability": 0.98095703125
+            },
+            {
+              "word": " a",
+              "start": 0.62,
+              "end": 0.72,
+              "probability": 0.94189453125
+            },
+            {
+              "word": " lot",
+              "start": 0.72,
+              "end": 0.88,
+              "probability": 0.99853515625
+            },
+            {
+              "word": " of",
+              "start": 0.88,
+              "end": 1.0,
+              "probability": 0.998046875
+            },
+            {
+              "word": " beaches",
+              "start": 1.0,
+              "end": 1.32,
+              "probability": 0.97509765625
+            },
+            {
+              "word": " throughout",
+              "start": 1.32,
+              "end": 1.88,
+              "probability": 0.95166015625
+            },
+            {
+              "word": " the",
+              "start": 1.88,
+              "end": 2.38,
+              "probability": 0.98291015625
+            },
+            {
+              "word": " eastern",
+              "start": 2.38,
+              "end": 4.62,
+              "probability": 0.82275390625
+            },
+            {
+              "word": " coastline",
+              "start": 4.62,
+              "end": 5.3,
+              "probability": 0.954345703125
+            },
+            {
+              "word": " of",
+              "start": 5.3,
+              "end": 5.54,
+              "probability": 0.98486328125
+            },
+            {
+              "word": " Odessa.",
+              "start": 5.54,
+              "end": 5.92,
+              "probability": 0.863525390625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en_000071",
+      "split": "held_out",
+      "wav_sha256": "129d79a7bd8a3f2cee0cff0b2316d098b950882be1b7fd5c962e1736bd10dc74",
+      "reference_expanded": "end of the year which are a source of great joy and fun, especially for the kids.",
+      "transcript": "end of the year which are a source of great joy and fun especially for the kids",
+      "transcript_expanded": "end of the year which are a source of great joy and fun especially for the kids",
+      "hypothesis_normalization_warning": null,
+      "verbatim_errors": {
+        "reference_normalized": "end of the year which are a source of great joy and fun especially for the kids",
+        "hypothesis_normalized": "end of the year which are a source of great joy and fun especially for the kids",
+        "wer": 0.0,
+        "cer_without_spaces": 0.0,
+        "reference_words": 17,
+        "reference_characters_without_spaces": 63,
+        "word_substitutions": 0,
+        "word_deletions": 0,
+        "word_insertions": 0,
+        "character_substitutions": 0,
+        "character_deletions": 0,
+        "character_insertions": 0
+      },
+      "reference_normalized": "end of the year which are a source of great joy and fun especially for the kids",
+      "hypothesis_normalized": "end of the year which are a source of great joy and fun especially for the kids",
+      "wer": 0.0,
+      "cer_without_spaces": 0.0,
+      "reference_words": 17,
+      "reference_characters_without_spaces": 63,
+      "word_substitutions": 0,
+      "word_deletions": 0,
+      "word_insertions": 0,
+      "character_substitutions": 0,
+      "character_deletions": 0,
+      "character_insertions": 0,
+      "language": "en",
+      "seconds": 0.6710000000020955,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.18,
+          "text": " end of the year which are a source of great joy and fun especially for the kids",
+          "avg_logprob": -0.2755859479308128,
+          "no_speech_prob": 0.074462890625,
+          "words": [
+            {
+              "word": " end",
+              "start": 0.0,
+              "end": 0.26,
+              "probability": 0.86181640625
+            },
+            {
+              "word": " of",
+              "start": 0.26,
+              "end": 0.38,
+              "probability": 0.9931640625
+            },
+            {
+              "word": " the",
+              "start": 0.38,
+              "end": 0.48,
+              "probability": 0.99169921875
+            },
+            {
+              "word": " year",
+              "start": 0.48,
+              "end": 0.74,
+              "probability": 0.99755859375
+            },
+            {
+              "word": " which",
+              "start": 0.74,
+              "end": 0.98,
+              "probability": 0.8896484375
+            },
+            {
+              "word": " are",
+              "start": 0.98,
+              "end": 1.1,
+              "probability": 0.9873046875
+            },
+            {
+              "word": " a",
+              "start": 1.1,
+              "end": 1.18,
+              "probability": 0.96533203125
+            },
+            {
+              "word": " source",
+              "start": 1.18,
+              "end": 1.44,
+              "probability": 0.99853515625
+            },
+            {
+              "word": " of",
+              "start": 1.44,
+              "end": 1.68,
+              "probability": 0.998046875
+            },
+            {
+              "word": " great",
+              "start": 1.68,
+              "end": 2.1,
+              "probability": 0.99365234375
+            },
+            {
+              "word": " joy",
+              "start": 2.1,
+              "end": 2.4,
+              "probability": 0.9951171875
+            },
+            {
+              "word": " and",
+              "start": 2.4,
+              "end": 2.66,
+              "probability": 0.99072265625
+            },
+            {
+              "word": " fun",
+              "start": 2.66,
+              "end": 2.92,
+              "probability": 0.99853515625
+            },
+            {
+              "word": " especially",
+              "start": 2.92,
+              "end": 3.46,
+              "probability": 0.72900390625
+            },
+            {
+              "word": " for",
+              "start": 3.46,
+              "end": 3.82,
+              "probability": 0.9990234375
+            },
+            {
+              "word": " the",
+              "start": 3.82,
+              "end": 3.96,
+              "probability": 0.9921875
+            },
+            {
+              "word": " kids",
+              "start": 3.96,
+              "end": 4.18,
+              "probability": 0.99609375
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "model": "Systran/faster-whisper-large-v3",
+  "model_revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "implementation": "faster-whisper",
+  "implementation_version": "1.2.1",
+  "decoding": {
+    "beam_size": 5,
+    "temperature": 0,
+    "language_forced": true,
+    "reference_prompt_supplied": false,
+    "vad_filter": false
+  },
+  "scoring_version": 3,
+  "scoring": "Same deterministic number/time expansion on reference and hypothesis; clock notation such as 10.45 a.m. is treated as 10:45 AM. NFC/case/punctuation normalized. CER counts Unicode codepoints and ignores spaces. Raw transcripts and unexpanded-hypothesis scores are retained.",
+  "interpretation": "ASR disagreement is an automatic intelligibility diagnostic, not a phoneme accuracy score or proof of a synthesis error."
+}

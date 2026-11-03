@@ -1,7 +1,7 @@
 {
   "report_review_required": true,
-  "report_review_status": "user_selected_for_github",
-  "approved_report_sha256": "cec579d85129a8008655a40671e6709f7c02dc58e345d44e86d9d5feb581ba86",
+  "report_review_status": "awaiting_user_review_after_automatic_assessment",
+  "approved_report_sha256": null,
   "google_form_submission_authorized": false,
   "google_form_submitted": false,
   "instruction": "Do not submit the Google Form without the user's review, especially the report."

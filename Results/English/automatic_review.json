@@ -1,0 +1,203 @@
+{
+  "method": "automatic_assessment",
+  "human_listening_performed": false,
+  "author_does_not_know_telugu": true,
+  "author_statement": "I do not know Telugu, so I used automatic transcription, predicted-quality scores and acoustic measurements to assess the Telugu outputs. Assessment of both languages is automatic. No native-speaker listening or human MOS study was performed.",
+  "asr_reference_supplied_to_recognizer": false,
+  "recognizers": [
+    "Whisper large-v3",
+    "MMS-1b-all with eng/tel language adapters"
+  ],
+  "model_revisions": {
+    "Systran/faster-whisper-large-v3": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "sarulab-speech/UTMOSv2": "506474f2b33dc77c234d668cc419be1861899cad",
+    "facebook/wav2vec2-base": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+    "timm/tf_efficientnetv2_s.in21k_ft_in1k": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+    "facebook/mms-1b-all": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd"
+  },
+  "controls": {
+    "count": 10,
+    "corpus_wer": 0.06140350877192982,
+    "corpus_cer_without_spaces": 0.0375234521575985,
+    "predicted_mos_mean": 2.772200520833333,
+    "predicted_mos_median": 2.6682942708333335,
+    "predicted_mos_range": [
+      2.3522135416666665,
+      3.4420572916666665
+    ]
+  },
+  "limitations": [
+    "ASR transcript disagreement can be caused by the recognizer, spelling, word spacing, accent or synthesis; it is not phoneme-level pronunciation accuracy.",
+    "UTMOSv2 predicts naturalness; its output is not human MOS. Telugu calibration is unverified. Cross-language quality ranking is not justified.",
+    "The quality regressor is unbounded: a prediction below 1 or above 5 is retained as a raw extrapolation, not a valid listener rating on the nominal 1-5 MOS scale.",
+    "Model grapheme durations define the analysed word and con/duct spans; these are not independently validated syllable or phoneme alignments.",
+    "Native-speaker correctness, conversational naturalness and the intended stress contrast are not certified by these automatic tests."
+  ],
+  "completed_at": "2026-11-03T08:18:02.549800+00:00",
+  "language": "English",
+  "generated": {
+    "count": 5,
+    "corpus_wer": 0.6,
+    "corpus_cer_without_spaces": 0.33695652173913043,
+    "predicted_mos_mean": 0.72666015625,
+    "predicted_mos_median": 0.685546875,
+    "predicted_mos_range": [
+      0.6448567708333334,
+      0.8445638020833334
+    ]
+  },
+  "controls_mms": {
+    "count": 10,
+    "corpus_wer": 0.21929824561403508,
+    "corpus_cer_without_spaces": 0.08442776735459662,
+    "predicted_mos_mean": 2.772200520833333,
+    "predicted_mos_median": 2.6682942708333335,
+    "predicted_mos_range": [
+      2.3522135416666665,
+      3.4420572916666665
+    ]
+  },
+  "generated_mms": {
+    "count": 5,
+    "corpus_wer": 0.8923076923076924,
+    "corpus_cer_without_spaces": 0.49728260869565216,
+    "predicted_mos_mean": 0.72666015625,
+    "predicted_mos_median": 0.685546875,
+    "predicted_mos_range": [
+      0.6448567708333334,
+      0.8445638020833334
+    ]
+  },
+  "samples": [
+    {
+      "id": "E1",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "The antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings.",
+      "wav_sha256": "1e0efc6f234d9fc4c27ca4f5d0802ac852a37666d832fad487616579719f6b31",
+      "pronunciation_observations": "Whisper WER is 110.0%; whitespace-free CER is 36.7%. Independent MMS gives WER 120.0%, CER 57.1%. Whisper has 6 word substitutions, 0 deletions and 5 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 0.84, compared with a mean of 2.77 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 6.34 s. The target word occupies 1393 ms (22% of the utterance).",
+      "pitch_observations": "Predicted continuous F0 spans 114-173 Hz. Its duration-weighted F0 is 144.9 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 1.7-96.1. Its duration-weighted mean is 48.7.",
+      "asr_transcript": "then there is established materialism of the considerable momentum leading up to the notary proceedings.",
+      "mms_transcript": "balande yesus tablis mataalis anbablanggi dainik parsidelaban warandan liwinla parlinan ta posadins",
+      "wer": 1.1,
+      "cer_without_spaces": 0.3673469387755102,
+      "mms_wer": 1.2,
+      "mms_cer_without_spaces": 0.5714285714285714,
+      "predicted_mos": 0.8445638020833334,
+      "duration_seconds": 6.339047619047619,
+      "evidence": {
+        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
+        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
+        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
+        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+      }
+    },
+    {
+      "id": "E2a",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "The orchestra's conduct during the ceremony was praised by the audience.",
+      "wav_sha256": "3200a7502d73633960cfd71da8d71a6139c6fce0119ab5bef2f54a4a599dd328",
+      "pronunciation_observations": "Whisper WER is 0.0%; whitespace-free CER is 0.0%. Independent MMS gives WER 72.7%, CER 35.0%. Whisper has 0 word substitutions, 0 deletions and 0 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 0.80, compared with a mean of 2.77 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 5.19 s. Conduct takes 360 ms; con/duct grapheme regions receive 139/221 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 97-182 Hz. Con/duct means are 135.7/125.2 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 2.1-109.7. Con/duct means are 49.1/29.4. Higher first-region energy occurs in both contexts; this cue does not demonstrate the requested stress reversal.",
+      "asr_transcript": "The orchestra's conduct during the ceremony was praised by the audience.",
+      "mms_transcript": "the orcestra standep during the seremony wast pras ni e argans",
+      "wer": 0.0,
+      "cer_without_spaces": 0.0,
+      "mms_wer": 0.7272727272727273,
+      "mms_cer_without_spaces": 0.35,
+      "predicted_mos": 0.7980143229166666,
+      "duration_seconds": 5.189659863945578,
+      "evidence": {
+        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
+        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
+        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
+        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+      }
+    },
+    {
+      "id": "E2b",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "The researchers will conduct an experiment to evaluate the proposed method.",
+      "wav_sha256": "f8b810afa920207ba9fea86776817d4595dd7e98aac50bf50a735f38985c9d76",
+      "pronunciation_observations": "Whisper WER is 54.5%; whitespace-free CER is 39.1%. Independent MMS gives WER 81.8%, CER 46.9%. Whisper has 6 word substitutions, 0 deletions and 0 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 0.64, compared with a mean of 2.77 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 4.27 s. Conduct takes 372 ms; con/duct grapheme regions receive 163/209 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 84-165 Hz. Con/duct means are 122.4/119.2 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 1.0-88.0. Con/duct means are 51.7/28.3. Higher first-region energy occurs in both contexts; this cue does not demonstrate the requested stress reversal.",
+      "asr_transcript": "researchers need to conduct an experiment to manipulate the progress report.",
+      "mms_transcript": "thi serches wi pandetan expamen to winini the propos report",
+      "wer": 0.5454545454545454,
+      "cer_without_spaces": 0.390625,
+      "mms_wer": 0.8181818181818182,
+      "mms_cer_without_spaces": 0.46875,
+      "predicted_mos": 0.6448567708333334,
+      "duration_seconds": 4.272471655328798,
+      "evidence": {
+        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
+        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
+        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
+        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+      }
+    },
+    {
+      "id": "E3",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "The rhyth  m of the orchestra changed unexpectedly.",
+      "wav_sha256": "0b58da03bd677de36c8c12bf5bc6183be790d2bf9eb392abd7c1a2774d3be777",
+      "pronunciation_observations": "Whisper WER is 100.0%; whitespace-free CER is 35.7%. Independent MMS gives WER 112.5%, CER 47.6%. Whisper has 5 word substitutions, 0 deletions and 3 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 0.66, compared with a mean of 2.77 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 2.96 s. The retained rhyth/m split receives a 35 ms boundary; the sentence's median interword boundary is 58 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 117-173 Hz. The two fragments' mean F0 values are 132.8/146.2 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 1.3-90.5. Their mean energy values are 64.6/83.8. Character-error scoring ignores whitespace, while word-error scoring retains this split.",
+      "asr_transcript": "then I do what the orchestra changed in respect to me.",
+      "mms_transcript": "ni ldin os te or cestel change in espectili",
+      "wer": 1.0,
+      "cer_without_spaces": 0.35714285714285715,
+      "mms_wer": 1.125,
+      "mms_cer_without_spaces": 0.47619047619047616,
+      "predicted_mos": 0.6603190104166666,
+      "duration_seconds": 2.9605442176870747,
+      "evidence": {
+        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
+        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
+        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
+        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+      }
+    },
+    {
+      "id": "E4",
+      "method": "automatic_assessment",
+      "human_listening_performed": false,
+      "raw_text": "The meeting will start at 10:45 AM on 12 November 2026, so andaroo should arrive on time.",
+      "wav_sha256": "2b638b4e93fe355d0a7c1a2da5bccd892781fc25a03b77bca49b6eb66a1f7deb",
+      "pronunciation_observations": "Whisper WER is 56.0%; whitespace-free CER is 46.2%. Independent MMS gives WER 80.0%, CER 53.8%. Whisper has 13 word substitutions, 0 deletions and 1 insertions. Recognizer disagreement is not a listening judgment or proof of a synthesis error.",
+      "speech_quality_observations": "UTMOSv2 predicts 0.69, compared with a mean of 2.77 for ten same-language held-out recordings. No waveform clipping was found.",
+      "duration_observations": "Utterance duration is 6.78 s. The a/m tokens each receive 23 ms. The boundary after the year ends is 406 ms.",
+      "pitch_observations": "Predicted continuous F0 spans 105-171 Hz. Andaroo's mean is 138.5 Hz.",
+      "energy_observations": "Predicted relative STFT energy spans 1.6-97.9. Two zero-duration items are word-boundary tokens, not omitted lexical characters. ASR checks the expanded time/date and the mixed-language word.",
+      "asr_transcript": "The meeting will start at 10.45 a.m. and will end around 11.06 a.m. So, there was a very good time.",
+      "mms_transcript": "the meeting ley stard and den fortifin the on got of t mmen otrini six so an le a sommary won dim",
+      "wer": 0.56,
+      "cer_without_spaces": 0.46153846153846156,
+      "mms_wer": 0.8,
+      "mms_cer_without_spaces": 0.5384615384615384,
+      "predicted_mos": 0.685546875,
+      "duration_seconds": 6.780226757369615,
+      "evidence": {
+        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
+        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
+        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
+        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+      }
+    }
+  ]
+}

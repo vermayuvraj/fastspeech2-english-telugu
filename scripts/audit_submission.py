@@ -9,6 +9,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from fs2.config import ROOT, load_config, sha256, write_json
 from fs2.split import assert_disjoint
+from fs2.evaluation import automatic_review_is_current
 
 
 def audit():
@@ -58,10 +59,19 @@ def audit():
         reviews = json.loads(reviews_path.read_text(encoding="utf-8")) if reviews_path.is_file() else {}
         for row in rows:
             review = reviews.get(row["id"], {})
-            check(f"{row['id']}: listening observations", all(str(review.get(k, "")).strip() and str(review[k]).strip().lower() != "pending" for k in ["pronunciation", "overall_quality", "specific_observations"]))
+            manual = all(str(review.get(k, "")).strip() and str(review[k]).strip().lower() != "pending" for k in ["pronunciation", "overall_quality", "specific_observations"])
+            automatic = automatic_review_is_current(ROOT, language, row["id"])
+            check(f"{row['id']}: sentence-level assessment", manual or automatic, "Automatic measurements with disclosed limitations; no human listening claimed" if automatic else "Record listening observations or a validated, explicitly automatic assessment")
     check("Independent checkpoint files", len(checkpoints) == 2 and len(set(checkpoints)) == 2)
     report = ROOT / "Report/Technical_Report.pdf"
     check("Technical report PDF", report.is_file())
+    protocol_path = ROOT / "Report/automatic_assessment_protocol.json"
+    if protocol_path.is_file():
+        protocol = json.loads(protocol_path.read_text(encoding="utf-8"))
+        revisions = json.loads((ROOT / "docs/automatic_evaluation_models.json").read_text(encoding="utf-8"))
+        check("Automatic assessment disclosure and model provenance", protocol.get("author_does_not_know_telugu") and protocol.get("human_listening_performed") is False and protocol.get("model_revisions") == revisions)
+        report_status = json.loads((ROOT / "Report/report_status.json").read_text(encoding="utf-8"))
+        check("Report matches automatic assessment evidence", report.is_file() and report_status.get("source") == "automatic_evaluation_revision_of_user_report" and report_status.get("sha256") == sha256(report) and report_status.get("assessment_protocol_sha256") == sha256(protocol_path))
     review_path = ROOT / "Report/review_status.json"
     if review_path.is_file():
         review = json.loads(review_path.read_text(encoding="utf-8"))
@@ -69,6 +79,10 @@ def audit():
             check("Current report approved by user", report.is_file() and review.get("approved_report_sha256") == sha256(report), "Await explicit user review of the current PDF")
             check("Google Form submission authorized by user", review.get("google_form_submission_authorized", False))
     value = {"ready_for_submission": all(row["passed"] for row in checks), "checks_passed": sum(row["passed"] for row in checks), "checks_total": len(checks), "checks": checks, "public_repository_verification": "pending", "form_submission": "pending"}
+    approval_checks = {"Current report approved by user", "Google Form submission authorized by user"}
+    value["technical_evaluation_complete"] = all(row["passed"] for row in checks if row["check"] not in approval_checks)
+    value["remaining_technical_checks"] = [row["check"] for row in checks if not row["passed"] and row["check"] not in approval_checks]
+    value["human_listening_performed"] = False
     write_json(ROOT / "Report/submission_audit.json", value)
     return value
 

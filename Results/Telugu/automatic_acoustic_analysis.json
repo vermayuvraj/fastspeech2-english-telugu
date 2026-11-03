@@ -1,0 +1,1382 @@
+{
+  "language": "Telugu",
+  "human_listening_performed": false,
+  "boundary_interpretation": "Word spans and con/duct regions follow model grapheme durations, not validated phonetic segmentation. F0 is interpolated through unvoiced intervals. Low-energy intervals use 20ms RMS windows, 10ms hop, threshold -30dB relative to maximum window RMS, minimum 80ms. A -40dB sensitivity check is also retained; these thresholds do not prove linguistic silence.",
+  "samples": [
+    {
+      "id": "T1",
+      "wav_sha256": "7948dec76687507aa38462980cdc2db7256eceadd0395eb4d69d703b2a7dae31",
+      "trace_sha256": "346df71bc0d173a8ed8664e617116ea1cb10b206ffda91f3f9f2c8df673cfb27",
+      "duration_seconds": 6.048798185941043,
+      "words": [
+        {
+          "word": "nyuuroophaarmakoolaajikal",
+          "token_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "start_seconds": 0.7082086167800453,
+          "end_seconds": 1.9969160997732427,
+          "duration_ms": 1288.7074829931973,
+          "mean_predicted_f0_hz": 249.07788017204217,
+          "mean_predicted_stft_energy": 53.827559804057216
+        },
+        {
+          "word": "parishoodhanaloo",
+          "token_indices": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "start_seconds": 2.0549659863945577,
+          "end_seconds": 2.716734693877551,
+          "duration_ms": 661.7687074829932,
+          "mean_predicted_f0_hz": 216.19505818684897,
+          "mean_predicted_stft_energy": 42.5061282944261
+        },
+        {
+          "word": "nuutana",
+          "token_indices": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "start_seconds": 2.9257142857142857,
+          "end_seconds": 3.297233560090703,
+          "duration_ms": 371.51927437641723,
+          "mean_predicted_f0_hz": 213.23633670806885,
+          "mean_predicted_stft_energy": 37.3625823110342
+        },
+        {
+          "word": "aussadhaala",
+          "token_indices": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "start_seconds": 3.4133333333333336,
+          "end_seconds": 3.912562358276644,
+          "duration_ms": 499.22902494331066,
+          "mean_predicted_f0_hz": 211.54256776321765,
+          "mean_predicted_stft_energy": 39.66394648441049
+        },
+        {
+          "word": "prabhaavaanni",
+          "token_indices": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "start_seconds": 3.959002267573696,
+          "end_seconds": 4.458231292517007,
+          "duration_ms": 499.22902494331066,
+          "mean_predicted_f0_hz": 178.10885974972746,
+          "mean_predicted_stft_energy": 40.427340241365656
+        },
+        {
+          "word": "vishleessimcaaru",
+          "token_indices": [
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ],
+          "start_seconds": 4.620770975056689,
+          "end_seconds": 5.363809523809524,
+          "duration_ms": 743.0385487528345,
+          "mean_predicted_f0_hz": 160.8896998167038,
+          "mean_predicted_stft_energy": 19.649655460380018
+        }
+      ],
+      "boundaries": [
+        {
+          "token_index": 0,
+          "label": "<sil>",
+          "start_seconds": 0.0,
+          "duration_ms": 708.2086167800453,
+          "predicted_stft_energy": 0.10944291204214096
+        },
+        {
+          "token_index": 26,
+          "label": "|",
+          "start_seconds": 1.9969160997732427,
+          "duration_ms": 58.049886621315196,
+          "predicted_stft_energy": 2.6508729457855225
+        },
+        {
+          "token_index": 43,
+          "label": "|",
+          "start_seconds": 2.716734693877551,
+          "duration_ms": 208.9795918367347,
+          "predicted_stft_energy": 14.560220718383789
+        },
+        {
+          "token_index": 51,
+          "label": "|",
+          "start_seconds": 3.297233560090703,
+          "duration_ms": 116.09977324263039,
+          "predicted_stft_energy": 6.033437252044678
+        },
+        {
+          "token_index": 63,
+          "label": "|",
+          "start_seconds": 3.912562358276644,
+          "duration_ms": 46.439909297052154,
+          "predicted_stft_energy": 1.407710313796997
+        },
+        {
+          "token_index": 77,
+          "label": "|",
+          "start_seconds": 4.458231292517007,
+          "duration_ms": 162.53968253968253,
+          "predicted_stft_energy": 6.147145748138428
+        },
+        {
+          "token_index": 94,
+          "label": "<sil>",
+          "start_seconds": 5.363809523809524,
+          "duration_ms": 684.9886621315193,
+          "predicted_stft_energy": 0.09927678108215332
+        }
+      ],
+      "zero_duration_tokens": [],
+      "predicted_f0_range_hz": [
+        99.51486206054688,
+        293.85064697265625
+      ],
+      "predicted_energy_range": [
+        0.09927678108215332,
+        108.91787719726562
+      ],
+      "predicted_duration_cv": 1.505921767271126,
+      "measured_voiced_fraction": 0.72552783109405,
+      "measured_voiced_f0_median_hz": 199.7498779296875,
+      "measured_voiced_f0_10_90_hz": [
+        85.97288360595704,
+        270.86875915527344
+      ],
+      "low_energy_intervals_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 688.4353741496599
+        },
+        {
+          "start_seconds": 5.3179138321995465,
+          "duration_ms": 718.3673469387754
+        }
+      ],
+      "low_energy_intervals_minus40db_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 678.4580498866213
+        },
+        {
+          "start_seconds": 5.337868480725623,
+          "duration_ms": 698.4126984126983
+        }
+      ],
+      "peak": 0.479156494140625,
+      "clipped_fraction": 0.0
+    },
+    {
+      "id": "T2a",
+      "wav_sha256": "2d8e39fb89400303eb94af8155607b154c114d785ff22d17f6406fbb99da0355",
+      "trace_sha256": "31837c99ee0f5b5ec02879bf514cadca43014d8ff963304186a4bf9c185d2524",
+      "duration_seconds": 3.332063492063492,
+      "words": [
+        {
+          "word": "taaddupai",
+          "token_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "start_seconds": 0.37151927437641724,
+          "end_seconds": 0.8591383219954648,
+          "duration_ms": 487.6190476190476,
+          "mean_predicted_f0_hz": 199.42050570533388,
+          "mean_predicted_stft_energy": 42.19493637766157
+        },
+        {
+          "word": "atani",
+          "token_indices": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "start_seconds": 1.1145578231292517,
+          "end_seconds": 1.3699773242630386,
+          "duration_ms": 255.41950113378687,
+          "mean_predicted_f0_hz": 204.44999972256747,
+          "mean_predicted_stft_energy": 34.52937984466553
+        },
+        {
+          "word": "pattttu",
+          "token_indices": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "start_seconds": 1.4048072562358276,
+          "end_seconds": 1.6834467120181407,
+          "duration_ms": 278.6394557823129,
+          "mean_predicted_f0_hz": 201.9133733113607,
+          "mean_predicted_stft_energy": 19.40072399874528
+        },
+        {
+          "word": "caalaa",
+          "token_indices": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "start_seconds": 1.7647165532879818,
+          "end_seconds": 2.078185941043084,
+          "duration_ms": 313.46938775510205,
+          "mean_predicted_f0_hz": 200.3799591064453,
+          "mean_predicted_stft_energy": 51.06738789876302
+        },
+        {
+          "word": "balamgaa",
+          "token_indices": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "start_seconds": 2.124625850340136,
+          "end_seconds": 2.48453514739229,
+          "duration_ms": 359.90929705215416,
+          "mean_predicted_f0_hz": 178.6486348798198,
+          "mean_predicted_stft_energy": 45.686055091119584
+        },
+        {
+          "word": "umdi",
+          "token_indices": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "start_seconds": 2.5309750566893423,
+          "end_seconds": 2.705124716553288,
+          "duration_ms": 174.14965986394557,
+          "mean_predicted_f0_hz": 131.21121164957682,
+          "mean_predicted_stft_energy": 20.352456537882485
+        }
+      ],
+      "boundaries": [
+        {
+          "token_index": 0,
+          "label": "<sil>",
+          "start_seconds": 0.0,
+          "duration_ms": 371.51927437641723,
+          "predicted_stft_energy": 0.28343871235847473
+        },
+        {
+          "token_index": 10,
+          "label": "|",
+          "start_seconds": 0.8591383219954648,
+          "duration_ms": 255.41950113378687,
+          "predicted_stft_energy": 4.4813923835754395
+        },
+        {
+          "token_index": 16,
+          "label": "|",
+          "start_seconds": 1.3699773242630386,
+          "duration_ms": 34.82993197278911,
+          "predicted_stft_energy": 0.814801812171936
+        },
+        {
+          "token_index": 24,
+          "label": "|",
+          "start_seconds": 1.6834467120181407,
+          "duration_ms": 81.26984126984127,
+          "predicted_stft_energy": 4.195822238922119
+        },
+        {
+          "token_index": 31,
+          "label": "|",
+          "start_seconds": 2.078185941043084,
+          "duration_ms": 46.439909297052154,
+          "predicted_stft_energy": 20.0721378326416
+        },
+        {
+          "token_index": 40,
+          "label": "|",
+          "start_seconds": 2.48453514739229,
+          "duration_ms": 46.439909297052154,
+          "predicted_stft_energy": 32.71229934692383
+        },
+        {
+          "token_index": 45,
+          "label": "<sil>",
+          "start_seconds": 2.705124716553288,
+          "duration_ms": 626.9387755102041,
+          "predicted_stft_energy": 0.4141201078891754
+        }
+      ],
+      "zero_duration_tokens": [],
+      "predicted_f0_range_hz": [
+        112.56053924560547,
+        246.91796875
+      ],
+      "predicted_energy_range": [
+        0.28343871235847473,
+        78.1502685546875
+      ],
+      "predicted_duration_cv": 1.3849067516541005,
+      "measured_voiced_fraction": 0.6062717770034843,
+      "measured_voiced_f0_median_hz": 185.0606689453125,
+      "measured_voiced_f0_10_90_hz": [
+        84.23140258789063,
+        229.3220199584961
+      ],
+      "low_energy_intervals_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 379.1383219954649
+        },
+        {
+          "start_seconds": 0.927891156462585,
+          "duration_ms": 139.6825396825397
+        },
+        {
+          "start_seconds": 2.693877551020408,
+          "duration_ms": 618.59410430839
+        }
+      ],
+      "low_energy_intervals_minus40db_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 369.16099773242627
+        },
+        {
+          "start_seconds": 2.713832199546485,
+          "duration_ms": 598.6394557823129
+        }
+      ],
+      "peak": 0.517242431640625,
+      "clipped_fraction": 0.0
+    },
+    {
+      "id": "T2b",
+      "wav_sha256": "b7a7ed0bfc951668405ca122ebfabe6028db2fc6225254aa651614a707a4ddff",
+      "trace_sha256": "e1500d1ab1baef653a1f16778bb39269a6541628b7142b52492a72b6c9b17b39",
+      "duration_seconds": 3.541043083900227,
+      "words": [
+        {
+          "word": "aame",
+          "token_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start_seconds": 0.5688888888888889,
+          "end_seconds": 0.7546485260770975,
+          "duration_ms": 185.75963718820861,
+          "mean_predicted_f0_hz": 169.5041103363037,
+          "mean_predicted_stft_energy": 41.96198391914368
+        },
+        {
+          "word": "pattttu",
+          "token_indices": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "start_seconds": 0.8126984126984127,
+          "end_seconds": 1.0797278911564625,
+          "duration_ms": 267.0294784580499,
+          "mean_predicted_f0_hz": 200.20827119246772,
+          "mean_predicted_stft_energy": 16.31813603380452
+        },
+        {
+          "word": "ciiranu",
+          "token_indices": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "start_seconds": 1.1261678004535147,
+          "end_seconds": 1.4628571428571429,
+          "duration_ms": 336.68934240362813,
+          "mean_predicted_f0_hz": 222.85666788035425,
+          "mean_predicted_stft_energy": 43.10551649948646
+        },
+        {
+          "word": "dharimci",
+          "token_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "start_seconds": 1.5789569160997732,
+          "end_seconds": 1.9736961451247166,
+          "duration_ms": 394.7392290249433,
+          "mean_predicted_f0_hz": 191.6952662748449,
+          "mean_predicted_stft_energy": 27.03703498840332
+        },
+        {
+          "word": "veeddukaku",
+          "token_indices": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_seconds": 2.2987755102040817,
+          "end_seconds": 2.716734693877551,
+          "duration_ms": 417.9591836734694,
+          "mean_predicted_f0_hz": 186.12464396158853,
+          "mean_predicted_stft_energy": 29.903309928046333
+        },
+        {
+          "word": "vaccimdi",
+          "token_indices": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "start_seconds": 2.7399546485260773,
+          "end_seconds": 3.0882539682539685,
+          "duration_ms": 348.29931972789115,
+          "mean_predicted_f0_hz": 128.91138966878256,
+          "mean_predicted_stft_energy": 14.135865350564321
+        }
+      ],
+      "boundaries": [
+        {
+          "token_index": 0,
+          "label": "<sil>",
+          "start_seconds": 0.0,
+          "duration_ms": 568.8888888888889,
+          "predicted_stft_energy": 0.2737099528312683
+        },
+        {
+          "token_index": 5,
+          "label": "|",
+          "start_seconds": 0.7546485260770975,
+          "duration_ms": 58.049886621315196,
+          "predicted_stft_energy": 5.3344645500183105
+        },
+        {
+          "token_index": 13,
+          "label": "|",
+          "start_seconds": 1.0797278911564625,
+          "duration_ms": 46.439909297052154,
+          "predicted_stft_energy": 1.7310905456542969
+        },
+        {
+          "token_index": 21,
+          "label": "|",
+          "start_seconds": 1.4628571428571429,
+          "duration_ms": 116.09977324263039,
+          "predicted_stft_energy": 11.582523345947266
+        },
+        {
+          "token_index": 30,
+          "label": "|",
+          "start_seconds": 1.9736961451247166,
+          "duration_ms": 325.07936507936506,
+          "predicted_stft_energy": 5.1690216064453125
+        },
+        {
+          "token_index": 41,
+          "label": "|",
+          "start_seconds": 2.716734693877551,
+          "duration_ms": 23.219954648526077,
+          "predicted_stft_energy": 28.527822494506836
+        },
+        {
+          "token_index": 50,
+          "label": "<sil>",
+          "start_seconds": 3.0882539682539685,
+          "duration_ms": 452.7891156462585,
+          "predicted_stft_energy": 0.26924529671669006
+        }
+      ],
+      "zero_duration_tokens": [],
+      "predicted_f0_range_hz": [
+        89.40911865234375,
+        251.98675537109375
+      ],
+      "predicted_energy_range": [
+        0.26924529671669006,
+        77.95803833007812
+      ],
+      "predicted_duration_cv": 1.4275140249116773,
+      "measured_voiced_fraction": 0.5639344262295082,
+      "measured_voiced_f0_median_hz": 178.7738037109375,
+      "measured_voiced_f0_10_90_hz": [
+        85.66276779174805,
+        226.6932113647461
+      ],
+      "low_energy_intervals_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 518.8208616780046
+        },
+        {
+          "start_seconds": 2.1052154195011337,
+          "duration_ms": 149.65986394557822
+        },
+        {
+          "start_seconds": 3.053061224489796,
+          "duration_ms": 468.9342403628118
+        }
+      ],
+      "low_energy_intervals_minus40db_80ms": [],
+      "peak": 0.393707275390625,
+      "clipped_fraction": 0.0
+    },
+    {
+      "id": "T3",
+      "wav_sha256": "5474bac1ac23a126ff6ae95fb15cc10154881f472201f8b3e3137663e04cb27b",
+      "trace_sha256": "2b502f01d4cb40779b349df016797d6ba20ac393b1b1ec8d9dc2779c976dd027",
+      "duration_seconds": 3.2275736961451247,
+      "words": [
+        {
+          "word": "puli",
+          "token_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "start_seconds": 0.5456689342403628,
+          "end_seconds": 0.7430385487528345,
+          "duration_ms": 197.36961451247166,
+          "mean_predicted_f0_hz": 224.02079413918887,
+          "mean_predicted_stft_energy": 38.78430108463063
+        },
+        {
+          "word": "adda",
+          "token_indices": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "start_seconds": 0.9171882086167801,
+          "end_seconds": 1.0913378684807256,
+          "duration_ms": 174.14965986394557,
+          "mean_predicted_f0_hz": 173.75501708984376,
+          "mean_predicted_stft_energy": 38.82490743001302
+        },
+        {
+          "word": "viloo",
+          "token_indices": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "start_seconds": 1.172607709750567,
+          "end_seconds": 1.4280272108843537,
+          "duration_ms": 255.41950113378687,
+          "mean_predicted_f0_hz": 209.9259823885831,
+          "mean_predicted_stft_energy": 53.82805971665816
+        },
+        {
+          "word": "nishshabdamgaa",
+          "token_indices": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "start_seconds": 1.555736961451247,
+          "end_seconds": 2.1710657596371883,
+          "duration_ms": 615.328798185941,
+          "mean_predicted_f0_hz": 188.79818264943248,
+          "mean_predicted_stft_energy": 24.339649812230522
+        },
+        {
+          "word": "naddicimdi",
+          "token_indices": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "start_seconds": 2.1942857142857144,
+          "end_seconds": 2.6238548752834467,
+          "duration_ms": 429.5691609977324,
+          "mean_predicted_f0_hz": 137.85860834894953,
+          "mean_predicted_stft_energy": 14.495553731918335
+        }
+      ],
+      "boundaries": [
+        {
+          "token_index": 0,
+          "label": "<sil>",
+          "start_seconds": 0.0,
+          "duration_ms": 545.6689342403628,
+          "predicted_stft_energy": 0.13697203993797302
+        },
+        {
+          "token_index": 5,
+          "label": "|",
+          "start_seconds": 0.7430385487528345,
+          "duration_ms": 174.14965986394557,
+          "predicted_stft_energy": 37.26559829711914
+        },
+        {
+          "token_index": 10,
+          "label": "|",
+          "start_seconds": 1.0913378684807256,
+          "duration_ms": 81.26984126984127,
+          "predicted_stft_energy": 24.202285766601562
+        },
+        {
+          "token_index": 16,
+          "label": "|",
+          "start_seconds": 1.4280272108843537,
+          "duration_ms": 127.70975056689343,
+          "predicted_stft_energy": 17.70224380493164
+        },
+        {
+          "token_index": 31,
+          "label": "|",
+          "start_seconds": 2.1710657596371883,
+          "duration_ms": 23.219954648526077,
+          "predicted_stft_energy": 17.38802146911621
+        },
+        {
+          "token_index": 42,
+          "label": "<sil>",
+          "start_seconds": 2.6238548752834467,
+          "duration_ms": 603.7188208616781,
+          "predicted_stft_energy": 0.0983695313334465
+        }
+      ],
+      "zero_duration_tokens": [],
+      "predicted_f0_range_hz": [
+        106.28451538085938,
+        270.4814453125
+      ],
+      "predicted_energy_range": [
+        0.0983695313334465,
+        86.06644439697266
+      ],
+      "predicted_duration_cv": 1.5127000618593285,
+      "measured_voiced_fraction": 0.6330935251798561,
+      "measured_voiced_f0_median_hz": 173.17091369628906,
+      "measured_voiced_f0_10_90_hz": [
+        86.21470642089844,
+        236.10330963134766
+      ],
+      "low_energy_intervals_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 558.7301587301588
+        },
+        {
+          "start_seconds": 2.5941043083900226,
+          "duration_ms": 618.59410430839
+        }
+      ],
+      "low_energy_intervals_minus40db_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 548.7528344671202
+        },
+        {
+          "start_seconds": 2.6040816326530614,
+          "duration_ms": 608.6167800453514
+        }
+      ],
+      "peak": 0.468597412109375,
+      "clipped_fraction": 0.0
+    },
+    {
+      "id": "T4",
+      "wav_sha256": "38563b3246fc06bd4fabffdb5d6ca06bfa24d1ff44fb032d6410b8f5501da7c5",
+      "trace_sha256": "77e9ccc070e407a476e32eb1846e21bed6957a044ec195379e7c5edd8ebcd25a",
+      "duration_seconds": 9.833650793650794,
+      "words": [
+        {
+          "word": "ii",
+          "token_indices": [
+            1,
+            2
+          ],
+          "start_seconds": 0.5108390022675737,
+          "end_seconds": 0.603718820861678,
+          "duration_ms": 92.87981859410431,
+          "mean_predicted_f0_hz": 200.3438262939453,
+          "mean_predicted_stft_energy": 54.23708915710449
+        },
+        {
+          "word": "samaaveesham",
+          "token_indices": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "start_seconds": 0.6617687074829932,
+          "end_seconds": 1.195827664399093,
+          "duration_ms": 534.0589569160998,
+          "mean_predicted_f0_hz": 180.61300957721213,
+          "mean_predicted_stft_energy": 32.956016001494035
+        },
+        {
+          "word": "remddu",
+          "token_indices": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "start_seconds": 1.4048072562358276,
+          "end_seconds": 1.6253968253968254,
+          "duration_ms": 220.58956916099774,
+          "mean_predicted_f0_hz": 183.1392268130654,
+          "mean_predicted_stft_energy": 40.977115430329974
+        },
+        {
+          "word": "veela",
+          "token_indices": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "start_seconds": 1.6253968253968254,
+          "end_seconds": 1.811156462585034,
+          "duration_ms": 185.75963718820861,
+          "mean_predicted_f0_hz": 213.2566728591919,
+          "mean_predicted_stft_energy": 69.78913068771362
+        },
+        {
+          "word": "iravai",
+          "token_indices": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "start_seconds": 1.8924263038548752,
+          "end_seconds": 2.182675736961451,
+          "duration_ms": 290.24943310657596,
+          "mean_predicted_f0_hz": 173.61766723632812,
+          "mean_predicted_stft_energy": 40.4074885559082
+        },
+        {
+          "word": "aaru",
+          "token_indices": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "start_seconds": 2.3568253968253967,
+          "end_seconds": 2.5425850340136056,
+          "duration_ms": 185.75963718820861,
+          "mean_predicted_f0_hz": 191.33218955993652,
+          "mean_predicted_stft_energy": 67.80375266075134
+        },
+        {
+          "word": "navambar",
+          "token_indices": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "start_seconds": 2.6354648526077096,
+          "end_seconds": 2.9837641723356008,
+          "duration_ms": 348.29931972789115,
+          "mean_predicted_f0_hz": 195.30913899739582,
+          "mean_predicted_stft_energy": 49.376145680745445
+        },
+        {
+          "word": "pannemddava",
+          "token_indices": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61
+          ],
+          "start_seconds": 3.053424036281179,
+          "end_seconds": 3.4946031746031747,
+          "duration_ms": 441.1791383219955,
+          "mean_predicted_f0_hz": 205.93493772807875,
+          "mean_predicted_stft_energy": 37.405979005913984
+        },
+        {
+          "word": "teedii",
+          "token_indices": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "start_seconds": 3.541043083900227,
+          "end_seconds": 3.7964625850340137,
+          "duration_ms": 255.41950113378687,
+          "mean_predicted_f0_hz": 194.68340024081144,
+          "mean_predicted_stft_energy": 33.437035452235826
+        },
+        {
+          "word": "udayam",
+          "token_indices": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "start_seconds": 3.842902494331066,
+          "end_seconds": 4.156371882086168,
+          "duration_ms": 313.46938775510205,
+          "mean_predicted_f0_hz": 222.89448321307148,
+          "mean_predicted_stft_energy": 41.127940001311124
+        },
+        {
+          "word": "padi",
+          "token_indices": [
+            77,
+            78,
+            79,
+            80
+          ],
+          "start_seconds": 4.272471655328798,
+          "end_seconds": 4.423401360544218,
+          "duration_ms": 150.92970521541952,
+          "mean_predicted_f0_hz": 178.76065063476562,
+          "mean_predicted_stft_energy": 40.04116762601412
+        },
+        {
+          "word": "gamttala",
+          "token_indices": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "start_seconds": 4.446621315192743,
+          "end_seconds": 4.760090702947846,
+          "duration_ms": 313.46938775510205,
+          "mean_predicted_f0_hz": 207.63889171459056,
+          "mean_predicted_stft_energy": 36.442897937915944
+        },
+        {
+          "word": "nalabhai",
+          "token_indices": [
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ],
+          "start_seconds": 4.818140589569161,
+          "end_seconds": 5.166439909297052,
+          "duration_ms": 348.29931972789115,
+          "mean_predicted_f0_hz": 182.50704294840494,
+          "mean_predicted_stft_energy": 39.773560269673666
+        },
+        {
+          "word": "aidu",
+          "token_indices": [
+            100,
+            101,
+            102,
+            103
+          ],
+          "start_seconds": 5.5147392290249435,
+          "end_seconds": 5.723718820861678,
+          "duration_ms": 208.9795918367347,
+          "mean_predicted_f0_hz": 194.24612596299914,
+          "mean_predicted_stft_energy": 51.50185701582167
+        },
+        {
+          "word": "nimissaalaku",
+          "token_indices": [
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116
+          ],
+          "start_seconds": 5.793378684807256,
+          "end_seconds": 6.280997732426304,
+          "duration_ms": 487.6190476190476,
+          "mean_predicted_f0_hz": 192.92637779599144,
+          "mean_predicted_stft_energy": 32.749617463066464
+        },
+        {
+          "word": "praarambhamavutumdi",
+          "token_indices": [
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136
+          ],
+          "start_seconds": 6.350657596371882,
+          "end_seconds": 7.116916099773243,
+          "duration_ms": 766.2585034013606,
+          "mean_predicted_f0_hz": 160.3588189789743,
+          "mean_predicted_stft_energy": 27.476555668946467
+        },
+        {
+          "word": "samayaaniki",
+          "token_indices": [
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148
+          ],
+          "start_seconds": 7.569705215419501,
+          "end_seconds": 8.103764172335602,
+          "duration_ms": 534.0589569160998,
+          "mean_predicted_f0_hz": 170.43959642493206,
+          "mean_predicted_stft_energy": 28.503825985867046
+        },
+        {
+          "word": "siddhamgaa",
+          "token_indices": [
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "start_seconds": 8.417233560090702,
+          "end_seconds": 8.893242630385487,
+          "duration_ms": 476.0090702947846,
+          "mean_predicted_f0_hz": 177.48952391089463,
+          "mean_predicted_stft_energy": 35.42871105380175
+        },
+        {
+          "word": "umcamddi",
+          "token_indices": [
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168
+          ],
+          "start_seconds": 8.93968253968254,
+          "end_seconds": 9.299591836734693,
+          "duration_ms": 359.90929705215416,
+          "mean_predicted_f0_hz": 121.14989200715095,
+          "mean_predicted_stft_energy": 13.4881699489009
+        }
+      ],
+      "boundaries": [
+        {
+          "token_index": 0,
+          "label": "<sil>",
+          "start_seconds": 0.0,
+          "duration_ms": 510.83900226757373,
+          "predicted_stft_energy": 0.2492685317993164
+        },
+        {
+          "token_index": 3,
+          "label": "|",
+          "start_seconds": 0.603718820861678,
+          "duration_ms": 58.049886621315196,
+          "predicted_stft_energy": 16.20240020751953
+        },
+        {
+          "token_index": 16,
+          "label": "|",
+          "start_seconds": 1.195827664399093,
+          "duration_ms": 208.9795918367347,
+          "predicted_stft_energy": 9.997611045837402
+        },
+        {
+          "token_index": 23,
+          "label": "|",
+          "start_seconds": 1.6253968253968254,
+          "duration_ms": 0.0,
+          "predicted_stft_energy": 29.95283317565918
+        },
+        {
+          "token_index": 29,
+          "label": "|",
+          "start_seconds": 1.811156462585034,
+          "duration_ms": 81.26984126984127,
+          "predicted_stft_energy": 36.08950424194336
+        },
+        {
+          "token_index": 36,
+          "label": "|",
+          "start_seconds": 2.182675736961451,
+          "duration_ms": 174.14965986394557,
+          "predicted_stft_energy": 8.026850700378418
+        },
+        {
+          "token_index": 41,
+          "label": "|",
+          "start_seconds": 2.5425850340136056,
+          "duration_ms": 92.87981859410431,
+          "predicted_stft_energy": 41.21747589111328
+        },
+        {
+          "token_index": 50,
+          "label": "|",
+          "start_seconds": 2.9837641723356008,
+          "duration_ms": 69.65986394557822,
+          "predicted_stft_energy": 0.8567431569099426
+        },
+        {
+          "token_index": 62,
+          "label": "|",
+          "start_seconds": 3.4946031746031747,
+          "duration_ms": 46.439909297052154,
+          "predicted_stft_energy": 3.602552652359009
+        },
+        {
+          "token_index": 69,
+          "label": "|",
+          "start_seconds": 3.7964625850340137,
+          "duration_ms": 46.439909297052154,
+          "predicted_stft_energy": 21.86631202697754
+        },
+        {
+          "token_index": 76,
+          "label": "|",
+          "start_seconds": 4.156371882086168,
+          "duration_ms": 116.09977324263039,
+          "predicted_stft_energy": 2.0430500507354736
+        },
+        {
+          "token_index": 81,
+          "label": "|",
+          "start_seconds": 4.423401360544218,
+          "duration_ms": 23.219954648526077,
+          "predicted_stft_energy": 25.486270904541016
+        },
+        {
+          "token_index": 90,
+          "label": "|",
+          "start_seconds": 4.760090702947846,
+          "duration_ms": 58.049886621315196,
+          "predicted_stft_energy": 31.410430908203125
+        },
+        {
+          "token_index": 99,
+          "label": "|",
+          "start_seconds": 5.166439909297052,
+          "duration_ms": 348.29931972789115,
+          "predicted_stft_energy": 0.7760708332061768
+        },
+        {
+          "token_index": 104,
+          "label": "|",
+          "start_seconds": 5.723718820861678,
+          "duration_ms": 69.65986394557822,
+          "predicted_stft_energy": 50.989009857177734
+        },
+        {
+          "token_index": 117,
+          "label": "|",
+          "start_seconds": 6.280997732426304,
+          "duration_ms": 69.65986394557822,
+          "predicted_stft_energy": 2.3760695457458496
+        },
+        {
+          "token_index": 137,
+          "label": "|",
+          "start_seconds": 7.116916099773243,
+          "duration_ms": 452.7891156462585,
+          "predicted_stft_energy": 0.24641039967536926
+        },
+        {
+          "token_index": 149,
+          "label": "|",
+          "start_seconds": 8.103764172335602,
+          "duration_ms": 313.46938775510205,
+          "predicted_stft_energy": 3.1928489208221436
+        },
+        {
+          "token_index": 160,
+          "label": "|",
+          "start_seconds": 8.893242630385487,
+          "duration_ms": 46.439909297052154,
+          "predicted_stft_energy": 28.570556640625
+        },
+        {
+          "token_index": 169,
+          "label": "<sil>",
+          "start_seconds": 9.299591836734693,
+          "duration_ms": 534.0589569160998,
+          "predicted_stft_energy": 0.07742474228143692
+        }
+      ],
+      "zero_duration_tokens": [
+        {
+          "index": 23,
+          "token": "|"
+        }
+      ],
+      "predicted_f0_range_hz": [
+        99.93936920166016,
+        257.7777404785156
+      ],
+      "predicted_energy_range": [
+        0.07742474228143692,
+        91.44869232177734
+      ],
+      "predicted_duration_cv": 1.2040315100932077,
+      "measured_voiced_fraction": 0.7107438016528925,
+      "measured_voiced_f0_median_hz": 185.228515625,
+      "measured_voiced_f0_10_90_hz": [
+        92.65215454101563,
+        220.9872619628906
+      ],
+      "low_energy_intervals_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 468.9342403628118
+        },
+        {
+          "start_seconds": 5.218140589569161,
+          "duration_ms": 259.4104308390023
+        },
+        {
+          "start_seconds": 7.103854875283447,
+          "duration_ms": 439.00226757369614
+        },
+        {
+          "start_seconds": 8.191383219954648,
+          "duration_ms": 169.61451247165533
+        },
+        {
+          "start_seconds": 9.239002267573696,
+          "duration_ms": 578.6848072562358
+        }
+      ],
+      "low_energy_intervals_minus40db_80ms": [
+        {
+          "start_seconds": 0.0,
+          "duration_ms": 468.9342403628118
+        },
+        {
+          "start_seconds": 5.238095238095238,
+          "duration_ms": 229.47845804988663
+        },
+        {
+          "start_seconds": 7.1138321995464855,
+          "duration_ms": 379.1383219954649
+        },
+        {
+          "start_seconds": 8.221315192743765,
+          "duration_ms": 99.7732426303855
+        },
+        {
+          "start_seconds": 9.258956916099773,
+          "duration_ms": 558.7301587301588
+        }
+      ],
+      "peak": 0.618194580078125,
+      "clipped_fraction": 0.0
+    }
+  ]
+}

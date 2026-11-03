@@ -1,0 +1,42 @@
+[
+  {
+    "repository": "Systran/faster-whisper-large-v3",
+    "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "filename": "model.bin",
+    "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1",
+    "bytes": 3087284237,
+    "matches_published_sha256": true
+  },
+  {
+    "repository": "sarulab-speech/UTMOSv2",
+    "revision": "506474f2b33dc77c234d668cc419be1861899cad",
+    "filename": "fold0_s42_best_model.pth",
+    "sha256": "c8149d988e4bbf3f347e6966b5d769de347a5f8c59ffca1dc4bd4bf5b8585e57",
+    "bytes": 818531314,
+    "matches_published_sha256": true
+  },
+  {
+    "repository": "facebook/mms-1b-all",
+    "revision": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd",
+    "filename": "model.safetensors",
+    "sha256": "0f1d95ce43d27e03d5d8dd56c697c805460f967c793dd2cbec2e8e8012deda98",
+    "bytes": 3859521128,
+    "matches_published_sha256": true
+  },
+  {
+    "repository": "facebook/wav2vec2-base",
+    "revision": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+    "filename": "pytorch_model.bin",
+    "sha256": "3249fe98bfc62fcbc26067f724716a6ec49d12c4728a2af1df659013905dff21",
+    "bytes": 380267417,
+    "matches_published_sha256": true
+  },
+  {
+    "repository": "timm/tf_efficientnetv2_s.in21k_ft_in1k",
+    "revision": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+    "filename": "model.safetensors",
+    "sha256": "6f1933fb6c0d760eae03863ad0110570393e16c0610f8fe94dc9f978e52ec59c",
+    "bytes": 86523256,
+    "matches_published_sha256": true
+  }
+]
