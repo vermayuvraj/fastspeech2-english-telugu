@@ -1,5 +1,17 @@
 {
-  "status": "pending_replacement_verification",
+  "status": "verified",
+  "anonymous_access": true,
   "repository": "https://github.com/vermayuvraj/fastspeech2-english-telugu",
-  "expected_report_sha256": "352b67c0c074893704059c7a179e548f0d28df4a26fd4f99a2036eb0db4f4d1d"
+  "verified_content_commit": "4c7aada587392634b1a8f6a6be9925dc778fc381",
+  "checked_at": "2026-11-03T16:19:47.739829+00:00",
+  "files": [
+    {
+      "path": "Report/Technical_Report.pdf",
+      "url": "https://raw.githubusercontent.com/vermayuvraj/fastspeech2-english-telugu/4c7aada587392634b1a8f6a6be9925dc778fc381/Report/Technical_Report.pdf",
+      "sha256": "352b67c0c074893704059c7a179e548f0d28df4a26fd4f99a2036eb0db4f4d1d",
+      "matches_author_supplied_pdf": true,
+      "bytes": 855122
+    }
+  ],
+  "outdated_word_report_removed": true
 }
