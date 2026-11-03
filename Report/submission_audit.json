@@ -544,7 +544,11 @@
       "detail": ""
     }
   ],
-  "public_repository_verification": "pending",
+  "public_repository_verification": {
+    "status": "verified",
+    "evidence": "Report/public_repository_verification.json",
+    "checked_at": "2026-11-03T09:21:36.321163+00:00"
+  },
   "form_submission": "pending",
   "technical_evaluation_complete": true,
   "remaining_technical_checks": [],
