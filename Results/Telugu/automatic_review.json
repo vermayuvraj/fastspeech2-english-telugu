@@ -33,7 +33,7 @@
     "Model grapheme durations define the analysed word and con/duct spans; these are not independently validated syllable or phoneme alignments.",
     "Native-speaker correctness, conversational naturalness and the intended stress contrast are not certified by these automatic tests."
   ],
-  "completed_at": "2026-11-03T08:18:02.549800+00:00",
+  "completed_at": "2026-11-03T09:20:47.707563+00:00",
   "language": "Telugu",
   "generated": {
     "count": 5,
@@ -89,10 +89,10 @@
       "predicted_mos": 1.724609375,
       "duration_seconds": 6.048798185941043,
       "evidence": {
-        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
-        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
-        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
-        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+        "automatic_asr.json": "cbbe0b8a3d52baf0535dd199b04c2307f79e16d05a5a4dbb8bdcb0c8e3087025",
+        "automatic_asr_mms.json": "cf264f2c3bd41d555802236045834dd8d0fe032c931cd45867f01c8c72063842",
+        "automatic_quality.json": "260992d9735e42e332b6767a13621a27e0bce94965c17bc8f6b337e42907210b",
+        "automatic_acoustic_analysis.json": "1341de4acdf8bd973cacb45fb02bbb39c51c79acc3cfa9a71a0d71c4c4db6e24"
       }
     },
     {
@@ -115,10 +115,10 @@
       "predicted_mos": 1.9876302083333333,
       "duration_seconds": 3.332063492063492,
       "evidence": {
-        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
-        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
-        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
-        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+        "automatic_asr.json": "cbbe0b8a3d52baf0535dd199b04c2307f79e16d05a5a4dbb8bdcb0c8e3087025",
+        "automatic_asr_mms.json": "cf264f2c3bd41d555802236045834dd8d0fe032c931cd45867f01c8c72063842",
+        "automatic_quality.json": "260992d9735e42e332b6767a13621a27e0bce94965c17bc8f6b337e42907210b",
+        "automatic_acoustic_analysis.json": "1341de4acdf8bd973cacb45fb02bbb39c51c79acc3cfa9a71a0d71c4c4db6e24"
       }
     },
     {
@@ -141,10 +141,10 @@
       "predicted_mos": 1.5670572916666667,
       "duration_seconds": 3.541043083900227,
       "evidence": {
-        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
-        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
-        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
-        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+        "automatic_asr.json": "cbbe0b8a3d52baf0535dd199b04c2307f79e16d05a5a4dbb8bdcb0c8e3087025",
+        "automatic_asr_mms.json": "cf264f2c3bd41d555802236045834dd8d0fe032c931cd45867f01c8c72063842",
+        "automatic_quality.json": "260992d9735e42e332b6767a13621a27e0bce94965c17bc8f6b337e42907210b",
+        "automatic_acoustic_analysis.json": "1341de4acdf8bd973cacb45fb02bbb39c51c79acc3cfa9a71a0d71c4c4db6e24"
       }
     },
     {
@@ -167,10 +167,10 @@
       "predicted_mos": 2.0491536458333335,
       "duration_seconds": 3.2275736961451247,
       "evidence": {
-        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
-        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
-        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
-        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+        "automatic_asr.json": "cbbe0b8a3d52baf0535dd199b04c2307f79e16d05a5a4dbb8bdcb0c8e3087025",
+        "automatic_asr_mms.json": "cf264f2c3bd41d555802236045834dd8d0fe032c931cd45867f01c8c72063842",
+        "automatic_quality.json": "260992d9735e42e332b6767a13621a27e0bce94965c17bc8f6b337e42907210b",
+        "automatic_acoustic_analysis.json": "1341de4acdf8bd973cacb45fb02bbb39c51c79acc3cfa9a71a0d71c4c4db6e24"
       }
     },
     {
@@ -193,10 +193,10 @@
       "predicted_mos": 1.7428385416666667,
       "duration_seconds": 9.833650793650794,
       "evidence": {
-        "automatic_asr.json": "b6d38dcba3f78de262fe29e66523d0459f21e623e81ad5ec985c846dff62195f",
-        "automatic_asr_mms.json": "19c6f92c54811d6b66350f23ae3a6308796e30c470bbf4c4860c0db08bf7e27f",
-        "automatic_quality.json": "8b7dc99f257c75de2599c22aa3f995566c2c812f3739fe10064da98a7d0c0d98",
-        "automatic_acoustic_analysis.json": "9934aa6a639cf72aa59e01003138f3fddd1e8ea51a9d8767e7dfe38093dba6ee"
+        "automatic_asr.json": "cbbe0b8a3d52baf0535dd199b04c2307f79e16d05a5a4dbb8bdcb0c8e3087025",
+        "automatic_asr_mms.json": "cf264f2c3bd41d555802236045834dd8d0fe032c931cd45867f01c8c72063842",
+        "automatic_quality.json": "260992d9735e42e332b6767a13621a27e0bce94965c17bc8f6b337e42907210b",
+        "automatic_acoustic_analysis.json": "1341de4acdf8bd973cacb45fb02bbb39c51c79acc3cfa9a71a0d71c4c4db6e24"
       }
     }
   ]

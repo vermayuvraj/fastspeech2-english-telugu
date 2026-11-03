@@ -116,4 +116,5 @@ def test_atomic_json_replace_retries_a_temporary_reader_lock(tmp_path, monkeypat
     destination = tmp_path / "status.json"
     config.write_json(destination, {"complete": True})
     assert json.loads(destination.read_text()) == {"complete": True}
+    assert b"\r\n" not in destination.read_bytes()
     assert len(attempts) == 2

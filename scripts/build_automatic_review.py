@@ -98,7 +98,7 @@ def main():
         "asr_reference_supplied_to_recognizer": False,
         "recognizers": ["Whisper large-v3", "MMS-1b-all with eng/tel language adapters"],
         "model_revisions": read(ROOT / "docs/automatic_evaluation_models.json"),
-        "controls": "First ten held-out utterances in each language, ordered by ID; same selection as the earlier MMS diagnostic. They were not used for TTS training or checkpoint selection. Controls are not duration- or speaker-matched to test sentences.",
+        "controls": "First ten validation utterances in each language, ordered by ID; same selection as the earlier MMS diagnostic. They were excluded from TTS training but belong to the validation set used for checkpoint selection. Controls are not duration- or speaker-matched to test sentences.",
         "limitations": [
             "ASR transcript disagreement can be caused by the recognizer, spelling, word spacing, accent or synthesis; it is not phoneme-level pronunciation accuracy.",
             "UTMOSv2 predicts naturalness; its output is not human MOS. Telugu calibration is unverified. Cross-language quality ranking is not justified.",

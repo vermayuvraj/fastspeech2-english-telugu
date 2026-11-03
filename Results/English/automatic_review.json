@@ -33,7 +33,7 @@
     "Model grapheme durations define the analysed word and con/duct spans; these are not independently validated syllable or phoneme alignments.",
     "Native-speaker correctness, conversational naturalness and the intended stress contrast are not certified by these automatic tests."
   ],
-  "completed_at": "2026-11-03T08:18:02.549800+00:00",
+  "completed_at": "2026-11-03T09:20:47.707563+00:00",
   "language": "English",
   "generated": {
     "count": 5,
@@ -89,10 +89,10 @@
       "predicted_mos": 0.8445638020833334,
       "duration_seconds": 6.339047619047619,
       "evidence": {
-        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
-        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
-        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
-        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+        "automatic_asr.json": "18e6c38db1746bb4ff6ea84b45dee00e8e2f3a87d8053fc8299281fd885cf779",
+        "automatic_asr_mms.json": "531a9646472f91942aad294b1d467b8629b551eb4e0759da6d679fead5a36344",
+        "automatic_quality.json": "134c97c979ec314936df504ccb33c3536cdd00cbb755ba40be0d03d6d1424dd7",
+        "automatic_acoustic_analysis.json": "3c7fa879a725415d4df1db5df424891ce49c78eb46b4845c4a0f9dd14ad77d26"
       }
     },
     {
@@ -115,10 +115,10 @@
       "predicted_mos": 0.7980143229166666,
       "duration_seconds": 5.189659863945578,
       "evidence": {
-        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
-        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
-        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
-        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+        "automatic_asr.json": "18e6c38db1746bb4ff6ea84b45dee00e8e2f3a87d8053fc8299281fd885cf779",
+        "automatic_asr_mms.json": "531a9646472f91942aad294b1d467b8629b551eb4e0759da6d679fead5a36344",
+        "automatic_quality.json": "134c97c979ec314936df504ccb33c3536cdd00cbb755ba40be0d03d6d1424dd7",
+        "automatic_acoustic_analysis.json": "3c7fa879a725415d4df1db5df424891ce49c78eb46b4845c4a0f9dd14ad77d26"
       }
     },
     {
@@ -141,10 +141,10 @@
       "predicted_mos": 0.6448567708333334,
       "duration_seconds": 4.272471655328798,
       "evidence": {
-        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
-        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
-        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
-        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+        "automatic_asr.json": "18e6c38db1746bb4ff6ea84b45dee00e8e2f3a87d8053fc8299281fd885cf779",
+        "automatic_asr_mms.json": "531a9646472f91942aad294b1d467b8629b551eb4e0759da6d679fead5a36344",
+        "automatic_quality.json": "134c97c979ec314936df504ccb33c3536cdd00cbb755ba40be0d03d6d1424dd7",
+        "automatic_acoustic_analysis.json": "3c7fa879a725415d4df1db5df424891ce49c78eb46b4845c4a0f9dd14ad77d26"
       }
     },
     {
@@ -167,10 +167,10 @@
       "predicted_mos": 0.6603190104166666,
       "duration_seconds": 2.9605442176870747,
       "evidence": {
-        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
-        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
-        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
-        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+        "automatic_asr.json": "18e6c38db1746bb4ff6ea84b45dee00e8e2f3a87d8053fc8299281fd885cf779",
+        "automatic_asr_mms.json": "531a9646472f91942aad294b1d467b8629b551eb4e0759da6d679fead5a36344",
+        "automatic_quality.json": "134c97c979ec314936df504ccb33c3536cdd00cbb755ba40be0d03d6d1424dd7",
+        "automatic_acoustic_analysis.json": "3c7fa879a725415d4df1db5df424891ce49c78eb46b4845c4a0f9dd14ad77d26"
       }
     },
     {
@@ -193,10 +193,10 @@
       "predicted_mos": 0.685546875,
       "duration_seconds": 6.780226757369615,
       "evidence": {
-        "automatic_asr.json": "9795c89b2b73c29cb906f7cb7a383f220b9f80c9b98dd12d9fc85ce7edb6499b",
-        "automatic_asr_mms.json": "aab6e12f65a378f0bd1841e8ab251c494c61b9598afd9513ec3751570a283911",
-        "automatic_quality.json": "be85cf844e4eb3b3193133e825d9e7847ffab65e8ce81e5a9c1e313ad55e296f",
-        "automatic_acoustic_analysis.json": "531dd02ce461b1b6fd5cc97076a292db27888b1225c11600560237d3bca39f86"
+        "automatic_asr.json": "18e6c38db1746bb4ff6ea84b45dee00e8e2f3a87d8053fc8299281fd885cf779",
+        "automatic_asr_mms.json": "531a9646472f91942aad294b1d467b8629b551eb4e0759da6d679fead5a36344",
+        "automatic_quality.json": "134c97c979ec314936df504ccb33c3536cdd00cbb755ba40be0d03d6d1424dd7",
+        "automatic_acoustic_analysis.json": "3c7fa879a725415d4df1db5df424891ce49c78eb46b4845c4a0f9dd14ad77d26"
       }
     }
   ]

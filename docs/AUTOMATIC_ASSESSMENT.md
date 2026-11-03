@@ -11,7 +11,7 @@ The author does not know Telugu. This revision therefore uses automatic speech r
 
 ## Controls and scoring
 
-Each model processes all five test utterances in each language, plus the first ten validation utterances ordered by ID in each language. This is the same fixed control selection as the earlier MMS alignment diagnostic. The controls were not used for TTS training or checkpoint selection; they are not matched to test sentences by duration, speaker or recording condition. They provide descriptive checks of evaluation-tool behavior, not a matched listening study.
+Each model processes all five test utterances in each language, plus the first ten validation utterances ordered by ID in each language. This is the same fixed control selection as the earlier MMS alignment diagnostic. The controls were excluded from TTS training, but belong to the validation set used for checkpoint selection. They are not matched to test sentences by duration, speaker or recording condition. They provide descriptive checks of evaluation-tool behavior, not a matched listening study.
 
 Reference and hypothesis receive the same deterministic number/time expansion. Clock notation such as `10.45 a.m.` is interpreted as `10:45 AM` only when there is an explicit clock marker; ordinary decimal numbers remain decimals. Case and punctuation are normalized with Unicode NFC. The original prompts and raw hypotheses are retained unchanged.
 

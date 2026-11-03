@@ -8,8 +8,8 @@
         "-q"
       ],
       "returncode": 0,
-      "seconds": 27.0,
-      "stdout": "...................                                                      [100%]\n19 passed in 24.54s\n",
+      "seconds": 20.17200000002049,
+      "stdout": "...................                                                      [100%]\n19 passed in 18.75s\n",
       "stderr": ""
     },
     {
@@ -20,7 +20,7 @@
         "."
       ],
       "returncode": 0,
-      "seconds": 1.75,
+      "seconds": 1.875,
       "stdout": "All checks passed!\n",
       "stderr": ""
     },
@@ -35,7 +35,7 @@
         "scripts"
       ],
       "returncode": 0,
-      "seconds": 0.15700000000651926,
+      "seconds": 0.1409999999741558,
       "stdout": "",
       "stderr": ""
     }

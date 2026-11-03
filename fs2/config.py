@@ -35,7 +35,8 @@ def sha256(path: Path) -> str:
 def write_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix(path.suffix + ".tmp")
-    temp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # Match the repository's LF policy so evidence hashes survive a fresh clone.
+    temp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     # Windows readers (including the live monitor) can briefly hold a file
     # without delete-sharing. Keep replacement atomic and retry that short lock.
     for attempt in range(8):
@@ -56,7 +57,7 @@ def read_jsonl(path: Path) -> list[dict]:
 def write_jsonl(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix(path.suffix + ".tmp")
-    with temp.open("w", encoding="utf-8") as stream:
+    with temp.open("w", encoding="utf-8", newline="\n") as stream:
         for row in rows:
             stream.write(json.dumps(row, ensure_ascii=False) + "\n")
     os.replace(temp, path)
